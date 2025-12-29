@@ -1,4 +1,4 @@
-# Need to be done manually: 
+# Need to be done manually
 Scenario generation <br>
 Google flow video generation <br>
 Video merging
