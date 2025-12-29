@@ -1,3 +1,6 @@
+"""
+https://prompt-helper.com/unlock-viral-video-creation-ultimate-guide-to-veo-3-prompts/
+"""
 
 EXAMPLE_CINEMATIC_INSPIRATIONAL_BRAND_STORY = """
 Generate a 60-second cinematic inspirational video titled 'The Ascent.' For a brand focused on personal growth, resilience, and achieving potential. Aspect ratio: 16:9.

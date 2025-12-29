@@ -1,3 +1,6 @@
+"""
+https://github.com/snubroot/Veo-3-Meta-Framework/tree/main?tab=readme-ov-file#-best-practices-summary
+"""
 
 EXAMPLE_TEMPLATE = """
 Subject: [Detailed character/object description with 15+ specific physical attributes, clothing, age, build, facial features, ethnicity, hair, eyes, posture, mannerisms, emotional state]

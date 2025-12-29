@@ -1,3 +1,6 @@
+"""
+https://prompt-helper.com/unlock-viral-video-creation-ultimate-guide-to-veo-3-prompts/
+"""
 
 EXAMPLE_ANIMATED_PRODUCT_EXPLAINER_ECO_FRIENDLY_SMART_HOME_DEVICE = """
 Create a 45-second, upbeat 2D animated explainer video for 'EcoSense,' a new eco-friendly smart home device. Aspect ratio: 16:9.

@@ -1,3 +1,7 @@
+"""
+https://github.com/snubroot/Veo-3-Meta-Framework/tree/main?tab=readme-ov-file#-best-practices-summary
+"""
+
 EXAMPLE_CHARACTER_GENERATION_TEMPLATE = """
 Character Template: [NAME], a [AGE] [ETHNICITY] [GENDER] with [SPECIFIC_HAIR_DETAILS], [EYE_COLOR] eyes, [DISTINCTIVE_FACIAL_FEATURES], [BUILD_DESCRIPTION], wearing [DETAILED_CLOTHING_DESCRIPTION], with [POSTURE_AND_MANNERISMS], [EMOTIONAL_BASELINE], [DISTINCTIVE_ACCESSORIES], [VOICE_CHARACTERISTICS]
 """
