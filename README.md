@@ -1,3 +1,7 @@
+# Techstacks
+Prompt Engineering, Gen AI(Text, Image, Video)
+
+
 # References
 
 ## Gemini image generation guides
@@ -8,3 +12,5 @@ https://developers.googleblog.com/en/how-to-prompt-gemini-2-5-flash-image-genera
 https://github.com/PicoTrex/Awesome-Nano-Banana-images/blob/main/README_en.md
 
 https://developers.googleblog.com/en/how-to-prompt-gemini-2-5-flash-image-generation-for-the-best-results/
+
+
