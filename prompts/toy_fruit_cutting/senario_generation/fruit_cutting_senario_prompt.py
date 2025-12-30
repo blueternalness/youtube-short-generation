@@ -18,5 +18,4 @@ For each scenario, write prompts in the following JSON format:
         "Technical(Negative Prompt)": No captions, No silent moments, and No unrealistic scene transitions.
     },
 }
-
 """
