@@ -11,9 +11,45 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
+import sys
+import subprocess
+
+def launch_chrome_debugger():
+    """
+    Launches Chrome in remote debugging mode if it's not already running.
+    """
+    chrome_path = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+    user_data_dir = os.path.expanduser("~/gemini-bot") # Expands $HOME safely
+    port = "9222"
+
+    # 1. Check if port 9222 is already in use (Chrome already open?)
+    # Simple check using os.system (returns 0 if successful/found)
+    is_running = os.system(f"lsof -i :{port} > /dev/null 2>&1")
+    
+    if is_running == 0:
+        print(f"[*] Chrome is already running on port {port}. Connecting...")
+        return
+
+    print(f"[*] Launching Chrome on port {port}...")
+    
+    # 2. Launch Chrome as a subprocess
+    # We use Popen so it runs in the background and doesn't block this script
+    cmd = [
+        chrome_path,
+        f"--remote-debugging-port={port}",
+        f"--user-data-dir={user_data_dir}"
+    ]
+    
+    try:
+        subprocess.Popen(cmd)
+        time.sleep(4) # Give Chrome time to open
+    except FileNotFoundError:
+        print(f"[!] Could not find Chrome at: {chrome_path}")
+        sys.exit(1)
 
 class GeminiAutomation:
     def __init__(self):
+        launch_chrome_debugger()        
         print("[*] Connecting to existing Chrome on port 9222...")
         
         self.options = Options()
