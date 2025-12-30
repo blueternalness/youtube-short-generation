@@ -1,28 +1,4 @@
 {
-    "scenario5": {
-        "Subject": "A segmented wooden toy orange held together by velcro in the center. Painted with bright, child-safe orange paint with visible wood grain.",
-        "Action": "A dull, wooden toy knife is used to 'saw' through the velcro connection. The user applies pressure, the velcro resists, and then the orange snaps apart into two pieces.",
-        "Scene": "A colorful playroom carpet with blurred toy blocks in the background. Warm, cozy indoor lighting.",
-        "Style": "Eye-level shot. Vibrant colors, high saturation. Playful and bright aesthetic.",
-        "Sounds": "The scratching sound of wood on wood, the ripping sound of velcro tearing apart (rrrrip), and the clack of the wooden pieces hitting the floor.",
-        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
-    },
-    "scenario6": {
-        "Subject": "A yellow banana made of squishy, slow-rising memory foam (squishy toy). It has a sweet, artificial scent (implied visual softness).",
-        "Action": "A pair of large golden scissors slowly snips the banana into small rounds. The foam compresses significantly under the blades before being cut, then slowly expands back to shape.",
-        "Scene": "A pink cutting mat with grid lines. The background is a blurred shelf of various other colorful squishy toys.",
-        "Style": "45-degree angle close-up. Soft lighting to enhance the matte texture of the foam. Focus on the compression and expansion.",
-        "Sounds": "Soft, airy 'poof' sounds as the foam is squeezed, the metallic 'snip' of the scissors, and a slight rustle of the foam expanding.",
-        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
-    },
-    "scenario7": {
-        "Subject": "A realistic avocado made of polymer clay. The skin is dark textured green, the inside is smooth light green, and the pit is brown hard clay.",
-        "Action": "A wire clay cutter (cheese wire) is pulled down through the avocado. It glides through the 'flesh' but stops at the hard 'pit', requiring the user to pull the wire around the seed to separate the halves.",
-        "Scene": "A rustic pottery wheel or wooden workbench covered in clay dust. Natural, earthy tones.",
-        "Style": "Front-facing shot. Neutral color palette. Focus on the smooth texture of the sliced clay face.",
-        "Sounds": "A smooth, low-pitched slicing sound (hum) of the wire, followed by a 'pop' as the clay halves separate.",
-        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
-    },
     "scenario8": {
         "Subject": "A bright red strawberry made of solid, clear ice. The seeds are painted on the outside. It is melting slightly, creating water droplets.",
         "Action": "A heavy metal meat cleaver strikes the ice strawberry. It doesn't slice cleanly but shatters the ice into geometric chunks and shards.",
