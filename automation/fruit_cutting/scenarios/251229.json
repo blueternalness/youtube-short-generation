@@ -1,0 +1,82 @@
+{
+    "scenario1": {
+        "Subject": "A large, translucent, jiggly watermelon slice made of red gelatin with a solid green agar rind. The surface is glossy and wet, reflecting light. Black sesame seeds are embedded inside to mimic watermelon seeds.",
+        "Action": "A sharp, silver chef's knife presses down slowly into the jelly. The blade slices through smoothly with a slight wobble from the gelatin. The slice is separated, and the knife taps the cutting board. The jelly quivers after the cut.",
+        "Scene": "A rustic wooden cutting board placed on a sun-drenched marble countertop. Natural sunlight casts sharp shadows. In the background, a blurred window with a view of a green garden.",
+        "Style": "Macro close-up, 45-degree angle. High-key lighting to emphasize translucency. Shallow depth of field keeping the knife and fruit in sharp focus.",
+        "Sounds": "Wet, sticky squelching sound as the knife enters, a suction noise as the slice separates, and a soft thud of the knife hitting the wood.",
+        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario2": {
+        "Subject": "A hyper-realistic lemon made of yellow kinetic sand. The texture is matte and slightly grainy. It holds a perfect lemon shape but has no skin sheen.",
+        "Action": "A crinkle-cut knife (wavy blade) chops the sand lemon in half. As the knife pushes down, the sand structure collapses slightly, crumbles, and falls apart into two neat wavy halves.",
+        "Scene": "A smooth, pastel blue acrylic surface. Soft, diffused studio lighting creates a clean, minimalist aesthetic. No background props, just pure color.",
+        "Style": "Top-down (bird's eye view). evenly lit flat-lay style. High contrast between the yellow fruit and blue background.",
+        "Sounds": "A dry, gritty crunching sound (similar to stepping on snow), followed by the sound of loose sand particles tumbling onto the acrylic surface.",
+        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario3": {
+        "Subject": "A red apple made of dry floral foam. The surface is matte red, but the interior is a porous, dusty pink foam material.",
+        "Action": "An X-Acto precision knife carves a grid pattern into the top of the apple. The user then presses their thumb down, causing the small grid squares to crunch and collapse inward.",
+        "Scene": "A black slate turntable that rotates slowly. Background is dark and moody with a single spotlight illuminating the apple.",
+        "Style": "Extreme close-up (macro). Cinematic, moody lighting (chiaroscuro). The focus is locked on the blade tip.",
+        "Sounds": "Intense, crisp crackling and crushing sounds. A scratching noise as the blade cuts the dry foam.",
+        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario4": {
+        "Subject": "A pink peach made of soft, smooth soap bar material. The surface is carved to look fuzzy and round. The soap is opaque and creamy.",
+        "Action": "A box cutter extends and begins shaving thin, curled layers off the side of the peach. The shavings curl up like ribbons and fall to the table.",
+        "Scene": "A white ceramic tile surface, resembling a clean bathroom or spa setting. Bright, cool-toned lighting.",
+        "Style": "Side profile shot. sharp focus on the curling soap. Slow-motion effect (60fps) to highlight the falling shavings.",
+        "Sounds": "Rhythmic scraping sounds, soft falling thuds of the soap curls, and the click of the box cutter blade extending.",
+        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario5": {
+        "Subject": "A segmented wooden toy orange held together by velcro in the center. Painted with bright, child-safe orange paint with visible wood grain.",
+        "Action": "A dull, wooden toy knife is used to 'saw' through the velcro connection. The user applies pressure, the velcro resists, and then the orange snaps apart into two pieces.",
+        "Scene": "A colorful playroom carpet with blurred toy blocks in the background. Warm, cozy indoor lighting.",
+        "Style": "Eye-level shot. Vibrant colors, high saturation. Playful and bright aesthetic.",
+        "Sounds": "The scratching sound of wood on wood, the ripping sound of velcro tearing apart (rrrrip), and the clack of the wooden pieces hitting the floor.",
+        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario6": {
+        "Subject": "A yellow banana made of squishy, slow-rising memory foam (squishy toy). It has a sweet, artificial scent (implied visual softness).",
+        "Action": "A pair of large golden scissors slowly snips the banana into small rounds. The foam compresses significantly under the blades before being cut, then slowly expands back to shape.",
+        "Scene": "A pink cutting mat with grid lines. The background is a blurred shelf of various other colorful squishy toys.",
+        "Style": "45-degree angle close-up. Soft lighting to enhance the matte texture of the foam. Focus on the compression and expansion.",
+        "Sounds": "Soft, airy 'poof' sounds as the foam is squeezed, the metallic 'snip' of the scissors, and a slight rustle of the foam expanding.",
+        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario7": {
+        "Subject": "A realistic avocado made of polymer clay. The skin is dark textured green, the inside is smooth light green, and the pit is brown hard clay.",
+        "Action": "A wire clay cutter (cheese wire) is pulled down through the avocado. It glides through the 'flesh' but stops at the hard 'pit', requiring the user to pull the wire around the seed to separate the halves.",
+        "Scene": "A rustic pottery wheel or wooden workbench covered in clay dust. Natural, earthy tones.",
+        "Style": "Front-facing shot. Neutral color palette. Focus on the smooth texture of the sliced clay face.",
+        "Sounds": "A smooth, low-pitched slicing sound (hum) of the wire, followed by a 'pop' as the clay halves separate.",
+        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario8": {
+        "Subject": "A bright red strawberry made of solid, clear ice. The seeds are painted on the outside. It is melting slightly, creating water droplets.",
+        "Action": "A heavy metal meat cleaver strikes the ice strawberry. It doesn't slice cleanly but shatters the ice into geometric chunks and shards.",
+        "Scene": "A backlit glass table. Blue and purple LED lights shine from underneath, making the ice glow.",
+        "Style": "High-speed shutter to capture the shattering impact. Cyberpunk/Neon aesthetic. High contrast.",
+        "Sounds": "A loud, sharp crack/shatter sound, followed by the tinkling of ice shards sliding across the glass table.",
+        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario9": {
+        "Subject": "A pineapple made of a yellow cellulose kitchen sponge. The leafy top is made of green scouring pad material.",
+        "Action": "A serrated bread knife saws back and forth through the sponge pineapple. The sponge compresses and twists with the knife movement before being severed.",
+        "Scene": "A stainless steel kitchen sink area. Water is lightly misted over the scene.",
+        "Style": "Handheld, slightly shaky cam (POV style) to feel dynamic. Bright, clean, sterile lighting.",
+        "Sounds": "Rough, scratchy sawing sounds (scritch-scratch), the sound of the sponge pores popping, and a final soft thud.",
+        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario10": {
+        "Subject": "A bunch of purple grapes made of sticky, stretchy TPR (thermoplastic rubber). They are semi-translucent and look like gummy candy.",
+        "Action": "A sharp razor blade slices a single grape. The rubber stretches elastically around the blade before finally snapping apart. The interior is sticky and clings to the blade.",
+        "Scene": "A mirrored tray reflecting the grapes. The background is a solid white infinity wall.",
+        "Style": "Macro zoom. Focus on the tension and elasticity of the material. Bright, commercial product lighting.",
+        "Sounds": "A rubbery stretching sound, a sharp 'snap' when the material gives way, and a sticky peeling sound as the blade is removed.",
+        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
+    }
+}

@@ -4,4 +4,8 @@ Google flow video generation <br>
 Video merging
 
 # Automation
+'''
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222 --user-data-dir="$HOME/gemini-bot"
+'''
+
 Google Gemini app video creation within day limit
