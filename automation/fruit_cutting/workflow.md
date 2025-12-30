@@ -10,10 +10,21 @@ Upload generated scenarios and generate video on Google flow
 TBD
 
 # Automation
+
+## Google Gemini app video creation within day limit
 ```
-/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222 --user-data-dir="$HOME/gemini-bot"
+source /Users/vhehf/Desktop/"Personal materials"/StartUp/YoutubeShortsGeneration/shorts-generation/bin/activate 
+python /Users/vhehf/Desktop/"Personal materials"/StartUp/YoutubeShortsGeneration/youtube-short-generation/automation/fruit_cutting/video_generator.py
 ```
-Google Gemini app video creation within day limit
+
+### Disclaimer
+I used video creation through Gemini app rather than Google API because of costs.
+I didn’t schedule the script as a CronJob because my personal laptop isn’t suitable for running 24/7.
 
 # Todo
 Remove watermark from video
+
+# Reference
+```
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222 --user-data-dir="$HOME/gemini-bot"
+```
