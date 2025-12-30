@@ -1,20 +1,4 @@
 {
-    "scenario8": {
-        "Subject": "A bright red strawberry made of solid, clear ice. The seeds are painted on the outside. It is melting slightly, creating water droplets.",
-        "Action": "A heavy metal meat cleaver strikes the ice strawberry. It doesn't slice cleanly but shatters the ice into geometric chunks and shards.",
-        "Scene": "A backlit glass table. Blue and purple LED lights shine from underneath, making the ice glow.",
-        "Style": "High-speed shutter to capture the shattering impact. Cyberpunk/Neon aesthetic. High contrast.",
-        "Sounds": "A loud, sharp crack/shatter sound, followed by the tinkling of ice shards sliding across the glass table.",
-        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
-    },
-    "scenario9": {
-        "Subject": "A pineapple made of a yellow cellulose kitchen sponge. The leafy top is made of green scouring pad material.",
-        "Action": "A serrated bread knife saws back and forth through the sponge pineapple. The sponge compresses and twists with the knife movement before being severed.",
-        "Scene": "A stainless steel kitchen sink area. Water is lightly misted over the scene.",
-        "Style": "Handheld, slightly shaky cam (POV style) to feel dynamic. Bright, clean, sterile lighting.",
-        "Sounds": "Rough, scratchy sawing sounds (scritch-scratch), the sound of the sponge pores popping, and a final soft thud.",
-        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
-    },
     "scenario10": {
         "Subject": "A bunch of purple grapes made of sticky, stretchy TPR (thermoplastic rubber). They are semi-translucent and look like gummy candy.",
         "Action": "A sharp razor blade slices a single grape. The rubber stretches elastically around the blade before finally snapping apart. The interior is sticky and clings to the blade.",
