@@ -1,0 +1,82 @@
+{
+    "scenario1": {
+        "Subject": "A large, translucent crimson resin strawberry with embedded gold-leaf seeds. The material is glass-like and highly reflective, approximately 10cm tall.",
+        "Action": "A high-carbon steel chef’s knife slowly presses into the top, creating a smooth vertical split. The knife then performs three rapid, thin cross-sections. 8 seconds total.",
+        "Scene": "A minimalist dark gray slate countertop. Soft, warm side-lighting to highlight the internal 'glow' of the resin. Background is a blurred modern kitchen with hanging copper pots.",
+        "Style": "Macro close-up, 45-degree side angle. Shallow depth of field focusing on the knife's edge. Cinematic 60fps slowed to 30fps for a fluid motion.",
+        "Sounds": "A sharp, resonant 'clink' as the knife touches the resin, followed by a long, satisfying sliding 'shing' sound. Ends with rapid 'tink-tink-tink' of slices hitting the slate.",
+        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario2": {
+        "Subject": "A semi-transparent, neon-yellow jelly-like pineapple toy with a matte green silicone crown. The texture appears squishy but firm.",
+        "Action": "A sharp wire-cutter tool slices through the middle horizontally. The two halves wobble significantly upon impact. The wire then pulls through again to create a quarter. 8 seconds total.",
+        "Scene": "A bright, outdoor tropical wooden deck. Natural sunlight filtering through palm leaves, creating moving shadows. A small glass of iced tea is visible in the far background.",
+        "Style": "Top-down bird's-eye view. High saturation and vibrant color palette. Fast-paced editing with a slight zoom-in during the cut.",
+        "Sounds": "A wet, suction-like 'squelch' as the wire enters the jelly. A deep 'thump' as the halves hit the wood. Continuous wobbly 'boing' sounds.",
+        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario3": {
+        "Subject": "A cluster of frosted glass-blown grapes in a deep violet hue. Each grape has a slightly rough, sandblasted texture.",
+        "Action": "Using small, silver precision nippers to 'snip' individual grapes off the glass stem one by one in a rhythmic pattern, followed by one grape being crushed. 8 seconds total.",
+        "Scene": "A dark velvet-lined jewelry display case. Spotlighting from above to create a dramatic chiaroscuro effect. Elegant, luxury aesthetic.",
+        "Style": "Extreme macro focus on the nippers. Low-angle shot. Cool color temperature with blue and purple highlights.",
+        "Sounds": "High-pitched, crystal 'ting' sounds with every snip. A sharp 'crack' sound for the final crushing action. Minimal ambient white noise.",
+        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario4": {
+        "Subject": "A matte-finish white 'frosted' silicone apple with a hidden bright red core. The surface looks like soft-touch plastic.",
+        "Action": "A heavy cleaver falls vertically, splitting the apple perfectly in half to reveal the red interior. One half is then sliced into three even wedges. 8 seconds total.",
+        "Scene": "A rustic wooden farmhouse table. Early morning light coming through a window. Scattered flour and a rolling pin in the background for a baking vibe.",
+        "Style": "Eye-level side shot. Warm, earthy color palette. Focus pulls from the knife to the revealed red interior core.",
+        "Sounds": "A heavy, muffled 'thud' as the cleaver hits the board. A unique rubbery 'fricative' sound as the blade slides through the silicone.",
+        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario5": {
+        "Subject": "A crystalline, geometric dragon fruit with a vibrant pink outer shell and a clear interior with black obsidian-like seeds.",
+        "Action": "A ceramic white knife performs a 'grid cut' into the flat surface of a half-cut fruit, popping out small crystalline cubes. 8 seconds total.",
+        "Scene": "A futuristic, sterile white laboratory or high-end tech workshop. Blue LED strip lighting in the background. Reflective glass surface.",
+        "Style": "Close-up, 60-degree overhead angle. Sharp, high-contrast visuals. Clean 'Apple-style' aesthetic.",
+        "Sounds": "Crisp, crunchy 'crinkle' sounds, similar to ice being broken. The sound of the ceramic knife clicking against the glass base.",
+        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario6": {
+        "Subject": "A honey-colored amber resin lemon with a realistic 'peel' texture. It contains tiny bubbles for a realistic organic look.",
+        "Action": "A serrated bread knife saws through the lemon in a back-and-forth motion, creating three thick, translucent slices. 8 seconds total.",
+        "Scene": "A Mediterranean-style patio with blue and white tiles. Bright, midday sun. A ceramic pitcher of water sits in the background.",
+        "Style": "Dynamic handheld-style camera (slight shake for realism). Medium close-up. High dynamic range showing details in highlights.",
+        "Sounds": "The rhythmic 'zrit-zrit-zrit' of the serrated blade against the hard resin. A final 'clack' as the slice falls onto the tile.",
+        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario7": {
+        "Subject": "A deep navy blue sapphire-textured blueberry. It is oversized (size of a tennis ball) and made of dense, high-density foam.",
+        "Action": "A sharp wallpaper scraper pushes down slowly, compressing the foam before it cleanly shears through. 8 seconds total.",
+        "Scene": "An artist's studio. Paint splatters on the workbench. Natural light from a large side window. Brushes in a jar in the bokeh background.",
+        "Style": "Slow-motion focus. Macro lens. Rich, saturated blues and browns. Soft focus on the background.",
+        "Sounds": "A low-frequency 'crunch' followed by the sound of air escaping the foam. A 'hiss' as the metal blade slides through.",
+        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario8": {
+        "Subject": "A metallic-finish, holographic peach. The surface changes color from orange to pink. The interior is a solid, white clay-like material.",
+        "Action": "A small hobby scalpel carves a spiral pattern into the surface before a larger knife slices it in half. 8 seconds total.",
+        "Scene": "A dark, 'space-themed' background with tiny fiber-optic lights mimicking stars. A black reflective acrylic base.",
+        "Style": "Smooth gimbal pan around the object. High-key lighting to emphasize the holographic shifts. Deep shadows.",
+        "Sounds": "A delicate 'scratching' sound from the scalpel. A solid, clean 'snap' as the clay-like interior is bifurcated.",
+        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario9": {
+        "Subject": "A pearlescent white mangosteen with a hard, dark-purple outer shell made of brittle plaster-like material.",
+        "Action": "A small wooden mallet cracks the outer shell first, then a knife removes a segment of the soft, white rubbery 'fruit' inside. 8 seconds total.",
+        "Scene": "An Zen-inspired rock garden or sand tray. Soft, diffused lighting. Neutral tones of beige and gray.",
+        "Style": "Static tripod shot. Clean composition. Focus on the texture change between the hard shell and soft interior.",
+        "Sounds": "A sharp, dry 'crack' as the shell breaks. A soft, damp 'squish' as the knife enters the rubbery inner segment.",
+        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario10": {
+        "Subject": "A translucent emerald-green kiwi with a fuzzy, brown flocked exterior (velvet-like texture).",
+        "Action": "A gold-plated butter knife 'shaves' the fuzz off one side before a quick vertical chop. 8 seconds total.",
+        "Scene": "A luxury boutique hotel setting. Golden accents, marble surfaces, and soft evening lamplight.",
+        "Style": "Close-up. High-end 'glamour' film grade. Gold and green color palette. Extreme shallow depth of field.",
+        "Sounds": "The soft 'brushing' or 'zipping' sound of the flocking being removed. A clean, ringing 'ting' as the gold knife hits the marble.",
+        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
+    }
+}

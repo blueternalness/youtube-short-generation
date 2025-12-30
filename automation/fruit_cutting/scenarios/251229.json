@@ -1,28 +1,4 @@
 {
-    "scenario2": {
-        "Subject": "A red apple made of dry floral foam. The surface is matte red, but the interior is a porous, dusty pink foam material.",
-        "Action": "An X-Acto precision knife carves a grid pattern into the top of the apple. The user then presses their thumb down, causing the small grid squares to crunch and collapse inward.",
-        "Scene": "A black slate turntable that rotates slowly. Background is dark and moody with a single spotlight illuminating the apple.",
-        "Style": "Extreme close-up (macro). Cinematic, moody lighting (chiaroscuro). The focus is locked on the blade tip.",
-        "Sounds": "Intense, crisp crackling and crushing sounds. A scratching noise as the blade cuts the dry foam.",
-        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
-    },
-    "scenario3": {
-        "Subject": "A red apple made of dry floral foam. The surface is matte red, but the interior is a porous, dusty pink foam material.",
-        "Action": "An X-Acto precision knife carves a grid pattern into the top of the apple. The user then presses their thumb down, causing the small grid squares to crunch and collapse inward.",
-        "Scene": "A black slate turntable that rotates slowly. Background is dark and moody with a single spotlight illuminating the apple.",
-        "Style": "Extreme close-up (macro). Cinematic, moody lighting (chiaroscuro). The focus is locked on the blade tip.",
-        "Sounds": "Intense, crisp crackling and crushing sounds. A scratching noise as the blade cuts the dry foam.",
-        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
-    },
-    "scenario4": {
-        "Subject": "A pink peach made of soft, smooth soap bar material. The surface is carved to look fuzzy and round. The soap is opaque and creamy.",
-        "Action": "A box cutter extends and begins shaving thin, curled layers off the side of the peach. The shavings curl up like ribbons and fall to the table.",
-        "Scene": "A white ceramic tile surface, resembling a clean bathroom or spa setting. Bright, cool-toned lighting.",
-        "Style": "Side profile shot. sharp focus on the curling soap. Slow-motion effect (60fps) to highlight the falling shavings.",
-        "Sounds": "Rhythmic scraping sounds, soft falling thuds of the soap curls, and the click of the box cutter blade extending.",
-        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
-    },
     "scenario5": {
         "Subject": "A segmented wooden toy orange held together by velcro in the center. Painted with bright, child-safe orange paint with visible wood grain.",
         "Action": "A dull, wooden toy knife is used to 'saw' through the velcro connection. The user applies pressure, the velcro resists, and then the orange snaps apart into two pieces.",
