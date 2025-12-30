@@ -1,18 +1,10 @@
 {
-    "scenario1": {
-        "Subject": "A large, translucent, jiggly watermelon slice made of red gelatin with a solid green agar rind. The surface is glossy and wet, reflecting light. Black sesame seeds are embedded inside to mimic watermelon seeds.",
-        "Action": "A sharp, silver chef's knife presses down slowly into the jelly. The blade slices through smoothly with a slight wobble from the gelatin. The slice is separated, and the knife taps the cutting board. The jelly quivers after the cut.",
-        "Scene": "A rustic wooden cutting board placed on a sun-drenched marble countertop. Natural sunlight casts sharp shadows. In the background, a blurred window with a view of a green garden.",
-        "Style": "Macro close-up, 45-degree angle. High-key lighting to emphasize translucency. Shallow depth of field keeping the knife and fruit in sharp focus.",
-        "Sounds": "Wet, sticky squelching sound as the knife enters, a suction noise as the slice separates, and a soft thud of the knife hitting the wood.",
-        "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
-    },
     "scenario2": {
-        "Subject": "A hyper-realistic lemon made of yellow kinetic sand. The texture is matte and slightly grainy. It holds a perfect lemon shape but has no skin sheen.",
-        "Action": "A crinkle-cut knife (wavy blade) chops the sand lemon in half. As the knife pushes down, the sand structure collapses slightly, crumbles, and falls apart into two neat wavy halves.",
-        "Scene": "A smooth, pastel blue acrylic surface. Soft, diffused studio lighting creates a clean, minimalist aesthetic. No background props, just pure color.",
-        "Style": "Top-down (bird's eye view). evenly lit flat-lay style. High contrast between the yellow fruit and blue background.",
-        "Sounds": "A dry, gritty crunching sound (similar to stepping on snow), followed by the sound of loose sand particles tumbling onto the acrylic surface.",
+        "Subject": "A red apple made of dry floral foam. The surface is matte red, but the interior is a porous, dusty pink foam material.",
+        "Action": "An X-Acto precision knife carves a grid pattern into the top of the apple. The user then presses their thumb down, causing the small grid squares to crunch and collapse inward.",
+        "Scene": "A black slate turntable that rotates slowly. Background is dark and moody with a single spotlight illuminating the apple.",
+        "Style": "Extreme close-up (macro). Cinematic, moody lighting (chiaroscuro). The focus is locked on the blade tip.",
+        "Sounds": "Intense, crisp crackling and crushing sounds. A scratching noise as the blade cuts the dry foam.",
         "Technical(Negative Prompt)": "No captions, No silent moments, and No unrealistic scene transitions."
     },
     "scenario3": {

@@ -13,24 +13,39 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 
 class GeminiAutomation:
-    def __init__(self, port=9222):
-        print(f"[*] Connecting to Chrome on port {port}...")
-        self.options = Options()
-        self.options.add_experimental_option("debuggerAddress", f"127.0.0.1:{port}")
+    def __init__(self):
+        print("[*] Connecting to existing Chrome on port 9222...")
         
-        try:
-            self.driver = webdriver.Chrome(
-                service=Service(ChromeDriverManager().install()),
-                options=self.options
-            )
-            # Standard wait for UI elements
-            self.wait = WebDriverWait(self.driver, 20) 
-            # Long wait for video generation (up to 3 minutes)
-            self.long_wait = WebDriverWait(self.driver, 180) 
-            print("[*] Connected successfully!")
-        except Exception as e:
-            print(f"[!] Connection failed: {e}")
-            exit(1)
+        self.options = Options()
+        # This tells Selenium: "Don't launch Chrome. Just talk to this address."
+        self.options.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
+        
+        # We assume ChromeDriver is in your PATH or installed via webdriver-manager
+        # If you have webdriver_manager:
+        from webdriver_manager.chrome import ChromeDriverManager
+        from selenium.webdriver.chrome.service import Service
+        
+        self.driver = webdriver.Chrome(
+            service=Service(ChromeDriverManager().install()),
+            options=self.options
+        )
+        self.wait = WebDriverWait(self.driver, 20)
+
+    def focus_gemini_tab(self):
+        """
+        Finds an existing Gemini tab or opens a new one.
+        """
+        # Check current tabs
+        for handle in self.driver.window_handles:
+            self.driver.switch_to.window(handle)
+            if "gemini.google.com" in self.driver.current_url:
+                print("Found existing Gemini tab.")
+                return
+
+        # If not found, open a new tab
+        print("Opening new Gemini tab...")
+        self.driver.execute_script("window.open('https://gemini.google.com', '_blank');")
+        self.driver.switch_to.window(self.driver.window_handles[-1])
 
     def start_new_chat(self):
         print("[*] Clicking 'New chat'...")
@@ -61,7 +76,7 @@ class GeminiAutomation:
 
             # 3. Click the specific button from your HTML
             download_btn = self.wait.until(EC.element_to_be_clickable(
-                (By.XPATH, "//button[@aria-label='Download video']")
+                (By.XPATH, "//button[@aria-label='Download video']") # Download video
             ))
             
             # Click it
@@ -96,7 +111,7 @@ class GeminiAutomation:
 
             # 2. Click Create videos
             video_menu = self.wait.until(EC.element_to_be_clickable(
-                (By.XPATH, "//div[contains(text(), 'Create videos')]")
+                (By.XPATH, "//div[contains(text(), 'Create images')]")
             ))
             video_menu.click()
             time.sleep(1)
@@ -116,7 +131,7 @@ class GeminiAutomation:
             
             # 5. Wait for Result & Download
             self.download_generated_video()
-            time.sleep(30)
+            time.sleep(10)
 
         except Exception as e:
             print(f"[!] Error during automation: {e}")
@@ -176,7 +191,9 @@ class GeminiAutomation:
                 
             print(f"\n--- Processing Video {i+1}/{count} ---")
             print(f"[*] File: {os.path.basename(filepath)} | Scenario: {key}")
-            
+            self.focus_gemini_tab()
+
+
             # 2. Reset Chat & Generate
             self.start_new_chat()
             self.generate_video(scenario)
