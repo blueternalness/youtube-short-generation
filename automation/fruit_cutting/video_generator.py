@@ -171,6 +171,7 @@ class GeminiAutomation:
 
         except Exception as e:
             print(f"[!] Error during automation: {e}")
+            raise e
 
     def get_next_scenario(self, folder_path):
         # Sort files numerically/alphabetically
@@ -229,11 +230,15 @@ class GeminiAutomation:
             print(f"[*] File: {os.path.basename(filepath)} | Scenario: {key}")
             self.focus_gemini_tab()
 
-
             # 2. Reset Chat & Generate
             self.start_new_chat()
-            self.generate_video(scenario)
-            
+
+            try:
+                self.generate_video(scenario)
+            except Exception as e:
+                print(f"[!] Skipping scenario due to error: {e}")
+                continue
+
             # 3. Clean up JSON
             self.remove_scenario_from_file(filepath, key)
             
