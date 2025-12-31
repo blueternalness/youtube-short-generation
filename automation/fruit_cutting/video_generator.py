@@ -14,6 +14,8 @@ from selenium.webdriver.chrome.service import Service
 import sys
 import subprocess
 
+#TODO autodownload fail, 9:16 video
+
 def launch_chrome_debugger():
     """
     Launches Chrome in remote debugging mode if it's not already running.
@@ -66,6 +68,7 @@ class GeminiAutomation:
             options=self.options
         )
         self.wait = WebDriverWait(self.driver, 20)
+        self.long_wait = WebDriverWait(self.driver, 300)
 
     def focus_gemini_tab(self):
         """
@@ -147,7 +150,7 @@ class GeminiAutomation:
 
             # 2. Click Create videos
             video_menu = self.wait.until(EC.element_to_be_clickable(
-                (By.XPATH, "//div[contains(text(), 'Create images')]")
+                (By.XPATH, "//div[contains(text(), 'Create videos')]")
             ))
             video_menu.click()
             time.sleep(1)
@@ -163,7 +166,9 @@ class GeminiAutomation:
             # 4. Submit
             input_box.send_keys(Keys.ENTER)
             print("[*] Prompt submitted! Waiting for result...")
-            time.sleep(200)
+
+            # we don't need this long sleep anymore since we have long_wait
+            # time.sleep(200)
             
             # 5. Wait for Result & Download
             self.download_generated_video()

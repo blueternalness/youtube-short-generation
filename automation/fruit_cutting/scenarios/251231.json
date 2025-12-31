@@ -1,0 +1,82 @@
+{
+    "scenario1": {
+        "Subject": "A translucent, ruby-red jelly grapefruit with a realistic matte-textured yellow rind. The interior is made of a semi-firm, glass-like polymer that catches the light. Medium size, approximately 10cm diameter.",
+        "Action": "A sharp silver chef's knife slowly presses into the top. 0-4s: Slicing into four perfectly even wedges. 4-8s: Each wedge is sliced horizontally into thin, vibrating layers that wobble slightly as the blade passes through.",
+        "Scene": "A minimalist white marble countertop. Soft, diffused natural light coming from a side window, creating gentle shadows. No background clutter, just the fruit and the board.",
+        "Style": "Macro close-up, 9:16 vertical. Top-down 45-degree angle. High frame rate for smooth motion. Bright, clean aesthetic with a shallow depth of field focusing on the blade's edge.",
+        "Sounds": "High-fidelity 'sticky' slicing sounds. A crisp 'thud' as the knife hits the marble. The subtle 'squelch' of the jelly-like material separating.",
+        "Technical(Negative Prompt)": "No 16:9 horizontal aspect ratio, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario2": {
+        "Subject": "A hyper-realistic toy pineapple made of layered kinetic sand and resin. The 'skin' consists of sharp, geometric scales in ombre shades of teal and gold. The interior is vibrant yellow, slightly crystalline.",
+        "Action": "0-3s: A heavy cleaver chops the top 'leaves' off with one clean strike. 3-8s: The pineapple is sliced vertically down the middle, revealing a perfectly symmetrical geometric pattern inside as the sand grains slightly crumble.",
+        "Scene": "A rustic dark wood workshop table. Warm, moody spotlighting from above (Chiaroscuro style). Fine sawdust particles visible in the air to enhance the atmosphere.",
+        "Style": "Extreme close-up on the texture. Low-angle shot looking up at the blade. Saturated colors with high contrast. Cinematic lighting.",
+        "Sounds": "Gritty, crunchy sound of the kinetic sand being compressed. The heavy 'clink' of the metal cleaver. A satisfying 'shhh' sound as the halves fall apart.",
+        "Technical(Negative Prompt)": "No 16:9 horizontal aspect ratio, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario3": {
+        "Subject": "A 'Frozen' blueberry made of clear blue glass-silicone mix. It has a frosty, powdered sugar coating. When cut, it reveals a liquid-center core that looks like thick blue syrup.",
+        "Action": "0-4s: A small paring knife makes a circular incision around the equator. 4-8s: The blueberry is squeezed slightly until the liquid core slowly oozes out, followed by a final clean slice through the center.",
+        "Scene": "A clean, clinical laboratory setting with a stainless steel surface. Cool blue LED backlighting. A slight mist or 'cold' fog rolling across the table.",
+        "Style": "Vertical 9:16. Eye-level macro shot. Clinical, high-tech aesthetic. Deep focus to show the liquid viscosity. Cold color palette.",
+        "Sounds": "The 'crackling' sound of ice-like coating breaking. A slow, viscous 'drip' sound. The sharp 'snick' of the blade through silicone.",
+        "Technical(Negative Prompt)": "No 16:9 horizontal aspect ratio, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario4": {
+        "Subject": "A 'Galaxy' Dragon Fruit. The outer skin is iridescent purple and black. The inside is a translucent white gel filled with tiny, reflective silver 'seeds' that shimmer like stars.",
+        "Action": "0-5s: A serrated bread knife saws through the middle with a back-and-forth motion. 5-8s: The two halves are pulled apart, showing the 'sticky' gel-strings stretching before snapping.",
+        "Scene": "A black obsidian-style reflective surface. Neon pink and purple rim lighting. Dark, 'cyberpunk' kitchen vibe.",
+        "Style": "Vertical 9:16. Dynamic handheld movement (subtle). Focus on the 'seeds' shimmering. High saturation and vibrance.",
+        "Sounds": "The rhythmic 'rasp' of the serrated blade. A wet, 'tacky' sound as the gel-strings snap. Echoing 'clacks' on the hard surface.",
+        "Technical(Negative Prompt)": "No 16:9 horizontal aspect ratio, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario5": {
+        "Subject": "A toy Watermelon made of tiered soap layers. The rind is a hard green wax, and the red interior is a soft, buttery soap texture with black pearl-like seeds.",
+        "Action": "0-4s: A wide flat spatula-style blade 'shaves' thin curls off the surface. 4-8s: A vertical plunge cut divides the melon into long rectangular sticks.",
+        "Scene": "A bright, airy 'Boho' style kitchen with light wood and green plants in the background. Natural morning sunlight with 'dust motes' dancing.",
+        "Style": "Top-down flat lay. Soft focus on the background. Pastel color palette. Focus on the 'curling' of the soap shavings.",
+        "Sounds": "The continuous 'zrrp' sound of soap being shaved. A soft 'pop' as the seeds are displaced. The clean 'thump' of a soft material hitting wood.",
+        "Technical(Negative Prompt)": "No 16:9 horizontal aspect ratio, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario6": {
+        "Subject": "A golden Pear made of a honeycomb-like lattice structure. It looks like 3D-printed gold filament. The core is a solid, glowing amber resin.",
+        "Action": "0-3s: A hot wire cutter passes through the pear vertically. 3-8s: The wire glows red as it melts through the lattice, leaving a smooth, burnt edge on the amber center.",
+        "Scene": "A dark, industrial setting with a concrete floor. Only the pear and the wire cutter are illuminated by a single warm orange light.",
+        "Style": "Macro 9:16. Slow-motion zoom-in. Focus on the heat distortion and the melting lattice. Metallic and industrial aesthetic.",
+        "Sounds": "A high-pitched 'sizzle' as the wire melts the plastic. The metallic 'hum' of the wire cutter. A deep 'clunk' as the two halves fall onto the concrete.",
+        "Technical(Negative Prompt)": "No 16:9 horizontal aspect ratio, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario7": {
+        "Subject": "A giant toy Strawberry (15cm) made of high-density memory foam with a 'glossy' candy-shell paint. The surface is dimpled with deep-set golden seeds.",
+        "Action": "0-5s: A pair of heavy-duty scissors snips the strawberry into small cubes. 5-8s: The cubes are pressed down by a flat glass plate, showing them slowly expanding back to their original shape.",
+        "Scene": "A colorful, pop-art inspired studio. Bright yellow background with polka-dot props. High-key studio lighting.",
+        "Style": "9:16 Vertical. Fast-paced editing. Vibrant, saturated colors. Close-up on the texture expansion.",
+        "Sounds": "The 'snip' and 'crunch' of the candy shell breaking. The 'hiss' of air returning to the memory foam. Rhythmic, bouncy audio.",
+        "Technical(Negative Prompt)": "No 16:9 horizontal aspect ratio, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario8": {
+        "Subject": "An 'Emerald' Kiwi made of clear green floral foam soaked in water. The skin is a brown, fuzzy velvet fabric. The center is a bright white core.",
+        "Action": "0-4s: A sharp vegetable peeler removes the velvet skin in long, continuous strips. 4-8s: The kiwi is crushed by a heavy glass block, squeezing the water out into a green pool.",
+        "Scene": "A Zen-like garden setting with smooth river stones. A small fountain visible in the background. Soft, late-afternoon 'golden hour' lighting.",
+        "Style": "Vertical 9:16. Focus on the 'fuzz' of the skin and the water droplets. Relaxing, slow-paced aesthetic. Earthy color palette.",
+        "Sounds": "The 'scrape' of the peeler. The 'squish' of the water-logged foam. The sound of water splashing softly on stones.",
+        "Technical(Negative Prompt)": "No 16:9 horizontal aspect ratio, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario9": {
+        "Subject": "A toy Banana made of layered 'peel-off' face mask material (liquid latex style). It is bright neon yellow. When peeled, the 'fruit' inside is a translucent, white gummy material.",
+        "Action": "0-3s: A precision craft knife scores the skin. 3-8s: Fingers (with clean manicured nails) peel the skin back in one long, satisfying stretch to reveal the gummy center.",
+        "Scene": "A clean, pastel pink vanity table. Soft 'beauty' lighting. Decorative perfume bottles in the blurred background.",
+        "Style": "9:16 Vertical. Extreme macro on the peeling action. Focus on the material stretching. Soft, 'dreamy' aesthetic.",
+        "Sounds": "The 'sticky' peeling sound of latex. A soft 'rubbery' squeak. The sound of the gummy material being lightly tapped with a fingernail.",
+        "Technical(Negative Prompt)": "No 16:9 horizontal aspect ratio, No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario10": {
+        "Subject": "A 'Rainbow' Apple. The exterior is a standard matte red, but the interior is composed of 7 distinct layers of different colored translucent gelatin (Roy G. Biv colors).",
+        "Action": "0-4s: A sharp Japanese Katana-style blade slices through the apple vertically in one fast motion. 4-8s: The apple is pushed from the side, making the rainbow layers slide out like a deck of cards.",
+        "Scene": "A traditional Japanese tatami mat room. Very minimalist. A single shaft of light illuminating the cutting area.",
+        "Style": "9:16 Vertical. High-speed camera (Slow motion). Sharp focus on the color layers as they slide. Clean, 'zen' aesthetic with high color pops.",
+        "Sounds": "A sharp 'whoosh' of the blade. A clean 'shlick' sound through the jelly. The 'wet' sliding sound of the layers moving against each other.",
+        "Technical(Negative Prompt)": "No 16:9 horizontal aspect ratio, No silent moments, and No unrealistic scene transitions."
+    }
+}
