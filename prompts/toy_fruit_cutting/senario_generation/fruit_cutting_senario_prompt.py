@@ -13,13 +13,9 @@ For each scenario, write prompts in the following JSON format:
         "Subject": [Detailed object description including type of fruit, color, size, texture, material and any unique features.],
         "Action": [Specific cutting actions, movements, timing, sequence, interaction patterns that can be performed in 8 seconds.],
         "Scene": [Detailed environment description including location, props, background elements, lighting setup, weather, time of day, architectural details. No unrealistic scene transitions.],
-        "Style": [Camera shot type, angle, lighting style, visual aesthetic, color palette, depth of field, focus techniques suitable for short form 9:16 vertical aspect ratio video content],
+        "Style": [Camera shot type, angle, movement, lighting style, visual aesthetic, film grade, color palette, depth of field, focus techniques.],
         "Sounds": [Specific ASMR audio elements with minimal silent moments, including cutting sounds based on the subject, equipment, and action.],
-        "Technical(Negative Prompt)": No 16:9 horizontal aspect ratio, No silent moments, and No unrealistic scene transitions.
+        "Technical(Negative Prompt)": No silent moments, and No unrealistic scene transitions.
     },
 }
 """
-
-# TODO if the prompt does not work, try adding back this line
-# "AcpectRatio": vertical 9:16 aspect ratio,
-
