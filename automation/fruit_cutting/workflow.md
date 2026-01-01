@@ -1,3 +1,7 @@
+# Workflow
+Gemini App Case: Scenario generation with image -> generate video from Gemini app with automation program -> resize video to 1:1 or 9:16 -> merge videos -> Youtube upload <br>
+Google Flow Case: Scenario generation with image -> generate video from Gemini flow with 9:16 size -> merge video on Google flow -> Youtube upload
+
 # Need to be done manually
 
 ## Scenario generation
@@ -6,8 +10,12 @@ Submit prompt with sample fruit cutting image
 ## Google flow video generation 
 Upload generated scenarios and generate video on Google flow
 
+## Video resizing
+Convert 16:9 video to 1:1 or 9:16 video <br>
+https://new.express.adobe.com/home/tools/resize-video
+
 ## Video merging
-TBD
+https://new.express.adobe.com/home/tools/merge-videos
 
 # Automation
 
