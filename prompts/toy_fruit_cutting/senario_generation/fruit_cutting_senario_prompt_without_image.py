@@ -1,4 +1,5 @@
 # Need to pass this prompt with sample fruit cutting image to LLM
+# This promt is not wokring well compared to the one with image
 
 FRUIT_CUTTING_SCENARIO_PROMPT_WITHOUT_IMAGE = """
 I want to create short form video content where various fruit models are being cut. A fruit model made of various materials.
