@@ -1,0 +1,58 @@
+{
+    "scenario2": {
+        "Subject": "An oversized strawberry made entirely of compressed, vibrant red kinetic sand. The exterior features tiny white bead 'seeds,' and the crown is made of stiff, dark green felt leaves.",
+        "Action": "A surgical scalpel makes rapid, rhythmic vertical slices into the strawberry. Every 2 seconds, a new segment is carved, causing the sand to crumble and flow downward in a fluid motion.",
+        "Scene": "A minimalist white studio setting. The strawberry sits on a clean glass plate. Bright, even softbox lighting to eliminate harsh shadows and emphasize the texture of the sand.",
+        "Style": "Top-down bird's-eye view. Static camera. High-definition textures. Bright and airy aesthetic with a saturated color palette.",
+        "Sounds": "Granular, 'crunchy' cutting sounds of the blade through sand, accompanied by the soft, continuous 'rushing water' sound of the sand falling and hitting the glass.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
+    },
+    "scenario3": {
+        "Subject": "A pineapple model made of dense, jiggly translucent yellow silicone. The 'eyes' of the pineapple are sculpted as deep indentations, and the top is a rigid, realistic plastic crown.",
+        "Action": "A thin cheese wire with wooden handles is pulled horizontally through the middle of the pineapple. The silicone resists slightly before 'popping' through, causing the top half to bounce and wobble for 3 seconds.",
+        "Scene": "A tropical-themed outdoor patio at golden hour. The pineapple sits on a weathered teak wood table. Warm, orange sunlight filtering through palm leaves in the background.",
+        "Style": "Eye-level medium shot. Warm color grading. Handheld camera movement with slight stabilization to give a natural feel. Focus on the vibration of the silicone.",
+        "Sounds": "A high-tension 'zing' from the wire, followed by a wet, suction-like 'squelch' and a resonant 'boing' sound as the material wobbles.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
+    },
+    "scenario6": {
+        "Subject": "A cluster of grapes made of brittle, thin-walled purple sugar glass (isomalt). Each grape is hollow and filled with a small amount of dark purple glitter liquid.",
+        "Action": "A miniature silver hammer gently taps each grape. One by one, they shatter in a sequence, releasing the glitter liquid which flows across the surface.",
+        "Scene": "A luxury jewelry display case. The grapes sit on a white marble pedestal. Bright, sparkling spotlighting to emphasize the glass reflections and glitter.",
+        "Style": "Extreme macro shot. High frame rate for slow-motion shattering. Glamour-style film grade. Very shallow depth of field.",
+        "Sounds": "High-pitched 'tinkling' of glass, the sharp 'crack' of each grape breaking, and the rhythmic 'splashing' of the liquid hitting the marble.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
+    },
+    "scenario7": {
+        "Subject": "A lemon model made of cold-process artisanal soap. The rind is textured with a zester pattern, and the interior features translucent soap 'segments' that look like gelatin.",
+        "Action": "A wavy-bladed crinkle cutter is pressed down through the lemon. The blade creates a satisfying 'pop' as it breaks the surface and slices through the segments in one clean motion.",
+        "Scene": "A clean, spa-like bathroom environment. The lemon sits on a ribbed ceramic soap dish. Soft, diffused lighting. A hint of steam in the air.",
+        "Style": "Fixed tripod shot, 45-degree angle. Clean and sterile aesthetic. High-saturation yellows. Focus on the ridges left by the crinkle cutter.",
+        "Sounds": "A dense, waxy 'pop' as the blade enters, followed by a rhythmic 'sliding' sound through the soap and a final 'click' against the ceramic dish.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
+    },
+    "scenario8": {
+        "Subject": "A Granny Smith apple made of soft balsa wood. The exterior is painted with a glossy green lacquer, and the stem is a real dried twig.",
+        "Action": "A razor-sharp wood carving chisel pushes through the top. It curls a long, thin shaving of green-painted wood upward before the apple splits perfectly in half.",
+        "Scene": "A traditional woodcarving workbench. Wood shavings and various chisels are scattered around. Warm, incandescent lamp lighting from the side to create long shadows.",
+        "Style": "Side-view macro. Detailed texture focus. Earthy color palette. Dramatic lighting emphasizing the wood grain and the curl of the shaving.",
+        "Sounds": "A sharp, clean 'crunch' of wood fibers snapping, the continuous 'shhhhh' of the chisel sliding, and the final 'snap' of the apple splitting.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
+    },
+    "scenario9": {
+        "Subject": "A kiwi model made of dry, green floral foam. The outer skin is brown flocked fabric (fuzzy texture), and the center has a white foam core with tiny black pins for seeds.",
+        "Action": "A serrated bread knife saws through the kiwi. The knife moves back and forth quickly, creating a spray of fine green dust before the slice falls over.",
+        "Scene": "A floral shop workspace. Scissors, ribbon, and flower stems are visible in the background. Bright, natural morning light. A green cutting mat serves as the base.",
+        "Style": "Over-the-shoulder shot. Zoom-in movement toward the cutting point. High-contrast colors (green vs. brown). Focus on the 'dust' particles.",
+        "Sounds": "Rough, 'scratchy' sawing sounds, the airy 'crunch' of the floral foam collapsing, and the soft 'thump' of the slice hitting the mat.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
+    },
+    "scenario10": {
+        "Subject": "A banana model made of thick, yellow paraffin wax. The 'peel' is a separate layer of softer wax, and the 'fruit' inside is a solid, ivory-colored wax cylinder.",
+        "Action": "A heated metal spatula slides under the wax peel. The peel curls back smoothly in thick, ribbons. Then, the spatula slices the 'fruit' into three thick discs.",
+        "Scene": "A cozy candle-making workshop. Various jars of wax and wicks in the background. Warm, flickering candlelight provides the primary illumination.",
+        "Style": "Extreme close-up. Slow, steady camera pan following the spatula. Warm, golden color grading. Soft focus on the background.",
+        "Sounds": "A smooth, low-pitched 'peeling' sound (like heavy tape), the wet 'slide' of the hot metal, and a heavy, dull 'thud' as the wax discs fall.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
+    }
+}

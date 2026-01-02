@@ -1,0 +1,82 @@
+{
+    "scenario1": {
+        "Subject": "A large, translucent, jelly-like watermelon slice with embedded black seeds, bright red color, and a wobbly, soft texture. It has a smooth, glossy finish.",
+        "Action": "A hand holding a large, sharp knife slowly slices through the jelly watermelon, separating it into smaller, wobbly cubes. The knife glides smoothly, causing the jelly to quiver with each cut.",
+        "Scene": "Set on a rustic wooden cutting board with visible grain, placed on a sunlit garden table. In the background, there are blurred green plants and a wicker basket of real fruits. Natural sunlight illuminates the jelly fruit.",
+        "Style": "Close-up shot with a shallow depth of field, focusing on the cutting action. Slow-motion camera movement to emphasize the wobbling texture. Bright, warm natural lighting. Vibrant, saturated colors.",
+        "Sounds": "Squishy, wet slicing sounds, with a soft 'squelch' as the knife moves through the jelly. The sound of the jelly quivering and separating. Minimal background ambient garden noise.",
+        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario2": {
+        "Subject": "A colorful, squishy foam banana with a peel that can be removed. It's yellow and brown, with a soft, porous, slow-rising texture.",
+        "Action": "Hands first peel the foam banana, then use a plastic serrated knife to chop the inner foam into thick slices. The foam compresses and slowly returns to its shape after each cut.",
+        "Scene": "Set on a pastel-colored kitchen counter with a pink cutting board and a small bowl of toy berries. A window with a view of a bright, clean kitchen is in the background. Soft, diffused daylight.",
+        "Style": "Top-down view (flat lay), capturing the entire peeling and chopping process. Clean, bright aesthetic with pastel colors. Sharp focus on the foam texture.",
+        "Sounds": "Soft, satisfying 'crinkle' and 'pop' sounds from peeling. A muffled, rhythmic 'shhh-chop' sound as the foam is sliced, with a slight squeak. No gaps in the sound.",
+        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario3": {
+        "Subject": "A translucent, crystalline orange, resembling rock candy. It's bright orange with visible, sugar-like facets and a hard, brittle texture.",
+        "Action": "A hand uses a small, metal knife to score the surface, then applies pressure to crack the crystalline orange into segments. The segments break away with sharp, clean fractures.",
+        "Scene": "Set on a polished white marble surface with grey veins. A glass bowl of water and a silver spoon are in the background. Cool, artificial studio lighting creating reflections on the crystal.",
+        "Style": "Macro shot, extremely close-up to show the facets and fractures. The camera pans slightly to follow the cracking. High-contrast lighting to make the crystal sparkle.",
+        "Sounds": "Sharp, high-pitched cracking and crunching sounds. A distinct 'snap' as each segment breaks off. The sound of the pieces clinking on the marble. Continuous, crisp audio.",
+        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario4": {
+        "Subject": "A vibrant, rubbery, squishy pineapple with a textured, spiky exterior. It's yellow and green, with a dense, bouncy, rubber material.",
+        "Action": "A hand holds the rubber pineapple steady while another hand uses a miniature toy cleaver to chop off the top leafy part, then slices the body into rings. The rubber compresses and bounces back with each strike.",
+        "Scene": "Set on a worn wooden crate in a bustling, miniature outdoor market stall. Miniature baskets of toy vegetables are in the background. Warm, late afternoon sunlight.",
+        "Style": "Eye-level shot, focusing on the cleaver's impact. Dynamic, slightly shaky camera movement to match the chopping. Warm color grading. Shallow depth of field.",
+        "Sounds": "Loud, resonant 'thwack' and 'chop' sounds on the wooden crate. A rubbery 'boing' or 'squish' sound as the cleaver hits the pineapple. The sound of the pieces hitting the wood. Continuous market ambiance.",
+        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario5": {
+        "Subject": "A bunch of clear, jelly-like grapes, each grape filled with water and a small, colored bead. They are attached to a flexible green stem.",
+        "Action": "Hands use small, silver scissors to snip individual grapes off the stem, then use a needle to pop them, releasing the water and beads. The grapes burst open with a splash.",
+        "Scene": "Set on a clear glass tray with water droplets and scattered glass beads. A blurry aquarium with blue light is in the background. Cool, blue-toned lighting.",
+        "Style": "Close-up, slow-motion shot to capture the water bursting. The camera stays fixed on the tray. Cool, blue color palette. High focus on the water droplets.",
+        "Sounds": "Sharp 'snip' sounds from the scissors. A wet, satisfying 'pop' and 'splash' sound as each grape bursts. The sound of water dripping and beads hitting the glass.",
+        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario6": {
+        "Subject": "A realistic, soft silicone kiwi fruit with a fuzzy brown skin and a vibrant green interior with black seeds. It has a dense, pliable, matte finish.",
+        "Action": "A hand uses a small, dull cheese knife to slice the silicone kiwi in half, then into quarters. The knife drags through the silicone, creating friction and a resistance-based cut.",
+        "Scene": "Set on a bamboo cutting mat on a minimalist wooden table. A small potted succulent and a ceramic plate are in the background. Natural, diffused light from a window.",
+        "Style": "Overhead shot, looking directly down at the cutting mat. Steady, smooth camera movement. Natural, neutral color palette. Sharp focus on the silicone texture.",
+        "Sounds": "A distinct, friction-based 'drag' and 'slice' sound. A soft 'thud' as the knife hits the bamboo. The sound of the silicone pieces being separated. No gaps in the audio.",
+        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario7": {
+        "Subject": "A large, translucent red apple, made of a solid, clear resin with a realistic core and seeds suspended inside. It has a smooth, glossy, hard surface.",
+        "Action": "A hand uses a sharp, white ceramic knife to slowly slice off a segment of the resin apple. The knife makes a clean, precise cut through the hard material.",
+        "Scene": "Set on a grey stone cutting board in a rustic kitchen. A burlap sack of real apples and a cast iron pot are in the background. Warm, ambient indoor lighting.",
+        "Style": "Eye-level shot, focusing on the knife's edge. Slow, controlled camera movement. Warm, rustic color palette. Shallow depth of field, highlighting the apple.",
+        "Sounds": "A smooth, high-pitched 'shink' sound as the ceramic knife cuts through the resin. The sound of the sliced piece clinking on the stone board. Continuous kitchen ambiance.",
+        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario8": {
+        "Subject": "A squishy, foam lemon and lime, both with a porous, sponge-like texture. The lemon is bright yellow and the lime is vibrant green.",
+        "Action": "Hands use a small, plastic knife to rapidly dice the foam lemon and lime into small cubes. The foam compresses and quickly re-expands, creating a bouncy visual effect.",
+        "Scene": "Set on a blue plastic cutting board by a swimming pool. The blue pool water and pool toys are in the background. Bright, direct sunlight.",
+        "Style": "High-angle shot, capturing the rapid dicing. Fast-paced, energetic camera movement. Bright, cheerful color palette. Sharp focus on the foam cubes.",
+        "Sounds": "Rapid, soft 'chop-chop-chop' sounds, with a light 'squish' from the foam. The sound of the pieces being moved on the plastic board. Continuous poolside ambiance with splashing.",
+        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario9": {
+        "Subject": "A realistic, hard plastic pomegranate with a textured, reddish skin. Inside, there are loose, hard plastic seeds (arils) in a clear compartment.",
+        "Action": "A hand uses a small wooden mallet to gently tap the pomegranate, causing it to crack open along a seam. The loose plastic seeds spill out onto the surface.",
+        "Scene": "Set on a decorative, patterned ceramic plate on a dark wooden table. A brass bowl and a lit candle are in the background. Dim, warm, moody lighting.",
+        "Style": "Close-up shot, focusing on the crack forming. Slow-motion capture of the seeds spilling out. Warm, rich color palette. Shallow depth of field.",
+        "Sounds": "A sharp, cracking 'snap' as the pomegranate opens. The sound of the hard plastic seeds clattering and spilling onto the ceramic plate. Continuous, subtle ambient noise.",
+        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario10": {
+        "Subject": "A translucent, gummy mango with a vibrant orange color and a stretchy, sticky, candy-like texture. It's shaped like a whole mango.",
+        "Action": "A hand uses a butter knife to slice the gummy mango, pulling the pieces apart to show its stretchiness. The gummy material stretches and snaps back slightly.",
+        "Scene": "Set on a wooden cutting board on a sandy beach at sunset. The ocean, waves, and a palm tree are in the background. Warm, golden hour light.",
+        "Style": "Eye-level shot, capturing the stretching action. The camera follows the pulling motion. Golden, warm color palette. High focus on the gummy texture.",
+        "Sounds": "A sticky, squelchy 'pull' and 'stretch' sound. A soft 'snap' as the gummy breaks. The sound of the pieces being placed on the board. Continuous beach ambiance with waves.",
+        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
+    }
+}
