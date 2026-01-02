@@ -1,18 +1,18 @@
 # PoC order
 ## 1 
-Toy fruit cutting ASMR: https://www.youtube.com/shorts/SDo_5rUn0iQ
-Image capture from famous shorts
-Request to LLM to create similar video generation prompts with scenario generation prompt
+Toy fruit cutting ASMR: https://www.youtube.com/shorts/SDo_5rUn0iQ <br>
+Image capture from famous shorts <br>
+Request to LLM to create similar video generation prompts with scenario generation prompt (scenario generation without image seems okay) <br>
 Generate Video on Gemini App(Automation) or Google flow(Manually)
 
 ## 2
-Cooking animals: https://www.youtube.com/shorts/OoctbVQhmpY
+Cooking animals: https://www.youtube.com/shorts/OoctbVQhmpY <br>
 Scenario generation with prompt without image --> Generate video on Google Flow without image
 
 
 
 ## TODO
-Small mans building a cuisine.: https://www.youtube.com/shorts/NFXexRVMuZU
+Small mans building a cuisine.: https://www.youtube.com/shorts/NFXexRVMuZU <br>
 Image from famous shorts —> Video
 
 Shorts for seniors: https://www.fmkorea.com/best/9284726644

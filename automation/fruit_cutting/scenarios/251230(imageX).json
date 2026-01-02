@@ -1,28 +1,4 @@
 {
-    "scenario2": {
-        "Subject": "An oversized strawberry made entirely of compressed, vibrant red kinetic sand. The exterior features tiny white bead 'seeds,' and the crown is made of stiff, dark green felt leaves.",
-        "Action": "A surgical scalpel makes rapid, rhythmic vertical slices into the strawberry. Every 2 seconds, a new segment is carved, causing the sand to crumble and flow downward in a fluid motion.",
-        "Scene": "A minimalist white studio setting. The strawberry sits on a clean glass plate. Bright, even softbox lighting to eliminate harsh shadows and emphasize the texture of the sand.",
-        "Style": "Top-down bird's-eye view. Static camera. High-definition textures. Bright and airy aesthetic with a saturated color palette.",
-        "Sounds": "Granular, 'crunchy' cutting sounds of the blade through sand, accompanied by the soft, continuous 'rushing water' sound of the sand falling and hitting the glass.",
-        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
-    },
-    "scenario3": {
-        "Subject": "A pineapple model made of dense, jiggly translucent yellow silicone. The 'eyes' of the pineapple are sculpted as deep indentations, and the top is a rigid, realistic plastic crown.",
-        "Action": "A thin cheese wire with wooden handles is pulled horizontally through the middle of the pineapple. The silicone resists slightly before 'popping' through, causing the top half to bounce and wobble for 3 seconds.",
-        "Scene": "A tropical-themed outdoor patio at golden hour. The pineapple sits on a weathered teak wood table. Warm, orange sunlight filtering through palm leaves in the background.",
-        "Style": "Eye-level medium shot. Warm color grading. Handheld camera movement with slight stabilization to give a natural feel. Focus on the vibration of the silicone.",
-        "Sounds": "A high-tension 'zing' from the wire, followed by a wet, suction-like 'squelch' and a resonant 'boing' sound as the material wobbles.",
-        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
-    },
-    "scenario6": {
-        "Subject": "A cluster of grapes made of brittle, thin-walled purple sugar glass (isomalt). Each grape is hollow and filled with a small amount of dark purple glitter liquid.",
-        "Action": "A miniature silver hammer gently taps each grape. One by one, they shatter in a sequence, releasing the glitter liquid which flows across the surface.",
-        "Scene": "A luxury jewelry display case. The grapes sit on a white marble pedestal. Bright, sparkling spotlighting to emphasize the glass reflections and glitter.",
-        "Style": "Extreme macro shot. High frame rate for slow-motion shattering. Glamour-style film grade. Very shallow depth of field.",
-        "Sounds": "High-pitched 'tinkling' of glass, the sharp 'crack' of each grape breaking, and the rhythmic 'splashing' of the liquid hitting the marble.",
-        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
-    },
     "scenario7": {
         "Subject": "A lemon model made of cold-process artisanal soap. The rind is textured with a zester pattern, and the interior features translucent soap 'segments' that look like gelatin.",
         "Action": "A wavy-bladed crinkle cutter is pressed down through the lemon. The blade creates a satisfying 'pop' as it breaks the surface and slices through the segments in one clean motion.",
