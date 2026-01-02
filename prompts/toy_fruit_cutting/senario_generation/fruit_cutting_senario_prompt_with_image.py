@@ -1,6 +1,6 @@
 # Need to pass this prompt with sample fruit cutting image to LLM
 
-FRUIT_CUTTING_SCENARIO_PROMPT = """
+FRUIT_CUTTING_SCENARIO_PROMPT_WITH_IMAGE = """
 This image was captured from short form video content where various toy fruits are being cut. I want to create similar content.
 Give me 10 prompts with detailed scenarios for creating such video content.
 The scenarios should include different types of fruits being cut, various cutting tools, and unique backgrounds or settings to make each video visually appealing.
