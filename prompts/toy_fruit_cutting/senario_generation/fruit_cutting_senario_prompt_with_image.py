@@ -1,3 +1,4 @@
+# Have to use this prompt
 # Need to pass this prompt with sample fruit cutting image to LLM
 
 FRUIT_CUTTING_SCENARIO_PROMPT_WITH_IMAGE = """
