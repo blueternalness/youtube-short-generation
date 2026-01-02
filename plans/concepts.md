@@ -2,12 +2,13 @@
 ## 1 
 Toy fruit cutting ASMR: https://www.youtube.com/shorts/SDo_5rUn0iQ
 Image capture from famous shorts
-Request to LLM to create similar ideas
-Request to LLM to create Video prompts for the ideas
+Request to LLM to create similar video generation prompts with scenario generation prompt
+Generate Video on Gemini App(Automation) or Google flow(Manually)
 
 ## 2
 Cooking animals: https://www.youtube.com/shorts/OoctbVQhmpY
-Text —> Image —> Video
+Scenario generation with prompt without image --> Generate video on Google Flow without image
+
 
 
 ## TODO
