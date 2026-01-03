@@ -1,28 +1,4 @@
 {
-    "scenario7": {
-        "Subject": "A lemon model made of cold-process artisanal soap. The rind is textured with a zester pattern, and the interior features translucent soap 'segments' that look like gelatin.",
-        "Action": "A wavy-bladed crinkle cutter is pressed down through the lemon. The blade creates a satisfying 'pop' as it breaks the surface and slices through the segments in one clean motion.",
-        "Scene": "A clean, spa-like bathroom environment. The lemon sits on a ribbed ceramic soap dish. Soft, diffused lighting. A hint of steam in the air.",
-        "Style": "Fixed tripod shot, 45-degree angle. Clean and sterile aesthetic. High-saturation yellows. Focus on the ridges left by the crinkle cutter.",
-        "Sounds": "A dense, waxy 'pop' as the blade enters, followed by a rhythmic 'sliding' sound through the soap and a final 'click' against the ceramic dish.",
-        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
-    },
-    "scenario8": {
-        "Subject": "A Granny Smith apple made of soft balsa wood. The exterior is painted with a glossy green lacquer, and the stem is a real dried twig.",
-        "Action": "A razor-sharp wood carving chisel pushes through the top. It curls a long, thin shaving of green-painted wood upward before the apple splits perfectly in half.",
-        "Scene": "A traditional woodcarving workbench. Wood shavings and various chisels are scattered around. Warm, incandescent lamp lighting from the side to create long shadows.",
-        "Style": "Side-view macro. Detailed texture focus. Earthy color palette. Dramatic lighting emphasizing the wood grain and the curl of the shaving.",
-        "Sounds": "A sharp, clean 'crunch' of wood fibers snapping, the continuous 'shhhhh' of the chisel sliding, and the final 'snap' of the apple splitting.",
-        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
-    },
-    "scenario9": {
-        "Subject": "A kiwi model made of dry, green floral foam. The outer skin is brown flocked fabric (fuzzy texture), and the center has a white foam core with tiny black pins for seeds.",
-        "Action": "A serrated bread knife saws through the kiwi. The knife moves back and forth quickly, creating a spray of fine green dust before the slice falls over.",
-        "Scene": "A floral shop workspace. Scissors, ribbon, and flower stems are visible in the background. Bright, natural morning light. A green cutting mat serves as the base.",
-        "Style": "Over-the-shoulder shot. Zoom-in movement toward the cutting point. High-contrast colors (green vs. brown). Focus on the 'dust' particles.",
-        "Sounds": "Rough, 'scratchy' sawing sounds, the airy 'crunch' of the floral foam collapsing, and the soft 'thump' of the slice hitting the mat.",
-        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
-    },
     "scenario10": {
         "Subject": "A banana model made of thick, yellow paraffin wax. The 'peel' is a separate layer of softer wax, and the 'fruit' inside is a solid, ivory-colored wax cylinder.",
         "Action": "A heated metal spatula slides under the wax peel. The peel curls back smoothly in thick, ribbons. Then, the spatula slices the 'fruit' into three thick discs.",
