@@ -1,7 +1,7 @@
 # Have to use this prompt
 
 COOKING_ANIMAL_SCENARIO_PROMPT_WITHOUT_IMAGE = """
-I want to create short form video content where various animals are cooking food.
+I want to create short form video content where various adorable animals are cooking food.
 The animals should act like humans while cooking.
 The video should not include unrealistic scene transitions.
 Give me 10 prompts with detailed scenarios for creating such video content.
