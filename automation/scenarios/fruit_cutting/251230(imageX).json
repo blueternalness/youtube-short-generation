@@ -1,0 +1,10 @@
+{
+    "scenario10": {
+        "Subject": "A banana model made of thick, yellow paraffin wax. The 'peel' is a separate layer of softer wax, and the 'fruit' inside is a solid, ivory-colored wax cylinder.",
+        "Action": "A heated metal spatula slides under the wax peel. The peel curls back smoothly in thick, ribbons. Then, the spatula slices the 'fruit' into three thick discs.",
+        "Scene": "A cozy candle-making workshop. Various jars of wax and wicks in the background. Warm, flickering candlelight provides the primary illumination.",
+        "Style": "Extreme close-up. Slow, steady camera pan following the spatula. Warm, golden color grading. Soft focus on the background.",
+        "Sounds": "A smooth, low-pitched 'peeling' sound (like heavy tape), the wet 'slide' of the hot metal, and a heavy, dull 'thud' as the wax discs fall.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "scenario3": {
+        "Subject": "A pristine, giant blueberry made of blue floral foam. It is dry, crisp, and powdery to the touch with a matte finish.",
+        "Action": "A grid of wire cutters (egg slicer tool) is pressed down firmly over the berry. The wires sink in, creating a perfect grid pattern, before the berry is pushed all the way through, exploding into small cubes.",
+        "Scene": "A clean, white ceramic tile surface. The background is a blurred pastel blue gradient to match the subject.",
+        "Style": "Top-down (flat lay) perspective, stark even lighting to minimize shadows, high sharpness to capture the foam texture.",
+        "Sounds": "A loud, dry crushing noise (floral foam crunch), the ping of the wire tension, and the sound of foam blocks tumbling.",
+        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario4": {
+        "Subject": "A peach made of solid, brittle soap. The exterior is painted with a fuzzy gradient pink-orange texture. The inside is solid white soap.",
+        "Action": "An X-Acto knife carves thin, curling shavings off the side of the peach. The knife moves in short, quick, repetitive strokes, creating a pile of soap curls.",
+        "Scene": "A glass table elevated against a clear blue sky backdrop. The scene is bright and outdoor-themed.",
+        "Style": "Extreme macro zoom on the blade edge, shallow depth of field, vibrant colors, slightly overexposed for a dreamy look.",
+        "Sounds": "Dry scraping sounds, the snap of the soap curls breaking off, and the rhythmic 'shhh-shhh' of the carving.",
+        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario5": {
+        "Subject": "A dragon fruit made of soft, slow-rising memory foam. The exterior is bright pink with green scales, the interior is white with black painted dots.",
+        "Action": "A pair of large, sharp golden scissors snips the top off the fruit, then proceeds to cut the body into vertical strips. The foam compresses deeply under the blades before expanding back to shape.",
+        "Scene": "A pastel pink velvet surface. The lighting is softbox studio lighting, creating a cozy and soft atmosphere.",
+        "Style": "45-degree angle, soft focus edges, warm color temperature, emphasizing the elasticity of the foam.",
+        "Sounds": "Soft, airy snipping sounds, the 'hiss' of air re-entering the foam as it expands, and the metallic 'clack' of the scissors closing.",
+        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario6": {
+        "Subject": "A clear, hollow glass apple filled with colored water and glitter. The glass is thin and fragile.",
+        "Action": "A heavy metal meat tenderizer hammer strikes the apple once with precision. The glass shatters instantly, splashing the colored water outward in slow motion.",
+        "Scene": "A waterproof dark grey slate surface. Backlighting shines through the water-filled apple, illuminating the glitter.",
+        "Style": "Super slow motion (120fps+), dramatic lighting, focus on the explosion of shards and liquid droplets.",
+        "Sounds": "A high-pitched glass shattering sound, followed by the heavy splash of water and the tinkling of shards hitting the slate.",
+        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario8": {
+        "Subject": "A pineapple made of frozen ice, colored yellow and green. Frost covers the surface.",
+        "Action": "A serrated bread knife saws back and forth through the ice pineapple. Ice shavings fly off like snow with every movement of the saw.",
+        "Scene": "A wooden chopping block covered in frost. Background is a blurred wintery window with cool blue tones.",
+        "Style": "Close-up, cool color palette (blues and cyans), high shutter speed to capture the flying ice particles sharply.",
+        "Sounds": "Loud, harsh grinding and scraping of metal on ice, the sound of shaved ice spraying onto the wood.",
+        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario9": {
+        "Subject": "A cluster of grapes made of wax-covered balloons filled with cornstarch (stress ball texture). Purple exterior.",
+        "Action": "A razor blade slices cleanly through one grape at a time. The wax coating snaps open, and the cornstarch inside holds the cut shape without spilling.",
+        "Scene": "A mirrored surface reflecting the grapes. Dark purple mood lighting in the background.",
+        "Style": "Extreme close-up, very shallow depth of field, moody aesthetic with reflections playing on the mirror.",
+        "Sounds": "A distinct rubbery 'snap' as the balloon skin is cut, followed by a dry, powdery 'crunch' of the cornstarch separating.",
+        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
+    },
+    "scenario10": {
+        "Subject": "A giant strawberry made of layered playdough. Red outer layer, white inner layer, and a green playdough stem.",
+        "Action": "A plastic roller cutter is pushed forcefully through the strawberry, flattening and cutting it simultaneously. The colors smear slightly at the edges.",
+        "Scene": "A bright yellow plastic cutting board. The background is a blurred playroom shelf filled with colorful toys.",
+        "Style": "High angle, saturated primary colors, playful and bright aesthetic, flat lighting.",
+        "Sounds": "A dull, thick squishing noise, the sound of the plastic roller squeaking, and the suction sound of dough lifting off the board.",
+        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
+    }
+}

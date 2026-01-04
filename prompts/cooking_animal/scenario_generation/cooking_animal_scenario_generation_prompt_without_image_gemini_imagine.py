@@ -16,7 +16,7 @@ For each scenario, write prompts in the following JSON format:
         "Scene": [Detailed environment description including location, props, background elements, lighting setup, weather, time of day, architectural details. No unrealistic scene transitions.],
         "Style": [Camera shot type, angle, movement, lighting style, visual aesthetic, color palette, depth of field, focus techniques.],
         "Sounds": [Specific audio elements including ambient sounds, effects, background audio, music, environmental noise, equipment sounds, natural acoustics],
-        "Technical(Negative Prompt)": No captions, and No unrealistic scene transitions.
+        "Technical(Negative Prompt)": No captions, No unrealistic scenes, and No unrealistic scene transitions.
     },
 }
 """
