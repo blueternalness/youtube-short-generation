@@ -1,12 +1,4 @@
 {
-    "scenario3": {
-        "Subject": "A happy Golden Retriever wearing a red checkered bandana around its neck. The dog is standing on its hind legs, leaning against a sturdy outdoor stone counter.",
-        "Action": "The dog uses a wooden rolling pin to roll out pizza dough. It pushes the rolling pin forward and backward with its front paws, panting happily. The dough flattens realistically under the pressure.",
-        "Scene": "An outdoor patio kitchen with a brick pizza oven in the background with a fire burning inside. Surrounded by potted basil plants and olive oil bottles. Bright, natural daylight.",
-        "Style": "Wide-angle shot to capture the environment and the dog's size. Bright, vibrant colors with high contrast. Dynamic lighting from the sun. 4k definition.",
-        "Sounds": "Rolling pin rumbling on dough, crackling fire from the oven, wind rustling leaves, happy dog panting.",
-        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no glitching, no cartoon physics."
-    },
     "scenario4": {
         "Subject": "A round Giant Panda sitting comfortably, wearing a simple white chef's coat. It is holding a large metal wok handle.",
         "Action": "The panda skillfully tosses vegetables (broccoli, carrots, peppers) in the wok over a gas flame. The vegetables fly up into the air and land back in the pan. Steam rises from the hot food.",

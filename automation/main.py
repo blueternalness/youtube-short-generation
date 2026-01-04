@@ -209,7 +209,6 @@ class GrokAutomation:
         self.driver.get("https://grok.com/imagine")
 
     def run_generation(self, scenario):
-        #if "imagine" not in self.driver.current_url:
         self.driver.get("https://grok.com/imagine")
         time.sleep(3)
 
@@ -229,11 +228,6 @@ class GrokAutomation:
             input_box = self.wait.until(EC.presence_of_element_located(
                 (By.CSS_SELECTOR, "div[contenteditable='true']")
             ))
-
-            # Clear & Enter
-            #input_box.send_keys(Keys.COMMAND + "a")
-            #input_box.send_keys(Keys.DELETE)
-            #time.sleep(0.5)
             
             input_box.send_keys(prompt)
             time.sleep(1)
@@ -244,7 +238,7 @@ class GrokAutomation:
             # Sleep until video appears
             # For now, just wait fixed time.
             # TODO We can improve this later with better detection by waiting until generating message disappears
-            time.sleep(60)
+            time.sleep(90)
 
             # Wait for specific download button
             download_btn = self.long_wait.until(EC.element_to_be_clickable(
@@ -275,7 +269,7 @@ class GrokAutomation:
             time.sleep(1)
 
             # Click Unsave if present
-            # TODO: Grok menu items don't consist of buttons. They are divs.
+            # Grok menu items don't consist of buttons. They are divs.
             try:
                 unsave_xpath = "//div[@role='menuitem']//span[text()='Unsave']/.."
                 element = self.wait.until(
@@ -283,14 +277,6 @@ class GrokAutomation:
                 )
 
                 self.driver.execute_script("arguments[0].click();", element)
-
-                """
-                unsave_btn = self.wait.until(EC.element_to_be_clickable(
-                    (By.XPATH, "//div[contains(text(), 'Unsave')]")
-                ))
-                unsave_btn.click()
-                """
-
                 print("[*] Clicked 'Unsave'.")
                 time.sleep(1)
                 more_menu.click() # Re-open menu
@@ -306,8 +292,13 @@ class GrokAutomation:
             )
 
             self.driver.execute_script("arguments[0].click();", element)
-            
-            # Confirm
+
+            delete_button = self.wait.until(
+                EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Delete post']"))
+            )
+
+            delete_button.click()            
+
             """
             try:
                 confirm_btn = self.driver.find_element(By.XPATH, "//button[contains(text(), 'Delete') and not(contains(text(), 'post'))]")
