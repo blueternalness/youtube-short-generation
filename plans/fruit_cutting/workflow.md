@@ -23,8 +23,8 @@ https://new.express.adobe.com/home/tools/merge-videos
 ## Google Gemini app video creation within day limit
 ```
 source /Users/vhehf/Desktop/"Personal materials"/StartUp/YoutubeShortsGeneration/shorts-generation/bin/activate 
-cd /Users/vhehf/Desktop/"Personal materials"/StartUp/YoutubeShortsGeneration/youtube-short-generation/automation/fruit_cutting/
-python video_generator.py
+cd /Users/vhehf/Desktop/"Personal materials"/StartUp/YoutubeShortsGeneration/youtube-short-generation/automation/
+python main.py --mode gemini
 ```
 
 ### Disclaimer
