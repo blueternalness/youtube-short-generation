@@ -225,15 +225,14 @@ class GrokAutomation:
         print(f"[*] Sending prompt to Grok: {prompt[:50]}...")
 
         try:
-            # Locate input textarea
             input_box = self.wait.until(EC.presence_of_element_located(
-                (By.TAG_NAME, "textarea") 
+                (By.CSS_SELECTOR, "div[contenteditable='true']")
             ))
-            
+
             # Clear & Enter
-            input_box.send_keys(Keys.COMMAND + "a")
-            input_box.send_keys(Keys.DELETE)
-            time.sleep(0.5)
+            #input_box.send_keys(Keys.COMMAND + "a")
+            #input_box.send_keys(Keys.DELETE)
+            #time.sleep(0.5)
             
             input_box.send_keys(prompt)
             time.sleep(1)
@@ -382,7 +381,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--folder", 
         type=str, 
-        help="Path to the scenarios folder. Defaults to ./automation/<mode>/scenarios"
+        help="Path to the scenarios folder. Defaults to ./<mode>/scenarios"
     )
     
     # 3. Count Argument (Optional)
@@ -397,7 +396,8 @@ if __name__ == "__main__":
 
     # Determine default folder if not provided
     if not args.folder:
-        args.folder = f"./automation/{args.mode}/scenarios"
+        # TODO: Update paths as necessary (If we need to add more modes or scenarios in future)
+        args.folder = f"./{args.mode}/scenarios/fruit_cutting" if args.mode == "gemini" else f"./{args.mode}/scenarios/animal_chef"
 
     # Validate folder existence
     if not os.path.exists(args.folder):
