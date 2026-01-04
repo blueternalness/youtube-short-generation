@@ -15,6 +15,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
+import random
 
 # ==========================================
 #             SHARED UTILITIES
@@ -239,10 +240,7 @@ class GrokAutomation:
             # Sleep until video appears
             # For now, just wait fixed time.
             # TODO We can improve this later with better detection by waiting until generating message disappears
-            time.sleep(80)
-
-            # TODO: move this detection to the end of the video generation process
-
+            time.sleep(60 + random.randint(1, 5))
 
             # Wait for specific download button
             download_btn = self.long_wait.until(EC.element_to_be_clickable(
@@ -409,7 +407,7 @@ if __name__ == "__main__":
     # Determine default folder if not provided
     if not args.folder:
         # TODO: Update paths as necessary (If we need to add more modes or scenarios in future)
-        args.folder = f"./{args.mode}/scenarios/fruit_cutting" if args.mode == "gemini" else f"./{args.mode}/scenarios/animal_chef"
+        args.folder = f"./{args.mode}/scenarios/fruit_cutting" if args.mode == "gemini" else f"./{args.mode}/scenarios/animal_mukbang"
 
     # Validate folder existence
     if not os.path.exists(args.folder):
