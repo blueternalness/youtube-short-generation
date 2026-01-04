@@ -1,5 +1,5 @@
-# Techstacks
-Prompt Engineering, Gen AI(Text, Image, Video)
+# Tech stacks
+Prompt Engineering, Selenium, Gen AI(Text, Image, Video)
 
 
 # References
