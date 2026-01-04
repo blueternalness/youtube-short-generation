@@ -240,7 +240,7 @@ class GrokAutomation:
             # Sleep until video appears
             # For now, just wait fixed time.
             # TODO We can improve this later with better detection by waiting until generating message disappears
-            time.sleep(60 + random.randint(1, 5))
+            time.sleep(50 + random.randint(1, 5))
 
             # Wait for specific download button
             download_btn = self.long_wait.until(EC.element_to_be_clickable(
@@ -354,6 +354,7 @@ class AutomationController:
             print(f"[*] File: {os.path.basename(filepath)} | Scenario: {key}")
             
             self.bot.focus_tab()
+            time.sleep(1)
 
             try:
                 self.bot.run_generation(scenario)
@@ -369,7 +370,7 @@ class AutomationController:
                 # On random error, skip to next iteration
                 continue
             
-            time.sleep(5)
+            time.sleep(3)
 
 # ==========================================
 #             MAIN ENTRY
