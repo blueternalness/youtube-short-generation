@@ -407,7 +407,7 @@ if __name__ == "__main__":
     # Determine default folder if not provided
     if not args.folder:
         # TODO: Update paths as necessary (If we need to add more modes or scenarios in future)
-        args.folder = f"./{args.mode}/scenarios/fruit_cutting" if args.mode == "gemini" else f"./{args.mode}/scenarios/animal_mukbang"
+        args.folder = f"./{args.mode}/scenarios/fruit_cutting" if args.mode == "gemini" else f"./{args.mode}/scenarios/tiny_worker_construct_food"
 
     # Validate folder existence
     if not os.path.exists(args.folder):
