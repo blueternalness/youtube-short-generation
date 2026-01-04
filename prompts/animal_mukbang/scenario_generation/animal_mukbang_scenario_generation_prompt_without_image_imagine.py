@@ -8,7 +8,6 @@ Give me top 5 prompts with detailed scenarios for creating such video content. T
 The scenarios should include different types of foods, various animals, and unique backgrounds or settings to make each video visually appealing.
 The eating sounds should be emphasized in the scenarios to enhance the sensory experience for viewers.
 
-
 For each scenario, write prompts in the following JSON format:
 
 {
@@ -17,7 +16,7 @@ For each scenario, write prompts in the following JSON format:
         "Action": [Specific eating actions, behaviors, movements, sequence, interaction patterns that can be performed in 6 seconds.],
         "Scene": [Detailed environment description including location, props, background elements, lighting setup, weather, time of day, architectural details. No unrealistic scene transitions.],
         "Style": [Camera shot type, angle, movement, lighting style, visual aesthetic, color palette, depth of field, focus techniques.],
-        "Sounds": [Specific audio elements including ambient sounds, effects, background audio, music, environmental noise, equipment sounds, natural acoustics],
+        "Sounds": [Specific ASMR audio elements including eating sounds based on the subject, food, and action.],
         "Technical(Negative Prompt)": No captions, No unrealistic scenes, and No unrealistic scene transitions.
     },
 }
