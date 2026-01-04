@@ -5,6 +5,7 @@ import glob
 import sys
 import subprocess
 import argparse
+import sys
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -212,10 +213,6 @@ class GrokAutomation:
         self.driver.get("https://grok.com/imagine")
         time.sleep(3)
 
-        # TODO: move this detection to the end of the video generation process
-        if self.is_rate_limited():
-            raise Exception("Rate Limit Reached")
-
         prompt = (
             f"Subject: {scenario.get('Subject', '')} "
             f"Action: {scenario.get('Action', '')} "
@@ -235,10 +232,17 @@ class GrokAutomation:
             
             print("[*] Prompt submitted. Waiting for generation...")
 
+            time.sleep(5)
+            if self.is_rate_limited():
+                raise Exception("Rate Limit Reached")
+
             # Sleep until video appears
             # For now, just wait fixed time.
             # TODO We can improve this later with better detection by waiting until generating message disappears
-            time.sleep(90)
+            time.sleep(80)
+
+            # TODO: move this detection to the end of the video generation process
+
 
             # Wait for specific download button
             download_btn = self.long_wait.until(EC.element_to_be_clickable(
@@ -298,14 +302,6 @@ class GrokAutomation:
             )
 
             delete_button.click()            
-
-            """
-            try:
-                confirm_btn = self.driver.find_element(By.XPATH, "//button[contains(text(), 'Delete') and not(contains(text(), 'post'))]")
-                confirm_btn.click()
-            except:
-                pass
-            """
 
             time.sleep(2)
 
@@ -369,6 +365,8 @@ class AutomationController:
                 print(f"[!] Stopping batch due to error: {e}")
                 if "Rate Limit" in str(e):
                     print("[!] Exiting due to Rate Limit.")
+                    os.system("pkill -f 'Google Chrome'")
+                    sys.exit(0)
                     break
                 # On random error, skip to next iteration
                 continue

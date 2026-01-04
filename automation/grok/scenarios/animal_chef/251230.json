@@ -1,18 +1,42 @@
 {
-    "scenario4": {
-        "Subject": "A round Giant Panda sitting comfortably, wearing a simple white chef's coat. It is holding a large metal wok handle.",
-        "Action": "The panda skillfully tosses vegetables (broccoli, carrots, peppers) in the wok over a gas flame. The vegetables fly up into the air and land back in the pan. Steam rises from the hot food.",
-        "Scene": "A professional kitchen station with stainless steel equipment. In the background, there is a blurred view of a busy kitchen environment with hanging pots and pans. Steam and smoke create an atmospheric effect.",
-        "Style": "Action shot, slightly low angle looking up at the wok to catch the toss. High shutter speed look to freeze the vegetables in mid-air. Dramatic kitchen lighting with steam highlights.",
-        "Sounds": "Sizzling oil, clanging of metal wok against the burner, whoosh sound of the vegetables being tossed, fire roaring.",
-        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no defying gravity, no extra limbs."
-    },
-    "scenario5": {
-        "Subject": "A tiny Golden Hamster standing on a miniature wooden box to reach the counter. It is wearing a tiny toque blanche (tall chef hat).",
-        "Action": "The hamster holds a miniature spatula and flips a tiny, coin-sized pancake on a griddle. The pancake flips over, revealing a golden-brown cooked side. The hamster watches it intently.",
-        "Scene": "A macro-scale miniature kitchen set. Giant-looking (normal size) blueberries and a bottle of maple syrup are visible in the background, emphasizing the small scale of the hamster.",
-        "Style": "Macro photography style, extreme close-up. Shallow depth of field where the background is very blurry. Bright, soft, diffused lighting to make it look like a commercial.",
-        "Sounds": "Sizzle of batter, tiny metal clink of the spatula, soft sniffing sounds.",
-        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no blurriness on subject, no distorted face."
-    }
+  "scenario1": {
+    "Subject": "A fluffy Holland Lop rabbit with soft cream and white fur, wearing a miniature pastel pink apron and a tiny baker's hat. The rabbit is standing upright on a stool, appearing focused and cute.",
+    "Action": "The rabbit holds a small wooden spoon with its paws and stirs cupcake batter in a ceramic mixing bowl. It accidentally gets a small smudge of white flour on its nose, twitches its nose, and continues stirring rhythmically.",
+    "Scene": "A sun-drenched rustic cottage kitchen with wooden countertops. In the background, there are jars of flour, a vintage oven, and a window with sheer curtains letting in warm morning light. Dust motes dance in the light.",
+    "Style": "Medium close-up shot at eye level with the rabbit. Soft focus background (bokeh) to emphasize the rabbit. Warm, golden-hour lighting with a cinematic, cozy aesthetic. High resolution, photorealistic textures.",
+    "Sounds": "Sound of a spoon scraping against a ceramic bowl, soft ambient bird chirping from outside, light breathing sounds.",
+    "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no morphing, no distortion."
+  },
+  "scenario2": {
+    "Subject": "A chubby British Shorthair cat with grey fur, wearing a traditional white Japanese sushi chef headband and a dark blue happi coat. The cat has paws that look like hands manipulating objects.",
+    "Action": "The cat carefully rolls a sushi roll using a bamboo mat on a wooden counter. It presses down firmly with its paws to shape the rice, then lifts the mat to reveal a perfectly formed roll, looking at it with satisfaction.",
+    "Scene": "A traditional sushi bar setting with light pine wood surfaces. Behind the cat, there is a noren curtain and a display case with fresh fish. Soft, warm indoor lighting typical of a high-end restaurant.",
+    "Style": "Close-up shot focusing on the paws and the sushi roll. Sharp focus on the action area, shallow depth of field. Clean, minimalist composition with cool and neutral tones.",
+    "Sounds": "Sound of the bamboo mat rolling (crinkling wood sound), sticky rice squishing slightly, quiet ambient restaurant jazz.",
+    "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no floating objects, no human hands."
+  },
+  "scenario3": {
+    "Subject": "A happy Golden Retriever wearing a red checkered bandana around its neck. The dog is standing on its hind legs, leaning against a sturdy outdoor stone counter.",
+    "Action": "The dog uses a wooden rolling pin to roll out pizza dough. It pushes the rolling pin forward and backward with its front paws, panting happily. The dough flattens realistically under the pressure.",
+    "Scene": "An outdoor patio kitchen with a brick pizza oven in the background with a fire burning inside. Surrounded by potted basil plants and olive oil bottles. Bright, natural daylight.",
+    "Style": "Wide-angle shot to capture the environment and the dog's size. Bright, vibrant colors with high contrast. Dynamic lighting from the sun. 4k definition.",
+    "Sounds": "Rolling pin rumbling on dough, crackling fire from the oven, wind rustling leaves, happy dog panting.",
+    "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no glitching, no cartoon physics."
+  },
+  "scenario4": {
+    "Subject": "A round Giant Panda sitting comfortably, wearing a simple white chef's coat. It is holding a large metal wok handle.",
+    "Action": "The panda skillfully tosses vegetables (broccoli, carrots, peppers) in the wok over a gas flame. The vegetables fly up into the air and land back in the pan. Steam rises from the hot food.",
+    "Scene": "A professional kitchen station with stainless steel equipment. In the background, there is a blurred view of a busy kitchen environment with hanging pots and pans. Steam and smoke create an atmospheric effect.",
+    "Style": "Action shot, slightly low angle looking up at the wok to catch the toss. High shutter speed look to freeze the vegetables in mid-air. Dramatic kitchen lighting with steam highlights.",
+    "Sounds": "Sizzling oil, clanging of metal wok against the burner, whoosh sound of the vegetables being tossed, fire roaring.",
+    "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no defying gravity, no extra limbs."
+  },
+  "scenario5": {
+    "Subject": "A tiny Golden Hamster standing on a miniature wooden box to reach the counter. It is wearing a tiny toque blanche (tall chef hat).",
+    "Action": "The hamster holds a miniature spatula and flips a tiny, coin-sized pancake on a griddle. The pancake flips over, revealing a golden-brown cooked side. The hamster watches it intently.",
+    "Scene": "A macro-scale miniature kitchen set. Giant-looking (normal size) blueberries and a bottle of maple syrup are visible in the background, emphasizing the small scale of the hamster.",
+    "Style": "Macro photography style, extreme close-up. Shallow depth of field where the background is very blurry. Bright, soft, diffused lighting to make it look like a commercial.",
+    "Sounds": "Sizzle of batter, tiny metal clink of the spatula, soft sniffing sounds.",
+    "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no blurriness on subject, no distorted face."
+  }
 }
