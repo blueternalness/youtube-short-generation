@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "A fluffy, beige Holland Lop rabbit wearing a miniature white chef's hat and a tiny pastel pink apron. The rabbit has soft fur texture and large, expressive dark eyes.",
+        "Action": "The rabbit is standing on a stool, holding a small icing piping bag with both front paws. It squeezes a swirl of white buttercream frosting onto a golden-brown cupcake. The movement is steady and focused, mimicking a human pastry chef finishing a dessert.",
+        "Scene": "A bright, cozy country-style kitchen counter. In the background, there is a wire cooling rack with un-frosted cupcakes and a bowl of colorful sprinkles. Soft morning sunlight streams through a window, illuminating floating dust particles.",
+        "Style": "Close-up macro shot focusing on the paws and the cupcake. Shallow depth of field (bokeh) to blur the kitchen background. bright high-key lighting, soft pastel color palette, sharp focus on the frosting texture.",
+        "Sounds": "Soft ambient kitchen noise, the faint squishing sound of frosting leaving the piping bag, light acoustic guitar background music.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no morphing, no extra limbs, no cartoon physics."
+    },
+    "scenario2": {
+        "Subject": "A grey British Shorthair cat wearing a traditional Japanese headband (hachimaki) and a dark blue happi coat. The cat appears serious and professional.",
+        "Action": "The cat uses its front paws to roll a bamboo sushi mat. It presses down firmly but gently to shape the sushi roll inside. It then lifts its paws to reveal a perfectly rolled seaweed-wrapped roll.",
+        "Scene": "A traditional wooden sushi bar counter. In the foreground, there are slices of fresh salmon and tuna on a ceramic plate. In the background, warm paper lanterns hang from the ceiling, casting a warm glow.",
+        "Style": "Eye-level medium shot. Warm, cinematic lighting with rich wood tones. High contrast to highlight the texture of the fish and the bamboo mat. 4k resolution, photorealistic.",
+        "Sounds": "The sound of bamboo sticks clinking together, faint ambient chatter of a restaurant, soft traditional koto music.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no distorted paws, no flying objects."
+    },
+    "scenario3": {
+        "Subject": "A Red Panda with distinct reddish-brown fur and white markings, wearing a checkered flannel shirt with sleeves rolled up. It is standing upright.",
+        "Action": "The Red Panda holds a spatula in one paw. It slides the spatula under a fluffy pancake cooking on a griddle, pauses for a split second, and flips it over. The pancake lands perfectly on the cooked side.",
+        "Scene": "A rustic outdoor camping setup. A cast-iron griddle is placed over a controlled campfire. Tall pine trees and a misty forest visible in the background. Steam rises from the hot pancake.",
+        "Style": "Side profile shot to capture the flipping motion. Natural outdoor lighting, slightly cool tones for the forest background contrasted with the warm fire light. fast shutter speed to capture the flip clearly.",
+        "Sounds": "Sizzling of batter on the griddle, crackling of firewood, chirping birds in the distance, upbeat whistling tune.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no human hands, no floating cookware."
+    },
+    "scenario4": {
+        "Subject": "A Golden Retriever wearing a classic white apron. The dog has a happy expression with mouth slightly open.",
+        "Action": "The dog is standing on hind legs (supported by the counter), holding a long wooden spoon with its right paw. It is slowly stirring a large pot of red tomato sauce. The motion is circular and rhythmic.",
+        "Scene": "A modern, white marble kitchen island. Fresh basil leaves, garlic cloves, and raw pasta are scattered artistically on the counter. Steam rises gently from the stainless steel pot.",
+        "Style": "Over-the-shoulder shot (or over-the-paw shot) looking down into the pot. Bright, crisp commercial lighting. Vibrant red and green colors. 60fps for smooth motion.",
+        "Sounds": "Bubbling of the sauce, rhythmic scraping of the wooden spoon against the pot, light jazz piano background music.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no messy fur in food, no anthropomorphic hands (must be paws)."
+    },
+    "scenario5": {
+        "Subject": "A Capybara looking calm and zen, wearing a tropical floral print shirt. It has a round, sturdy build.",
+        "Action": "The Capybara uses a pair of wooden tongs held in its front feet to pick up sliced strawberries and blueberries. It carefully places them onto a bed of greens in a wooden salad bowl.",
+        "Scene": "A sunny wooden deck or balcony table. In the background, out of focus, is a swimming pool and palm trees. A glass of iced lemonade sits next to the salad bowl.",
+        "Style": "Medium shot at eye level. Saturated, summery colors (blues, greens, reds). Sunlight creates hard shadows indicative of a hot day. Crystal clear focus.",
+        "Sounds": "Ice cubes clinking in a glass, crunching of fresh greens, ambient poolside splashes, relaxed bossa nova music.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no floating ingredients, no glitchy movements."
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "A fluffy Holland Lop rabbit with soft cream-colored fur, wearing a tiny white linen baker's apron and a miniature chef's toque. The rabbit has flour lightly dusted on its nose and paws.",
+        "Action": "The rabbit stands on a sturdy wooden stool to reach the counter. In a continuous 6-second shot, it uses both front paws to rhythmically knead a small ball of dough. The rabbit pauses to pick up a small wooden rolling pin and rolls it forward once over the dough with focused determination.",
+        "Scene": "A rustic, sunlit cottage kitchen with exposed wooden beams. A wooden countertop covered in scattered flour, a ceramic bowl of eggs, and a jar of sugar. Sunlight streams through a window with lace curtains, illuminating the floating flour dust particles.",
+        "Style": "Eye-level close-up shot, shallow depth of field with focus on the rabbit's paws and the dough. Soft, warm morning lighting. High definition, realistic texture rendering of fur and flour.",
+        "Sounds": "Soft thumping of dough being kneaded, the wooden rolling pin rumbling against the board, birds chirping faintly outside, gentle breathing sounds.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no morphing, no floating objects."
+    },
+    "scenario2": {
+        "Subject": "A sleek Sea Otter with wet, dark brown fur, wearing a traditional Japanese hachimaki (headband) with a blue wave pattern. The otter is holding a small, sharp sushi knife.",
+        "Action": "The otter stands at a low prep table. Over 6 seconds, it carefully places a slice of bright orange salmon onto a small mound of white rice. It then uses its front paws to gently press the fish onto the rice, shaping the nigiri with professional precision, then looks up at the camera.",
+        "Scene": "A minimalist, high-end sushi bar setting. A smooth cypress wood counter, a bamboo rolling mat, a small dish of soy sauce, and a vase with a single cherry blossom branch in the background. Soft, cool interior lighting.",
+        "Style": "45-degree angle macro shot focusing on the dexterity of the paws. Clean, sharp focus. Cool color palette featuring wood tones, white rice, and orange fish.",
+        "Sounds": "The squishing sound of sticky rice being shaped, the soft tap of the fish being placed, quiet ambient restaurant chatter in the distance.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no cartoon physics, no distortion."
+    },
+    "scenario3": {
+        "Subject": "A Golden Retriever puppy with golden-blonde fur, wearing a red checkered bandana around its neck and holding a long wooden spoon in its mouth.",
+        "Action": "The puppy is standing on its hind legs, front paws resting on the edge of a stove (safely). Over the 6 seconds, the puppy moves its head to stir a large silver pot of pasta sauce with the spoon in a circular motion. Steam rises from the pot as the puppy watches the food intently.",
+        "Scene": "A cozy, Italian-style family kitchen with tiled backsplash. A pot of bubbling red tomato sauce on a gas stove. Fresh basil leaves and garlic cloves are visible on the counter nearby. Warm, tungsten kitchen lighting.",
+        "Style": "Medium shot capturing the puppy from the waist up. Slow-motion effect on the rising steam. Rich, saturated colors (reds and golds). Cinematic lighting emphasizing the gloss of the sauce.",
+        "Sounds": "Bubbling of thick tomato sauce, the rhythmic clinking of the wooden spoon against the metal pot, soft panting of the dog.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no flying ingredients, no unnatural movements."
+    },
+    "scenario4": {
+        "Subject": "A chubby North American Raccoon with distinct black mask markings, wearing a denim BBQ apron that is slightly too big. It is holding a metal spatula.",
+        "Action": "The raccoon stands safely on a log next to a small charcoal grill. In the 6-second clip, it deftly slides the spatula under a vegetable skewer and flips it over. Sparks fly gently from the charcoal as the food hits the grate.",
+        "Scene": "An outdoor campsite in a pine forest during twilight. A small portable charcoal grill glowing with heat. Background shows pine trees, a tent, and fireflies starting to appear. Smoky atmosphere.",
+        "Style": "Low-angle shot looking up slightly at the grill and raccoon. High contrast lighting from the glowing embers illuminating the raccoon's face. Smoky, cinematic aesthetic.",
+        "Sounds": "Loud sizzling of food on the grill, crackling of charcoal, crickets chirping, the metal scrape of the spatula.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no fire breathing, no magical effects."
+    },
+    "scenario5": {
+        "Subject": "A British Shorthair cat with grey plush fur and copper eyes, wearing a small silk bow tie. The cat is sitting upright on a kitchen island.",
+        "Action": "The cat holds a small metal whisk between its two front paws. Over 6 seconds, it vigorously whisks a yellow batter in a glass bowl, creating ripples. The cat pauses briefly to lick a small drop of batter off its paw.",
+        "Scene": "A modern, bright white kitchen with marble countertops. A glass bowl containing pancake batter, a carton of milk, and a plate of blueberries. Natural daylight flooding in from a large window.",
+        "Style": "Over-the-shoulder shot (or over-the-paw) looking down into the bowl. Bright, high-key lighting. Sharp focus on the whisk and the swirling batter.",
+        "Sounds": "The rapid rhythmic whisking sound against glass, the liquid slosh of the batter, a soft purring sound.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no levitating tools, no human hands visible."
+    }
+}

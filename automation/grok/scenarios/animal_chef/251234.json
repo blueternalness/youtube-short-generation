@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "A fluffy Holland Lop rabbit with soft cream-colored fur, wearing a miniature white chef's apron and a tiny baker's hat. The rabbit is standing upright on a wooden stool, appearing focused and gentle.",
+        "Action": "The rabbit uses its front paws to sift powdered sugar over a freshly baked, steaming berry pie. It holds a small metal sieve, shaking it rhythmically for 4 seconds, then leans in slightly to inspect the even coating for the final 2 seconds.",
+        "Scene": "A rustic, sun-drenched cottage kitchen with wooden countertops. In the background, there is a window with white lace curtains letting in golden hour light, and shelves filled with ceramic jars. No unrealistic flying objects.",
+        "Style": "Cinematic macro shot, shallow depth of field focusing sharply on the rabbit's paws and the falling sugar dust. Warm color temperature, soft natural lighting, high resolution texture on the fur and pastry crust.",
+        "Sounds": "Soft acoustic guitar melody, the gentle sound of sifting sugar (hissing sand sound), birds chirping faintly in the background, warm ambient room tone.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no morphing, no distortion, no cartoon physics."
+    },
+    "scenario2": {
+        "Subject": "A Calico cat with distinct orange, black, and white patches, wearing a traditional Japanese happi coat (blue with white patterns). The cat has a serious, master-chef expression.",
+        "Action": "The cat stands behind a wooden counter. It uses a small, sharp sashimi knife to slice a piece of fresh salmon. The motion is smooth and precise (slices once), then it uses a paw to gently push the slice onto a ball of rice.",
+        "Scene": "A high-end, dimly lit sushi bar with a polished cypress wood counter. Behind the cat, soft steam rises from a rice cooker, and subtle paper lanterns provide warm, amber illumination. Authentic bamboo mat on the table.",
+        "Style": "Eye-level medium close-up, sharp focus on the knife and fish. Moody lighting with high contrast (chiaroscuro), rich colors highlighting the orange of the salmon and the cat's fur.",
+        "Sounds": "Traditional koto music, the sharp 'shhh' sound of a knife slicing fish, bubbling water sound from the steamer, quiet restaurant ambience.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no floating ingredients, no blurry paws, no extra limbs."
+    },
+    "scenario3": {
+        "Subject": "A Golden Retriever puppy with shiny gold fur, wearing a red checkered bandana around its neck. The puppy looks happy and eager.",
+        "Action": "The puppy is flipping a pancake in a frying pan. It holds the handle of the pan with both front paws, performs a quick upward jerk to flip the pancake into the air (slow motion for a split second), and catches it perfectly in the pan.",
+        "Scene": "A bright, modern kitchen with white marble islands and stainless steel appliances. Morning sunlight streams through large glass doors, illuminating a vase of sunflowers in the background.",
+        "Style": "Slow-motion capture for the flip action. Bright, high-key lighting, vibrant colors. 4k realism with clear focus on the pancake rotating in the air.",
+        "Sounds": "Upbeat whistling tune, the sizzle of butter in a hot pan, a satisfying 'thump' sound when the pancake lands, happy panting sound.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no chaotic physics, no human hands visible."
+    },
+    "scenario4": {
+        "Subject": "A Red Panda with rusty-red fur and white ear tips, wearing a denim apron. It is holding a small metal milk frothing pitcher.",
+        "Action": "The Red Panda pours steamed milk into a ceramic coffee cup to create latte art. It tilts the pitcher carefully with steady paws, forming a heart shape in the crema. It lifts the pitcher at the end to finish the design.",
+        "Scene": "A trendy, industrial-style coffee shop with exposed brick walls and hanging Edison bulbs. An espresso machine is visible in the blurred foreground emitting a wisp of steam.",
+        "Style": "Over-the-shoulder shot looking down at the cup (top-down perspective shifting to side view). Rich browns and creams in the color palette. Bokeh effect on the background lights.",
+        "Sounds": "Jazz piano background music, the sound of liquid pouring, clinking of ceramic cup on saucer, espresso machine steam hiss.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no spilling liquid defying gravity, no glitchy liquid simulation."
+    },
+    "scenario5": {
+        "Subject": "A North American Raccoon with distinct black mask markings, wearing a small scout sash. It looks busy and resourceful.",
+        "Action": "The raccoon is stirring a bubbling vegetable stew in a cast-iron pot over an open campfire. It uses a long wooden ladle, stirring in a circular motion for 4 seconds, then lifts the ladle to smell the aroma.",
+        "Scene": "An outdoor campsite at twilight. A crackling fire in the foreground provides the main light source, casting flickering orange glows on the raccoon. Tall pine trees and a tent are visible in the dark blue background.",
+        "Style": "Low-angle shot looking slightly up at the raccoon to make it look heroic. Fire-lit lighting scheme with deep shadows. Cinematic realism with focus on the steam rising from the pot.",
+        "Sounds": "Crackling fire sounds, crickets chirping, bubbling stew liquid sounds, soft acoustic folk music.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no magical fire, no unnatural animal posture."
+    }
+}

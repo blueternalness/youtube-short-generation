@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "A fluffy Golden Retriever wearing a beige linen apron and a small red bandana around its neck. The dog has soft, golden fur and large, expressive brown eyes.",
+        "Action": "The Golden Retriever stands on hind legs at a counter, using its front paws to gently roll a wooden rolling pin over cookie dough. It pauses to look at the camera with a happy, panting smile, then resumes rolling.",
+        "Scene": "A warm, sunlit country-style kitchen with wooden cabinets. Flour is dusted on the countertop. In the background, a tray of freshly baked chocolate chip cookies sits on a cooling rack.",
+        "Style": "Medium close-up shot at eye level with the dog. Warm lighting with a golden hour glow. Soft bokeh background to emphasize the dog's face and the dough. High resolution, photorealistic texture on the fur and flour.",
+        "Sounds": "Sound of a rolling pin moving over dough (rhythmic thumping/rolling), soft ambient kitchen noise, gentle dog panting, light acoustic guitar background music.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no morphing limbs, no extra legs."
+    },
+    "scenario2": {
+        "Subject": "A chubby British Shorthair cat with grey fur, wearing a tiny white chef's hat and a miniature blue bow tie.",
+        "Action": "The cat is sitting on a stool, using one paw to stir a metal spoon in a ceramic mixing bowl. The motion is rhythmic. The cat stops stirring to inspect the batter closely with a serious, concentrated expression.",
+        "Scene": "A modern, minimalist kitchen with marble countertops and teal tile backsplash. A whisk and a carton of milk are visible next to the bowl. Natural daylight coming from a side window.",
+        "Style": "Close-up macro shot focusing on the paw holding the spoon and the cat's intense eyes. Sharp focus on the subject with a shallow depth of field. Bright, clean, and high-contrast lighting.",
+        "Sounds": "Clinking sound of a metal spoon against a ceramic bowl, whisking sounds, subtle purring sound from the cat, cheerful whistling tune.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no human hands, no floating objects."
+    },
+    "scenario3": {
+        "Subject": "A small Raccoon standing upright, wearing a miniature striped Italian shirt and a white waist apron. Its fur is detailed, showing the characteristic bandit mask.",
+        "Action": "The raccoon holds a slice of pepperoni in its nimble hands and carefully places it onto an unbaked pizza dough. It pats the pepperoni down gently, then reaches for a basil leaf.",
+        "Scene": "A rustic Italian pizzeria setting with a brick oven in the background featuring flickering fire. Wooden peel and flour dusting on the table. Warm, orange-hued lighting from overhead pendant lamps.",
+        "Style": "Over-the-shoulder shot transitioning to a side profile. Cinematic lighting with warm tones to match the brick oven fire. Rich textures on the pizza toppings and raccoon fur.",
+        "Sounds": "Crackling fire sound, ambient restaurant chatter in the distance, soft jazz piano music, sound of dough being patted.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no distorted fingers, no flying food."
+    },
+    "scenario4": {
+        "Subject": "A fuzzy brown Hamster holding a tiny metal spatula. It is wearing a thimble-sized white toque (chef hat).",
+        "Action": "The hamster stands next to a miniature electric griddle. It uses the tiny spatula to nudge a coin-sized pancake. It successfully slides the spatula under the pancake and flips it over.",
+        "Scene": "A miniature kitchen set specifically scaled for a hamster. Tiny boxes of flour and a thimble of milk are in the background. The surface is a wooden picnic table outdoors with blurry green grass in the distance.",
+        "Style": "Macro photography style, extremely close up to capture the tiny scale. Bright, outdoor natural lighting. Vibrant colors of the pancake browning.",
+        "Sounds": "Sizzle of batter on a griddle, birds chirping in the background, light playful xylophone music, tiny squeak sound.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no blurry motion, no warped tools."
+    },
+    "scenario5": {
+        "Subject": "A Red Panda with reddish-brown fur and white ear accents, wearing a dark green apron. It is holding a pair of long wooden cooking chopsticks.",
+        "Action": "The Red Panda stands by a wok, using the chopsticks to toss stir-fry vegetables (broccoli and carrots). Steam rises from the wok as the panda moves its arms in a cooking motion.",
+        "Scene": "An outdoor evening street food stall setting with string lights hanging above. Steam and smoke add atmosphere. A colorful array of vegetables is visible in baskets nearby.",
+        "Style": "Dynamic medium shot capturing the steam and movement. High contrast lighting with bokeh from the string lights in the background. Cinematic color grading with teal and orange tones.",
+        "Sounds": "Loud sizzling of a hot wok, steam hissing, street ambience with distant chatter, rhythmic lo-fi beat.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no floating chopsticks, no scary face."
+    }
+}
