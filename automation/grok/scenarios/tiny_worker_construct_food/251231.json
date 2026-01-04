@@ -1,0 +1,26 @@
+{
+    "scenario3": {
+        "Subject": "Miniature logistics team in blue overalls and white caps. A giant Salmon Nigiri sushi piece consisting of a mound of white rice and a slab of orange salmon.",
+        "Action": "A yellow miniature forklift carries a single, massive grain of sticky white rice, reversing to place it into the rice mound foundation. Other workers are using ropes to pull the giant salmon slice taut over the top of the rice structure.",
+        "Scene": "A sleek, black slate rectangular sushi plate. Beside the construction site is a pool of soy sauce acting as a small lake. Soft, cool studio lighting reflects off the slate.",
+        "Style": "Product commercial aesthetic, sharp contrast, macro lens 100mm, crystal clear focus on the rice grain texture, clean and minimalist composition.",
+        "Sounds": "Beeping of the forklift reversing, straining sounds of ropes being pulled, heavy thud of the rice grain being placed, quiet ambient restaurant chatter.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no distorted faces, no flying fish."
+    },
+    "scenario4": {
+        "Subject": "Tiny industrial painters in white protective hazmat-style suits and respirators. A giant, golden-brown ring donut.",
+        "Action": "A miniature cement mixer truck backs up to the donut and pours thick, pink strawberry glaze down a chute onto the donut's surface. Workers stand ready with large rollers on extension poles to spread the glaze evenly as it flows.",
+        "Scene": "A pastel pink bakery box interior. Colorful sprinkles are piled up like gravel mounds in the background. Soft, diffused overhead lighting creates a sweet, airy atmosphere.",
+        "Style": "Bright and colorful, high saturation, 60fps smooth motion, top-down angled shot (45 degrees), focusing on the fluid dynamics of the glaze.",
+        "Sounds": "Heavy engine idle of the cement mixer, viscous pouring sound of the glaze, squelching sounds of rollers spreading liquid, light upbeat humming.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no defying gravity, no rapid cuts."
+    },
+    "scenario5": {
+        "Subject": "Miniature excavation crew in rugged brown clothing and hard hats. A giant crispy hard-shell taco.",
+        "Action": "A miniature orange excavator sits inside the taco shell, scooping up a pile of diced tomatoes and dumping them into position on top of the ground beef. A tiny bulldozer pushes shredded lettuce against the shell wall to reinforce it.",
+        "Scene": "A colorful Mexican textile tablecloth with vibrant stripes. A lime wedge the size of a boulder sits in the foreground. Natural lighting simulating a sunny afternoon outdoors.",
+        "Style": "Action-oriented handheld camera movement (slightly shaky), realistic textures on the lettuce and meat, vivid colors, deep shadows inside the taco shell.",
+        "Sounds": "Hydraulic hissing of the excavator arm, crunching sound of the taco shell settling, rumble of the bulldozer tracks, distant outdoor birdsong.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no blurring of important details, no unnatural speed."
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "A fluffy Giant Panda cub sitting upright like a human, wearing a traditional red silk bib. The panda has round, expressive eyes and soft fur texture. In front of it is a steaming bamboo basket filled with large, juicy pork dumplings.",
+        "Action": "0-2s: The panda picks up a hot dumpling with both front paws, blowing on it to cool it down. 2-4s: Takes a large, enthusiastic bite, juices spilling slightly. 4-6s: Chews happily with a satisfied expression, licking its lips.",
+        "Scene": "A cozy, wooden tea house interior with warm lighting. In the background, blurred paper lanterns and bamboo plants are visible through a circular window. Steam rises naturally from the food.",
+        "Style": "Close-up shot at eye level, soft warm lighting to enhance the food texture, shallow depth of field focusing on the panda's face and the dumpling, cinematic 4k resolution.",
+        "Sounds": "Loud steam hissing sound, distinct moist chewing noises, satisfied grunts, soft background traditional flutes.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario2": {
+        "Subject": "A Golden Hamster wearing a tiny white chef's napkin tucked into its fur. The hamster is sitting on a miniature wooden chair. On the table is a tiny plate of spaghetti bolognese with a small meatball.",
+        "Action": "0-2s: The hamster grabs a single pasta noodle with its tiny hands. 2-4s: It performs a long, rapid slurp of the noodle, getting a bit of tomato sauce on its whiskers. 4-6s: It finishes the noodle and pats its mouth with the back of its paw.",
+        "Scene": "A romantic, candlelit miniature Italian bistro setting. Red checkered tablecloth, a tiny candle flame flickering in the foreground, and warm, amber ambient lighting.",
+        "Style": "Macro lens shot to capture fine details of the fur and food texture, warm color palette, fixed camera angle with slight zoom in.",
+        "Sounds": "High-pitched slurping sounds, sticky sauce noises, rapid chewing clicks, soft jazz background music.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario3": {
+        "Subject": "A chubby Shiba Inu dog wearing a grey hoodie. The dog is sitting at a diner booth. In front of it is a tall, cheesy double smash burger with lettuce and tomato.",
+        "Action": "0-2s: The Shiba Inu holds the burger with both front paws, compressing the bun slightly. 2-4s: Opens mouth wide and takes a massive bite. 4-6s: Pulls away revealing a long, gooey mozzarella cheese stretch, chewing vigorously.",
+        "Scene": "A retro American diner with neon signs in the background (blurred). Sunlight streams through a window, illuminating the sesame seeds on the bun.",
+        "Style": "Medium close-up, high contrast lighting to make the cheese look appetizing, vibrant colors, dynamic camera shake on the bite impact.",
+        "Sounds": "Crunchy lettuce sounds, soft bun squishing, heavy chewing, burger wrapper rustling, faint diner chatter.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario4": {
+        "Subject": "A fluffy Sea Otter floating on its back on a driftwood log, acting like a lounge chair. It is wearing cool black sunglasses on its forehead. It holds a large, fresh oyster shell.",
+        "Action": "0-2s: The otter cracks the oyster open using a small rock on its belly. 2-4s: Slurps the oyster meat out of the shell in one go. 4-6s: Tosses the shell aside and pats its belly with satisfaction.",
+        "Scene": "A sunny beach setting with sparkling blue ocean water in the background. Seagulls flying in the distance. The lighting is bright natural daylight.",
+        "Style": "Over-the-shoulder shot transitioning to a front-facing close-up, high dynamic range (HDR), sharp focus on water droplets and fur.",
+        "Sounds": "Crack of the shell, loud wet slurp, ocean waves crashing, seagull cries.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario5": {
+        "Subject": "A Holland Lop Rabbit with droopy ears, wearing a pastel pink cardigan. It is sitting at a garden table. A slice of carrot cake with thick cream cheese frosting is on a floral plate.",
+        "Action": "0-2s: The rabbit leans in and nibbles the frosting first, getting cream on its nose. 2-4s: Nose twitches rapidly as it chews the cake. 4-6s: It uses a paw to clean the frosting off its nose, looking directly at the camera.",
+        "Scene": "An English garden during golden hour. blurry blooming roses and greenery in the background. Soft, dappled sunlight filtering through trees.",
+        "Style": "Soft focus, dreamy aesthetic, pastel color grading, static camera with a slow push-in.",
+        "Sounds": "Soft nibbling sounds, distinct nose twitching foley, birds chirping, wind rustling leaves.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, and No unrealistic scene transitions."
+    }
+}

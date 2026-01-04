@@ -1,3 +1,6 @@
+# TBD
+Need to generate video using Gemini. Grok(Imagine) animal rendering is not good.
+
 # Workflow
 Grok Case: Scenario generation without image -> Run auto video generation script -> Youtube upload <br>
 

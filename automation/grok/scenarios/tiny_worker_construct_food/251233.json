@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "Miniature construction workers wearing high-visibility orange vests and white hard hats. A colossal, multi-layered strawberry shortcake that looks like a skyscraper under construction. A yellow miniature tower crane attached to the side of the cake.",
+        "Action": "In a 6-second sequence, the tower crane slowly lowers a massive, glistening red strawberry onto the top layer of whipped cream. Simultaneously, three tiny workers on a scaffolding platform use human-sized masonry trowels to smooth out the giant wall of whipped cream on the second tier. The movement is heavy and industrial.",
+        "Scene": "A vast stainless steel bakery countertop that resembles a flat industrial foundation. In the background, bags of flour loom like mountains. Fine flour dust floats in the air like mist. Soft, cool industrial lighting reflects off the steel surface.",
+        "Style": "Macro photography, tilt-shift lens effect to emphasize small scale. 45-degree high angle shot looking down at the construction. Sharp focus on the workers and the strawberry, blurred background (bokeh). Photorealistic, 8k resolution, cinematic lighting.",
+        "Sounds": "Hydraulic whirring of the crane, heavy thud of the strawberry landing (muffled by cream), metallic clinking of trowels, distant construction site chatter, low hum of a bakery refrigerator.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario2": {
+        "Subject": "Tiny industrial engineers in blue jumpsuits and yellow helmets. A giant, steaming cheeseburger. Miniature yellow forklifts and heavy-duty scaffolding erected around the burger patty.",
+        "Action": "In a 6-second sequence, two forklifts work in tandem to lift a heavy, drooping slice of cheddar cheese, positioning it over the steaming patty. Tiny workers on the scaffolding guide the cheese with glowing orange traffic batons. Heat waves ripple from the hot patty.",
+        "Scene": "A rustic wooden butcher block table acting as the construction site. In the background, a giant glass ketchup bottle stands like a water tower. Warm, golden hour sunlight streams in from the side, casting long, dramatic shadows across the wood grain.",
+        "Style": "Low-angle shot looking up at the burger to make it look monumental. Slow-motion capture to emphasize weight. Warm color palette with deep browns and oranges. Shallow depth of field.",
+        "Sounds": "Diesel engine rumbling from forklifts, beep-beep-beep reversing sound, sizzling noise of the hot patty, shouts of 'lower it down' (indistinct), ambient restaurant noise.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario3": {
+        "Subject": "Miniature road crew workers in neon green vests and ear protection. A giant pepperoni pizza. A miniature steamroller and a miniature dump truck filled with shredded mozzarella.",
+        "Action": "In a 6-second sequence, the steamroller drives slowly across the red tomato sauce base, flattening it like fresh asphalt. Behind it, the dump truck tilts its bed, pouring a cascade of giant shredded cheese logs onto the sauce. A worker directs the flow with a shovel.",
+        "Scene": "Inside a stone pizza oven (simulated lighting, not active fire). The floor is textured stone with ash residue. The lighting is warm and amber, mimicking the glow of a fire. The background fades into the dark curve of the oven wall.",
+        "Style": "Tracking shot moving alongside the steamroller. Close-up focus on the texture of the sauce and the tires. High contrast lighting. Realistic textures of sauce viscosity and cheese density.",
+        "Sounds": "Heavy engine rumble of the steamroller, squishing sound of sauce being compressed, cascading sound of heavy cheese shreds falling, echoey acoustics of a stone oven.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario4": {
+        "Subject": "Tiny specialized sushi architects in white clean-room suits and helmets. A giant Salmon Nigiri. A miniature bulldozer and a system of ropes and pulleys.",
+        "Action": "In a 6-second sequence, the bulldozer pushes a pile of giant, sticky white rice grains into a rectangular formation. In the foreground, a team of ten workers pulls a thick rope to hoist the massive slice of raw salmon up a ramp to drape it over the rice block.",
+        "Scene": "A textured bamboo sushi rolling mat that looks like a wooden slat floor. In the background, a small ceramic soy sauce dish resembles a swimming pool. Cool, crisp studio lighting with high clarity.",
+        "Style": "Static wide shot to capture the whole operation. Neutral color palette (whites, oranges, greens). Crystal clear focus with sharp details on the rice grain textures and the salmon fat marbling.",
+        "Sounds": "Grinding noise of rice grains rubbing together, straining sounds of the rope, mechanical engine of the bulldozer, sharp clacks of bamboo, serene Japanese flute background music.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario5": {
+        "Subject": "Miniature landscaping crew in brown rugged clothing and climbing gear. A giant scoop of mint chocolate chip ice cream. Miniature climbers with pickaxes and a small industrial hose system.",
+        "Action": "In a 6-second sequence, workers are rappelling down the side of the ice cream scoop using ropes. One worker uses a pickaxe to chip away at a giant chocolate chunk. Another worker operates a hose, spraying a thick stream of hot fudge sauce onto the peak of the ice cream.",
+        "Scene": "A white ceramic bowl surface that curves upwards like a skate park or snowy valley. Frost particles hang in the air. The lighting is bright and white, simulating a cold environment or freezer.",
+        "Style": "Handheld camera movement (slight shake) to add realism and urgency. High exposure levels to reflect the cold/ice. Focus shifts from the rappelling worker to the fudge sprayer.",
+        "Sounds": "Wind howling (simulating cold), metal pickaxe chipping against hard chocolate, hissing sound of the fudge spray, fabric rustling of climbing gear.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, and No unrealistic scene transitions."
+    }
+}

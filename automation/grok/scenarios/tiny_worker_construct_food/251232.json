@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "Miniature construction crew (1:87 scale) wearing neon orange high-visibility vests and yellow hard hats. A colossal, fluffy strawberry shortcake with white whipped cream frosting. A bright red mobile crane toy modified to look realistic.",
+        "Action": "In a continuous 6-second shot, the mobile crane lowers a massive, glistening red strawberry onto the center of the whipped cream. Three tiny workers on the cake surface use orange signal wands to guide the crane operator. As the strawberry touches down, it settles slowly into the soft cream, displacing it slightly.",
+        "Scene": "A clean, brushed stainless steel kitchen countertop acting as the 'ground.' Background features blurred kitchen utensils and a flour shaker, resembling industrial silos. Soft, cool studio lighting mimics a high-end bakery environment.",
+        "Style": "Macro cinematography, shallow depth of field (f/2.8) to blur the background and emphasize the scale difference. 45-degree high-angle shot focusing on the landing zone. High resolution, 8k, photorealistic textures.",
+        "Sounds": "Hydraulic whirring of the crane, beep-beep-beep of heavy machinery in reverse, muffled shouting of workers giving directions, squishing sound of fruit hitting cream.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no morphing, no cartoon physics, no text overlays."
+    },
+    "scenario2": {
+        "Subject": "Tiny industrial welders wearing dark protective masks and fire-resistant aprons. A giant, juicy cheeseburger with a thick beef patty and a slice of melting cheddar cheese.",
+        "Action": "Two tiny welders stand on the edge of the beef patty. They are using miniature welding torches to melt the corner of the giant cheese slice down onto the meat. Sparks fly realistically from the torches. A third worker pushes a wheelbarrow containing a single, massive sesame seed across the bun surface in the background.",
+        "Scene": "Set on a rustic, dark wood chopping board that looks like a rough terrain construction site. In the background, a blurred glass of soda creates a towering amber backdrop. Warm, dramatic lighting from the 'welding' torches illuminates the workers' faces.",
+        "Style": "Extreme close-up (macro), low angle looking up at the cheese ledge to make it look imposing. Cinematic lighting with orange and teal contrast. Slow-motion sparks.",
+        "Sounds": "Crackle and hiss of welding torches, sizzling of hot grease, heavy footsteps of boots on the bun, distant metallic clanking.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no flying objects, no floating workers, no distorted proportions."
+    },
+    "scenario3": {
+        "Subject": "Miniature road paving crew with asphalt rakes and shovels. A giant pink frosted donut. A miniature yellow steamroller.",
+        "Action": "A tiny steamroller drives slowly over the pink icing to flatten it out. Behind the roller, four workers are shoveling colorful sprinkles (which look like boulders to them) out of the back of a miniature dump truck onto the wet icing. They work in a rhythmic, coordinated motion.",
+        "Scene": "The ground is a sheet of white parchment paper, wrinkled like a topographical map. Natural sunlight streams in from the side, creating long shadows. The background shows the edge of a baking tray, looking like a metallic wall.",
+        "Style": "Tracking shot moving sideways, matching the speed of the steamroller. Bright, pop-art color palette (pink, yellow, cyan). Sharp focus on the sprinkles hitting the glaze.",
+        "Sounds": "Rumble of the steamroller engine, sound of rocks (sprinkles) tumbling into wet cement (glaze), diesel engine idling, scraping of shovels.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no glitch effects, no blurry motion, no low resolution."
+    },
+    "scenario4": {
+        "Subject": "Tiny lumberjacks and landscaping crew with ropes and harnesses. A giant stack of buttermilk pancakes dripping with butter and syrup. Miniature saws and climbing gear.",
+        "Action": "A team of workers is rappelling down the side of the pancake stack like mountain climbers. One worker swings casually on a rope while painting golden syrup onto a dry spot with a large roller. At the top, two workers are sawing a pat of butter, with butter curls falling like sawdust.",
+        "Scene": "A white porcelain dinner plate acts as the base. The background is a blurred morning breakfast table with a vase of flowers. Bright, airy morning light (golden hour) illuminates the syrup, making it glow amber.",
+        "Style": "Vertical tilt shot starting from the butter at the top and panning down to the syrup painters. 60fps for smooth motion. Macro lens with crisp focus on the syrup texture.",
+        "Sounds": "Straining of ropes, clinking of climbing carabiners, sticky squelching sound of the paint roller on syrup, sawing wood sounds.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no magic, no levitation, no oversized pixels."
+    },
+    "scenario5": {
+        "Subject": "Miniature pipe-fitters and plumbers wearing blue overalls. A giant bowl of Ramen with broth, egg, and green onions. A miniature yellow excavator.",
+        "Action": "An excavator is positioned on the rim of the ramen bowl. Its bucket is pushing a massive, curly noodle into the broth. In the foreground, two workers are using a wrench to tighten a 'bolt' (a piece of corn) onto a slice of pork (chashu) floating like a raft.",
+        "Scene": "The rim of a ceramic bowl with a Japanese wave pattern. Steam rises realistically from the hot broth, creating a misty / foggy construction site atmosphere. The liquid surface ripples gently.",
+        "Style": "Static camera with internal motion. Through-the-steam shot. Soft, diffused lighting to emphasize the steam. High contrast between the yellow machine and the dark broth.",
+        "Sounds": "Mechanical whir of the excavator arm, splashing water/broth sounds, metallic clanking of the wrench, hissing of steam.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no vanishing objects, no surrealism, no bad physics."
+    }
+}

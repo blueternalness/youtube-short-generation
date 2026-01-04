@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "A fluffy Golden Retriever dog wearing a red plaid flannel shirt. The dog has a gentle expression and is sitting upright in a human-like posture at a wooden table. In front of the dog is a large, juicy cheeseburger with fresh lettuce and a sesame seed bun.",
+        "Action": "The dog holds the burger steady with both front paws acting as hands. Over the course of 6 seconds, the dog opens its mouth wide and takes a large, satisfying bite of the burger, chewing enthusiastically with eyes closing in delight. No morphing or flying objects.",
+        "Scene": "A cozy, rustic American diner setting. Warm ambient lighting from a hanging pendant lamp. A window in the background shows a rainy afternoon. The table has a napkin holder and ketchup bottle.",
+        "Style": "Close-up shot focused on the mouth and paws. 4k resolution, photorealistic, cinematic lighting, shallow depth of field to blur the diner background. High contrast on food textures.",
+        "Sounds": "Distinct sounds of the bun handling, a soft squishing sound of the burger being squeezed, a loud, wet biting sound, followed by rhythmic, heavy chewing and a satisfied exhale.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no floating food, no human hands."
+    },
+    "scenario2": {
+        "Subject": "A tiny, round Dwarf Hamster wearing a miniature blue chef's hat. The hamster is holding a single, long strand of cooked spaghetti covered in tomato sauce.",
+        "Action": "The hamster sits on its hind legs on a tiny plate. It uses its small front paws to feed the spaghetti noodle into its mouth rapidly. As it chews, its cheeks puff out slightly. The action ends with a final slurp of the noodle tail.",
+        "Scene": "A miniature Italian restaurant setup. A red and white checkered tablecloth. In the background, there is a blurry view of a candle and a tiny vase with a flower. Warm, romantic candlelight atmosphere.",
+        "Style": "Macro lens shot, eye-level with the hamster. Sharp focus on the whiskers and the sauce on the noodle. Vibrant colors, specifically red and gold.",
+        "Sounds": "High-pitched, rapid nibbling sounds (nibble-nibble-nibble), a comical 'slurp' sound as the noodle disappears, and tiny lip-smacking noises.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no distorted animal features, no cartoon physics."
+    },
+    "scenario3": {
+        "Subject": "A Sea Otter with slick, wet fur, wearing a small bowtie. The otter is holding a triangular slice of bright red watermelon with both paws.",
+        "Action": "The otter lies on its back but props its head up towards the camera. It takes quick, crunchy bites across the top of the watermelon slice, moving from left to right like a typewriter. Juice drips slightly down its chin.",
+        "Scene": "A sunny beachside picnic setting. White sand and a blue picnic blanket visible. Bright natural sunlight casting sharp shadows. The ocean is slightly visible in the blurred background.",
+        "Style": "Medium close-up shot from a high angle looking down. Bright, high-key lighting, vivid saturation emphasizing the red of the watermelon against the brown fur.",
+        "Sounds": "Loud, crisp crunching sounds of fresh fruit, the sound of watery juice squishing, and faint seagull sounds in the distant background.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no morphing background, no unnatural movements."
+    },
+    "scenario4": {
+        "Subject": "A fluffy Calico Cat wearing a cozy knitted beige sweater. The cat is sitting at a kitchen island in front of a stack of three fluffy pancakes topped with a pat of butter.",
+        "Action": "The cat uses a front paw to delicately break off a piece of the pancake. It brings the piece to its mouth and chews slowly and elegantly, blinking slowly to show enjoyment.",
+        "Scene": "A modern, bright kitchen with white marble countertops. Morning sunlight streams through a window, illuminating floating dust particles. A mug of coffee is visible in the background.",
+        "Style": "Side profile shot shifting to a 45-degree angle. Soft, diffused morning light (golden hour). airy and clean aesthetic. Focus on the texture of the pancake and the cat's fur.",
+        "Sounds": "Soft, sticky sounds of the pancake texture, gentle chewing, a low, rumbling purr that underlies the eating sounds to show contentment.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no cutlery held by animals, no human intervention."
+    },
+    "scenario5": {
+        "Subject": "A Lop-eared Rabbit with long ears, wearing vintage round glasses. The rabbit is holding a bright orange, crunchy carrot stick.",
+        "Action": "The rabbit sits upright in a library chair. It nibbles the carrot extremely fast, its nose twitching rapidly with every bite. The carrot gets visibly shorter over the 6 seconds.",
+        "Scene": "An old-fashioned library with shelves of leather-bound books in the background. A green bankers lamp provides illumination on the desk. The atmosphere is quiet and studious.",
+        "Style": "Extreme close-up (ECU) on the mouth and nose area. Warm color temperature with browns and greens. Sharp focus on the teeth and carrot texture.",
+        "Sounds": "Extremely amplified ASMR crunching sounds (loud snaps and crunches), rapid rhythm, breathing sounds through the nose between bites.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no flying books, no magical effects."
+    }
+}

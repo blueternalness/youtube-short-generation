@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "A fluffy, golden-brown hamster wearing a tiny, knitted blue hoodie. The hamster is holding a miniature, human-style waffle topped with a tiny dollop of butter and a drop of maple syrup. The hamster has large, glossy black eyes and round ears.",
+        "Action": "0-2s: The hamster uses both front paws to lift the waffle to its mouth like a sandwich. 2-6s: It takes rapid, tiny bites, its cheeks puffing out slightly with each chew, while maintaining direct eye contact with the camera.",
+        "Scene": "A miniature wooden dining table set with a tiny checkered tablecloth. Warm morning sunlight streams through a nearby window, illuminating dust motes in the air. A tiny glass of milk sits in the background.",
+        "Style": "Macro close-up shot, shallow depth of field focusing strictly on the face and paws. 4k resolution, photorealistic texture of fur and food. Warm, golden-hour lighting.",
+        "Sounds": "Crisp, rapid crunching sounds amplified (ASMR style), soft breathing, subtle clinking of the waffle against the plate.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no morphing, no cartoon physics."
+    },
+    "scenario2": {
+        "Subject": "A Golden Retriever wearing a sophisticated red dinner napkin tucked into its collar like a bib. The dog is sitting upright on a chair. In front is a ceramic bowl filled with spaghetti bolognese and meatballs.",
+        "Action": "0-1s: The dog looks excitedly at the food, nose twitching. 1-6s: The dog leans forward and expertly slurps a long strand of spaghetti without making a mess, getting a tiny dot of tomato sauce on the tip of its nose.",
+        "Scene": "An upscale Italian restaurant setting with dim, ambient lighting. In the background, blurred candlelight flickers on a wooden wall. A breadbasket is visible out of focus.",
+        "Style": "Eye-level shot relative to the dog. Soft, cinematic lighting with rich contrast. 35mm lens effect. High fidelity textures on the wet nose and pasta sauce.",
+        "Sounds": "Distinct, wet slurping sound of the noodle, soft chewing noises, faint ambient jazz music in the far background, sound of silverware lightly touching the bowl.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no human hands, no messy distortions."
+    },
+    "scenario3": {
+        "Subject": "A white Scottish Fold cat with folded ears, wearing a black silk bow tie. The cat is seated at a sushi counter. It is holding a piece of fresh salmon nigiri (sushi) between its two front paws.",
+        "Action": "0-2s: The cat sniffs the sushi delicately. 2-6s: It takes a refined, slow bite of the salmon, closing its eyes in enjoyment as it chews, ears twitching slightly.",
+        "Scene": "A traditional wooden sushi bar counter. Background features blurred Japanese lanterns and ceramic sake bottles. The lighting is cool and clean, emphasizing the freshness of the fish.",
+        "Style": "Medium close-up, sharp focus on the cat's face and the texture of the fish. Bright, clean lighting typical of food commercials. Symmetrical composition.",
+        "Sounds": "Sticky sound of rice being bitten, soft wet chewing, a satisfied purr rumbling underneath the chewing sound.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no floating objects, no unnatural movements."
+    },
+    "scenario4": {
+        "Subject": "A chubby raccoon sitting cross-legged on a picnic blanket, wearing a small straw hat. The raccoon holds a large, triangular slice of juicy watermelon with both front paws.",
+        "Action": "0-1s: The raccoon grips the watermelon rind firmly. 1-6s: It bites into the red flesh, watermelon juice dripping down its chin. It chews enthusiastically, looking side-to-side happily.",
+        "Scene": "A lush green park meadow on a sunny day. Out of focus green grass and daisies in the foreground and background. Natural daylight casting soft shadows.",
+        "Style": "Low angle shot looking slightly up at the raccoon. Vibrant colors (green grass, red melon). High shutter speed to capture the droplet of juice mid-air. 8k photorealism.",
+        "Sounds": "Loud, crisp crunch of the watermelon texture, wet splashing sounds of the juice, happy grunting noises.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no blurry fur, no impossible anatomy."
+    },
+    "scenario5": {
+        "Subject": "A small river otter with sleek, wet fur, wearing a tiny fisherman's vest. The otter holds a large, crunchy stick of celery with peanut butter in the groove.",
+        "Action": "0-2s: The otter creates a crunch sound by biting the celery. 2-6s: It chews with its mouth slightly open, showing enjoyment of the texture, using its paws to push the celery further into its mouth.",
+        "Scene": "A riverside dock made of weathered wood. Water ripples are visible in the background reflecting the blue sky. Natural, cool outdoor lighting.",
+        "Style": "Close-up profile shot. High contrast between the dark fur and the bright green celery. Sharp focus with a bokeh effect on the water background.",
+        "Sounds": "Extremely loud, hollow crunching (snap) of the celery, moist chewing sounds, faint sound of water lapping against the dock.",
+        "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no human presence, no glitchy textures."
+    }
+}
