@@ -1,0 +1,34 @@
+{
+  "scenario1": {
+    "Subject": "A fluffy Giant Panda cub sitting upright in a wooden chair, wearing a small red checkered bib. The panda has soft black and white fur and round, expressive eyes. A stack of fluffy golden pancakes topped with butter and maple syrup sits on a white plate in front of it.",
+    "Action": "The panda uses its paws to clumsily but determinedly hold a fork with a piece of pancake. It brings the food to its mouth, takes a large bite, and chews with visible enjoyment, getting a little syrup on its nose. The action is continuous and steady over 6 seconds.",
+    "Scene": "A cozy, sunlit rustic kitchen with wooden textures. Morning sunlight streams through a window behind, illuminating floating dust particles. A glass of milk is visible on the side.",
+    "Style": "Close-up shot focused on the face and paws. Soft, warm lighting with a shallow depth of field (bokeh) to blur the kitchen background. High-resolution texture on the fur and food.",
+    "Sounds": "Clear audio of the fork clinking against the plate, the soft squish of the pancake, loud and happy chewing sounds, and a satisfied hum from the panda.",
+    "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no morphing, no cartoon physics."
+  },
+  "scenario2": {
+    "Subject": "A Pembroke Welsh Corgi wearing a miniature grey hoodie. The dog is sitting at a retro diner booth. A juicy cheeseburger with lettuce, tomato, and a side of crispy french fries is placed on the table.",
+    "Action": "The Corgi leans forward, holding the burger with both front paws like a human holding a sandwich. It takes a deliberate, crunchy bite into the lettuce and patty, then licks its lips while chewing. The movement is grounded and physically plausible.",
+    "Scene": "Inside a classic American diner with red leather booth seats. Neon lights reflect off the window. A napkin holder and ketchup bottle are on the table. The lighting is slightly dim but colorful.",
+    "Style": "Eye-level angle, mimicking a person sitting across the table. Vibrant color palette with high contrast. Sharp focus on the mouth and burger.",
+    "Sounds": "Crisp crunch of fresh lettuce, the moist sound of the burger patty, rustling of the burger wrapper, and ambient low-level diner chatter.",
+    "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no floating objects, no distorted limbs."
+  },
+  "scenario3": {
+    "Subject": "A white Persian Cat with luxurious long fur, sitting on a velvet cushion. It is holding a pink strawberry macaron. A porcelain tea set with floral patterns is arranged on the table.",
+    "Action": "The cat delicately holds the macaron with two paws, bringing it to its mouth. It takes small, rapid nibbles, breaking the crisp shell of the macaron. It pauses to look at the camera while chewing elegantly.",
+    "Scene": "An outdoor garden tea party setting. Green foliage and blooming roses in the background. Natural afternoon lighting casting dappled shadows through leaves.",
+    "Style": "Macro shot to capture the crumbs falling and the texture of the pastry. Bright, pastel aesthetic with a dreamy, soft-focus look.",
+    "Sounds": "The brittle crack of the macaron shell, soft rapid munching sounds, birds chirping in the distance, and the clinking of a teacup.",
+    "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no human hands visible, no flying food."
+  },
+  "scenario4": {
+    "Subject": "A Golden Hamster sitting on a tiny miniature picnic mat. The hamster is holding a miniature slice of pepperoni pizza. The pizza has melted cheese and small pepperoni circles.",
+    "Action": "The hamster stuffs the tip of the pizza slice into its mouth, stretching the melted cheese. It uses its tiny paws to push the crust in, cheeks expanding slightly as it eats rapidly.",
+    "Scene": "A miniature park setup on a wooden surface. Green artificial grass, a tiny checkered picnic cloth. Warm, golden hour lighting mimicking a sunset.",
+    "Style": "Extreme close-up (Macro). The camera is static but focuses intensely on the chewing motion and the cheese pull. Warm color temperature.",
+    "Sounds": "Sticky cheese stretching sounds, rapid distinct nibbling noises, and soft breathing sounds from the hamster.",
+    "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no glitchy textures, no unnaturally large food."
+  }
+}

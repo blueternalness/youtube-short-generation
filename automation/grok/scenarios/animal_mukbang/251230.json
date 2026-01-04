@@ -1,0 +1,18 @@
+{
+  "scenario4": {
+    "Subject": "A Scottish Fold cat with grey fur and folded ears, wearing a silk blue Japanese kimono. The cat is holding a crispy shrimp tempura by the tail using both front paws.",
+    "Action": "0-2s: The cat brings the fried shrimp to its mouth slowly. 2-4s: Takes a crunchy bite of the batter, crumbs falling slightly. 4-6s: Chews slowly with a sophisticated expression, ears twitching slightly.",
+    "Scene": "A traditional Japanese Izakaya counter with wooden textures. Warm, yellow lantern lighting hanging in the background (bokeh effect). A small cup of tea is on the table.",
+    "Style": "Medium close-up. Warm, ambient interior lighting. Sharp focus on the texture of the tempura batter. Cinematic aspect ratio.",
+    "Sounds": "Loud, crispy crunch of the tempura batter, chewing sounds, background chatter of a restaurant (very faint), pouring tea sound.",
+    "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no extra limbs, no human utensils."
+  },
+  "scenario5": {
+    "Subject": "A Sea Otter with slick, wet dark fur, wearing a small bowtie. The otter is lying on its back but holding a large, purple clam shell that is open, revealing fresh meat inside.",
+    "Action": "0-2s: The otter holds the clam with paws like a plate, inspecting it. 2-4s: Slurps the meat out of the shell with a quick motion. 4-6s: Chews with mouth open, rubbing its face with one paw in satisfaction.",
+    "Scene": "Floating on the surface of calm, blue water. Sunlight reflects off the water's surface (sparkles). The background is a gradient of ocean blue and sky.",
+    "Style": "Top-down shot facing the otter's face. Bright, high-contrast daylight. Water texture realistic and shimmering. Crystal clear focus.",
+    "Sounds": "Slurping sound, wet chewing noises, gentle water lapping against the fur, seagulls calling in the distance.",
+    "Technical(Negative Prompt)": "No captions, No unrealistic scenes, No unrealistic scene transitions, no unnatural water physics, no distortion."
+  }
+}

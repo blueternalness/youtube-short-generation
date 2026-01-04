@@ -1,6 +1,6 @@
 # Need to pass this prompt with sample cooking animal image to LLM
 
-COOKING_ANIMAL_SCENARIO_PROMPT_WITH_IMAGE = """
+COOKING_ANIMAL_SCENARIO_PROMPT_WITH_IMAGE_GEMINI = """
 This image was captured from short form video content where various animals are cooking food. I want to create similar content.
 Give me 10 prompts with detailed scenarios for creating such video content.
 The scenarios should include different types of foods being cooked, various animals cooking, various cooking tools, and unique backgrounds or settings to make each video visually appealing.
