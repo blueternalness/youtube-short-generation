@@ -1,6 +1,6 @@
 # Have to use this prompt
 
-COOKING_ANIMAL_SCENARIO_PROMPT_WITH_IMAGE_GEMINI = """
+ANIMAL_MUKBANG_SCENARIO_PROMPT_WITHOUT_IMAGE_GEMINI = """
 I want to create mukbang short form video content where various adorable animals are eating food.
 The animals should act like humans while eating food.
 The video should not include unrealistic scenes and unrealistic scene transitions.
