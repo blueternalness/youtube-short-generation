@@ -1,34 +1,25 @@
 # Workflow
-Gemini App Case: Scenario generation with image -> generate video from Gemini app with automation program -> resize video to 1:1 or 9:16 -> merge videos -> Youtube upload <br>
-Google Flow Case: Scenario generation with image -> generate video from Gemini flow with 9:16 size -> merge video on Google flow -> Youtube upload <br>
-(scenario generation without image seems okay too)
+Grok Case: Scenario generation without image -> Run auto video generation script -> Youtube upload <br>
 
 # Need to be done manually
 
 ## Scenario generation
-Submit prompt with sample fruit cutting image
-
-## Google flow video generation 
-Upload generated scenarios and generate video on Google flow
-
-## Video resizing
-Convert 16:9 video to 1:1 or 9:16 video <br>
-https://new.express.adobe.com/home/tools/resize-video
+Submit prompt to Gemini
 
 ## Video merging
 https://new.express.adobe.com/home/tools/merge-videos
 
 # Automation
 
-## Google Gemini app video creation within day limit
+## Grok Imagine app video creation within day limit
 ```
 source /Users/vhehf/Desktop/"Personal materials"/StartUp/YoutubeShortsGeneration/shorts-generation/bin/activate 
 cd /Users/vhehf/Desktop/"Personal materials"/StartUp/YoutubeShortsGeneration/youtube-short-generation/automation/
-python main.py --mode gemini
+python main.py --mode grok
 ```
 
 ### Disclaimer
-I used video creation through Gemini app rather than Google API because of costs.
+I used video creation through Grok app rather than Grok API because of costs.
 I didn’t schedule the script as a CronJob because my personal laptop isn’t suitable for running 24/7.
 
 # Reference
