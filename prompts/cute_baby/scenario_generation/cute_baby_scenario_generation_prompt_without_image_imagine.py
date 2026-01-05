@@ -1,4 +1,5 @@
 # TODO: babes or infants? which is better for high view count?
+# TBD: Can we remove unrealistic scenes part? because all scenes are unrealistic when babies are involved.
 
 CUTE_BABY_SCENARIO_PROMPT_WITHOUT_IMAGE_IMAGINE = """
 I want to create short form video content with babies performing a specific action.
