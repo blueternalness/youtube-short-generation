@@ -1,0 +1,66 @@
+{
+    "scenario3": {
+        "Subject": "Miniature plasterers in white coveralls, a towering multi-layered pink strawberry cake, giant silver spatulas, buckets of frosting.",
+        "Action": "Three workers standing on scaffolding smooth out a rough patch of pink frosting on the side of the cake using large industrial trowels. They move in a rhythmic, sweeping motion to create a perfect finish.",
+        "Scene": "A bakery prep table. The cake acts as a skyscraper being finished. Background shows out-of-focus flour jars and whisks. Bright, cool-toned kitchen lighting.",
+        "Style": "Close-up side profile shot, static camera focusing on the trowel movement, pastel color palette, soft lighting to highlight the creamy texture.",
+        "Sounds": "Squishing and spreading sounds of frosting, metal trowel scraping, creaking of miniature scaffolding, ambient hum of a refrigerator.",
+        "Technical(Negative Prompt)": "No object popping, No disappearing objects, No sudden appearance, No hallucinations, No unrealistic scenes, No unrealistic scene transitions."
+    },
+    "scenario4": {
+        "Subject": "Miniature miners with headlamps and pickaxes, a giant chocolate chip cookie, large chunks of semi-sweet chocolate chips.",
+        "Action": "A tiny excavator scoops a massive chocolate chip boulder and drops it into a crater on the dough surface. Workers with shovels pat the dough around the base of the chocolate chip to secure it.",
+        "Scene": "A rugged terrain of cookie dough resembling a moon surface. Dark brown chocolate chips act as boulders. Warm oven-light glow from the side.",
+        "Style": "Eye-level shot relative to the workers, dramatic lighting with strong shadows from the chocolate chips, high texture detail on the dough.",
+        "Sounds": "Clanking of the excavator bucket, thud of the chocolate chip hitting the dough, granular sounds of shifting dough, heavy machinery idling.",
+        "Technical(Negative Prompt)": "No object popping, No disappearing objects, No sudden appearance, No hallucinations, No unrealistic scenes, No unrealistic scene transitions."
+    },
+    "scenario5": {
+        "Subject": "Tiny lumberjacks with plaid shirts, a massive crusty French baguette, a two-person miniature saw, sawdust (breadcrumbs).",
+        "Action": "Two lumberjacks rhythmically push and pull a long saw back and forth, cutting through the thick, hard crust of the baguette. Breadcrumbs fly into the air like sawdust with every stroke.",
+        "Scene": "A wooden cutting board resembling a forest floor. The baguette is a fallen giant log. Background includes a blurred jar of jam. Morning sunlight style.",
+        "Style": "Slow-motion capture of the sawing action, macro zoom on the flying crumbs, side angle, warm golden hour tones.",
+        "Sounds": "Rhythmic sawing wood sound (crunchy bread texture), grunts of effort, falling debris sound, birds chirping faintly in background.",
+        "Technical(Negative Prompt)": "No object popping, No disappearing objects, No sudden appearance, No hallucinations, No unrealistic scenes, No unrealistic scene transitions."
+    },
+    "scenario6": {
+        "Subject": "Miniature industrial painters in hazmat suits, a giant glazed donut ring, a high-pressure spray gun hose, white glaze.",
+        "Action": "A worker holds a heavy hose nozzle, spraying a thick coat of white sugar glaze onto the curve of the donut. The glaze flows slowly down the sides like industrial paint.",
+        "Scene": "An industrial painting booth setting (a baking sheet). The donut is suspended on a rack. Reflections of the lights are visible in the wet glaze.",
+        "Style": "Over-the-shoulder shot from the worker's perspective, tracking the spray, high gloss aesthetic, sharp focus on the liquid glaze physics.",
+        "Sounds": "Hissing of the spray gun, liquid dripping, squeaking of rubber boots, air compressor hum.",
+        "Technical(Negative Prompt)": "No object popping, No disappearing objects, No sudden appearance, No hallucinations, No unrealistic scenes, No unrealistic scene transitions."
+    },
+    "scenario7": {
+        "Subject": "Miniature landscapers with rakes and shovels, a giant taco shell, mounds of ground beef, shredded lettuce resembling giant leaves.",
+        "Action": "Workers stand atop a mountain of ground beef inside the taco shell, raking giant shreds of lettuce into place to ensure even coverage. One worker drags a large strip of cheese.",
+        "Scene": "Inside the 'valley' of a hard taco shell. The background shows the other side of the yellow shell wall. Bright, vibrant fiesta lighting.",
+        "Style": "Wide shot from inside the taco looking out, vibrant green and yellow colors, deep depth of field to show the whole team.",
+        "Sounds": "Crunching of fresh lettuce, rustling of leaves, metallic raking sounds, distant truck reversing beep.",
+        "Technical(Negative Prompt)": "No object popping, No disappearing objects, No sudden appearance, No hallucinations, No unrealistic scenes, No unrealistic scene transitions."
+    },
+    "scenario8": {
+        "Subject": "Miniature pipeline engineers, a stack of fluffy pancakes, a large industrial metal pipe and valve, golden maple syrup.",
+        "Action": "Two engineers turn a large wheel on a valve. Thick maple syrup flows out of the pipe like crude oil, cascading over the edge of the top pancake. The flow is heavy and viscous.",
+        "Scene": "The top of a pancake stack, resembling a flat plateau. Background is a blur of a white ceramic plate. Morning breakfast lighting.",
+        "Style": "Close-up on the pipe opening, slow pan following the syrup flow, amber color palette, shimmering highlights on the syrup.",
+        "Sounds": "Creaking of the metal valve, glugging sound of thick liquid pouring, sticky flowing sound, steam hissing.",
+        "Technical(Negative Prompt)": "No object popping, No disappearing objects, No sudden appearance, No hallucinations, No unrealistic scenes, No unrealistic scene transitions."
+    },
+    "scenario9": {
+        "Subject": "Miniature demolition crew/sculptors, a massive block of yellow butter, jackhammers, chisels.",
+        "Action": "A worker uses a pneumatic jackhammer to carve a curve into a hard block of cold butter. Shards of butter chip off and fall to the ground. Another worker sweeps the butter chips away.",
+        "Scene": "Top of a toasted piece of bread. The butter block looks like a marble quarry. Warm lighting from a toaster nearby.",
+        "Style": "Low angle looking up at the worker, shaky cam effect synced with the jackhammer impacts, high contrast textures.",
+        "Sounds": "Rapid-fire jackhammer noise, dull thuds of butter chunks falling, sweeping sounds, heavy breathing.",
+        "Technical(Negative Prompt)": "No object popping, No disappearing objects, No sudden appearance, No hallucinations, No unrealistic scenes, No unrealistic scene transitions."
+    },
+    "scenario10": {
+        "Subject": "Miniature dump truck driver, a yellow heavy-duty dump truck, a bowl of vanilla ice cream, colorful candy sprinkles.",
+        "Action": "The dump truck backs up to the edge of a vanilla ice cream scoop and tilts its bed, unloading a pile of colorful sprinkles that tumble down the white slope like gravel.",
+        "Scene": "A snowy mountain landscape made of ice cream. A cherry on top looms in the background like a red sun. Cold, crisp lighting.",
+        "Style": "Side profile tracking the truck bed tilting, macro focus on the tumbling sprinkles, bright and colorful pop-art aesthetic.",
+        "Sounds": "Truck reversing beep, hydraulic lift whine, clattering of hard sprinkles hitting the soft ice cream, engine idle.",
+        "Technical(Negative Prompt)": "No object popping, No disappearing objects, No sudden appearance, No hallucinations, No unrealistic scenes, No unrealistic scene transitions."
+    }
+}

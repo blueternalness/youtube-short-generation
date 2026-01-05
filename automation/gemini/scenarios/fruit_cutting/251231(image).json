@@ -1,20 +1,4 @@
 {
-    "scenario3": {
-        "Subject": "A pristine, giant blueberry made of blue floral foam. It is dry, crisp, and powdery to the touch with a matte finish.",
-        "Action": "A grid of wire cutters (egg slicer tool) is pressed down firmly over the berry. The wires sink in, creating a perfect grid pattern, before the berry is pushed all the way through, exploding into small cubes.",
-        "Scene": "A clean, white ceramic tile surface. The background is a blurred pastel blue gradient to match the subject.",
-        "Style": "Top-down (flat lay) perspective, stark even lighting to minimize shadows, high sharpness to capture the foam texture.",
-        "Sounds": "A loud, dry crushing noise (floral foam crunch), the ping of the wire tension, and the sound of foam blocks tumbling.",
-        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
-    },
-    "scenario4": {
-        "Subject": "A peach made of solid, brittle soap. The exterior is painted with a fuzzy gradient pink-orange texture. The inside is solid white soap.",
-        "Action": "An X-Acto knife carves thin, curling shavings off the side of the peach. The knife moves in short, quick, repetitive strokes, creating a pile of soap curls.",
-        "Scene": "A glass table elevated against a clear blue sky backdrop. The scene is bright and outdoor-themed.",
-        "Style": "Extreme macro zoom on the blade edge, shallow depth of field, vibrant colors, slightly overexposed for a dreamy look.",
-        "Sounds": "Dry scraping sounds, the snap of the soap curls breaking off, and the rhythmic 'shhh-shhh' of the carving.",
-        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
-    },
     "scenario5": {
         "Subject": "A dragon fruit made of soft, slow-rising memory foam. The exterior is bright pink with green scales, the interior is white with black painted dots.",
         "Action": "A pair of large, sharp golden scissors snips the top off the fruit, then proceeds to cut the body into vertical strips. The foam compresses deeply under the blades before expanding back to shape.",
