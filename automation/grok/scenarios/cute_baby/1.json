@@ -1,0 +1,82 @@
+{
+    "scenario1": {
+        "Subject": "A chubby 9-month-old baby with curly brown hair, wearing a bright yellow knitted romper and a bib covered in food stains. The baby has wide, expressive hazel eyes.",
+        "Action": "The baby grabs a slice of lemon for the first time, puts it in their mouth, pauses for a split second, and then scrunches their entire face in a dramatic, comical reaction to the sourness while shuddering slightly.",
+        "Scene": "A sunlit rustic kitchen. The baby is seated in a white wooden high chair. In the background, a blurred kitchen island with a bowl of citrus fruit. Natural morning sunlight streams through a window, illuminating floating dust particles.",
+        "Style": "Close-up shot (CU) focusing on facial expressions. Eye-level angle. High key lighting with soft shadows. Shallow depth of field (f/2.8) to blur the kitchen background. 60fps for smooth motion.",
+        "Sounds": "Ambient kitchen hum, the wet squishing sound of the lemon, a sharp inhale/gasp from the baby, followed by a cute cooing sound or giggle.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario2": {
+        "Subject": "A 2-year-old toddler with pigtails, wearing oversized denim overalls and a striped red shirt. Holding a wooden spoon that looks huge in their hands.",
+        "Action": "The toddler vigorously stirs a metal mixing bowl filled with white flour. They get too excited, clapping their hands together, causing a small, magical puff of flour dust to explode into the air, coating their nose.",
+        "Scene": "A messy baking setup on a low coffee table in a living room. Bags of flour and sugar visible. Warm, cozy interior lighting. A curious cat watches from a sofa in the background.",
+        "Style": "Medium shot. 45-degree angle capturing the side profile and the flour cloud. Warm color palette (browns, creams, reds). Slow-motion effect on the flour puff.",
+        "Sounds": "Clanging of the spoon against the metal bowl, a soft 'poof' sound of the flour, the toddler's delighted laughter.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario3": {
+        "Subject": "A 1-year-old baby wearing a fluffy white bear onesie with ears on the hood. The baby is sitting in a pile of autumn leaves.",
+        "Action": "The baby picks up a large, crunchy red maple leaf, inspects it closely, and then throws it up in the air, watching it drift down while clapping gloved hands.",
+        "Scene": "An outdoor park in late autumn. Ground covered in orange and red leaves. Tall trees in the background. Overcast sky providing soft, diffused light (softbox effect).",
+        "Style": "Low angle shot (ground level) looking slightly up at the baby. Cinematic color grading emphasizing oranges and teals. Sharp focus on the baby, soft bokeh on the trees.",
+        "Sounds": "Crisp crunching of dry leaves, wind rustling through trees, distant birds chirping, muffled sound of padded gloves clapping.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario4": {
+        "Subject": "A curious 18-month-old toddler wearing rain boots and a bright yellow raincoat. Holding a clear plastic umbrella that is slightly too big for them.",
+        "Action": "The toddler stomps both feet simultaneously into a shallow puddle, creating a massive splash. They look down at the water ripples in fascination, then look up at the camera with a triumphant smile.",
+        "Scene": "A paved driveway or sidewalk just after a rainstorm. Grey asphalt reflecting the sky. Green grass visible on the edges. Wet, glistening surfaces.",
+        "Style": "Knee-level shot. Freeze-frame effect or slow motion specifically at the moment of the splash. High contrast and saturation to pop the yellow raincoat against the grey background.",
+        "Sounds": "Heavy splashing water sound, the patter of light rain hitting the plastic umbrella, the squeak of rubber boots.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario5": {
+        "Subject": "A sleepy newborn baby wrapped snugly in a sage green muslin swaddle. Only the face and tiny hands are visible.",
+        "Action": "The baby lets out a massive, wide yawn, scrunching their eyes closed and stretching their tiny fingers, then immediately settles back into a peaceful sleep.",
+        "Scene": "A nursery crib with white linens. A mobile with wooden stars hangs above (slightly out of focus). Soft, golden hour sunlight filtering through sheer curtains, casting a warm glow.",
+        "Style": "Extreme Close-up (Macro) on the face. Top-down view. Ethereal and dreamy aesthetic. Soft focus filter. Pastel color palette.",
+        "Sounds": "Quiet room tone, soft fabric rustling, a tiny squeaky yawn sound, rhythmic breathing.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario6": {
+        "Subject": "A 10-month-old baby wearing oversized, round adult glasses (plastic/safe props) and a tiny bow tie. Sitting in front of a laptop.",
+        "Action": "The baby aggressively bangs on the laptop keyboard with both open palms, looking at the screen with intense, serious concentration, simulating 'work'.",
+        "Scene": "A home office desk. A mug of milk (sippy cup) next to the laptop. Stacks of paper in the background. Modern, clean aesthetic.",
+        "Style": "Over-the-shoulder shot looking at the baby and the screen. Realistic lighting. Humorous tone. Sharp focus on the baby's serious eyes behind the glasses.",
+        "Sounds": "Loud clacking of keyboard keys, baby babbling in a serious tone resembling conversation, distant phone ring.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario7": {
+        "Subject": "A toddler wearing a swimsuit and floaties on their arms. Blonde hair wet and slicked back.",
+        "Action": "The toddler is sitting near a garden hose sprinkler. They reach out to touch the water stream, get sprayed in the face, blink rapidly, and wipe their eyes while laughing.",
+        "Scene": "A backyard lawn on a hot summer day. Green grass, blue sky. A yellow sprinkler is oscillating in the foreground. Water droplets catching the sunlight.",
+        "Style": "Action shot. Fast shutter speed to freeze the water droplets. Vibrant, saturated colors (summer vibe). Handheld camera movement for energy.",
+        "Sounds": "Hissing sound of the sprinkler, water splashing, summer cicadas buzzing, loud joyful laughter.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario8": {
+        "Subject": "A baby wearing a diaper and a 'Happy Birthday' cone hat slightly askew on their head. Their face and chest are smeared with blue frosting.",
+        "Action": "The baby performs a 'cake smash,' grabbing a handful of cake and smashing it directly onto the tray, then licking their sticky fingers with delight.",
+        "Scene": "A birthday setup. A 1 balloon in the background. A small smashed cake on a high chair tray. Confetti on the floor. Studio-style lighting.",
+        "Style": "Front-facing medium shot. Bright, high-key lighting. Pop colors. Focus tracking on the hand grabbing the cake.",
+        "Sounds": "Squishing cake sounds, festive party horn noise in the background, happy squeals.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario9": {
+        "Subject": "A toddler in flannel pajamas holding a flashlight.",
+        "Action": "The toddler is under a blanket fort, shining the flashlight up at their own face to make spooky shadows, then giggling and hiding the light under their chin.",
+        "Scene": "Inside a makeshift fort made of blankets and chairs in a living room. Dark environment illuminated only by the flashlight. cozy and intimate.",
+        "Style": "Low light cinematography. High contrast (Chiaroscuro effect). The only light source is the flashlight (practical lighting). Grainy film texture.",
+        "Sounds": "Muffled sound inside the blanket fort, click of the flashlight switch, whispered giggles.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario10": {
+        "Subject": "A baby sitting on a plush rug, wearing a cute animal-ear headband (rabbit).",
+        "Action": "A Golden Retriever puppy (or similar gentle dog) licks the baby's cheek. The baby scrunches their nose and hugs the puppy's neck gently.",
+        "Scene": "A sunny living room with hardwood floors. A large potted plant in the corner. Sunbeams hitting the floor.",
+        "Style": "Eye-level shot. Warm color temperature. Soft focus. Capturing the connection between the baby and the animal.",
+        "Sounds": "Dog panting, wet licking sound, baby giggling, collar tags jingling.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scenes, and No unrealistic scene transitions."
+    }
+}
