@@ -1,7 +1,3 @@
-# Need to pass this prompt with sample fruit cutting image to LLM
-# This promt is not wokring well compared to the one with image
-
-FRUIT_CUTTING_SCENARIO_PROMPT_WITHOUT_IMAGE = """
 I want to create short form video content where various fruit models are being cut. A fruit model made of various materials.
 Give me 5 prompts with detailed scenarios for creating such video content.
 The scenarios should include different types of fruits being cut, various cutting tools, and unique backgrounds or settings to make each video visually appealing.
@@ -19,4 +15,3 @@ For each scenario, write prompts in the following JSON format:
         "Technical(Negative Prompt)": No silent moments, No unrealistic actions, and No unrealistic scene transitions.
     },
 }
-"""

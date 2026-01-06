@@ -1,6 +1,3 @@
-# TODO: babes or infants? which is better for high view count?
-
-CUTE_BABY_SCENARIO_PROMPT_WITHOUT_IMAGE_IMAGINE = """
 I want to create short form video content with babies performing a specific action.
 The situation in video should not be boring.
 The video should not include unrealistic scene transitions.
@@ -19,4 +16,3 @@ For each scenario, write prompts in the following JSON format:
         "Technical(Negative Prompt)": No hallucinations, and No unrealistic scene transitions.
     },
 }
-"""

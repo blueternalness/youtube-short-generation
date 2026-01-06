@@ -1,6 +1,3 @@
-# ASIS: "No object popping, No disappearing objects" instruction was in Sounds.
-
-TINY_WORKER_BUILDING_FOOD_SCENARIO_PROMPT_WITHOUT_IMAGE_IMAGINE = """
 I want to create short form video content where tiny workers are constructing giant food.
 The video should not include unrealistic scenes and unrealistic scene transitions.
 Give me top 5 prompts with detailed scenarios for creating such video content. The scenario should be performed in 5 seconds.
@@ -19,4 +16,3 @@ For each scenario, write prompts in the following JSON format:
         "Technical(Negative Prompt)": No sudden appearance, No sudden disappearance, No hallucinations, No unrealistic scenes, and No unrealistic scene transitions.
     },
 }
-"""

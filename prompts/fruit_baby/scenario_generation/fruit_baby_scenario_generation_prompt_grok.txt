@@ -1,7 +1,4 @@
-# TODO: This prompt can not be used because of Grok policy. Need to find alternative solution. 
-# Grok classified this prompt as "Harmful content" which is to be moderated.
 
-FRUIT_BABY_SCENARIO_PROMPT_WITHOUT_IMAGE_IMAGINE = """
 I want to create short form video content with infants whose skin has the texture of fruit or food. 
 In the video, a human hand (appearing giant in perspective) should be feeding the baby a spoonful of fruit or food. 
 The baby has a joyful, open-mouthed expression, seemingly eager to eat.
@@ -21,4 +18,3 @@ For each scenario, write prompts in the following JSON format:
         "Technical(Negative Prompt)": No hallucinations, No unrealistic scenes, and No unrealistic scene transitions.
     },
 }
-"""
