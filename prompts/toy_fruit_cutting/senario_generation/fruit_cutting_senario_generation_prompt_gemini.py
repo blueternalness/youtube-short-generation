@@ -3,7 +3,7 @@
 
 FRUIT_CUTTING_SCENARIO_PROMPT_WITHOUT_IMAGE = """
 I want to create short form video content where various fruit models are being cut. A fruit model made of various materials.
-Give me 10 prompts with detailed scenarios for creating such video content.
+Give me 5 prompts with detailed scenarios for creating such video content.
 The scenarios should include different types of fruits being cut, various cutting tools, and unique backgrounds or settings to make each video visually appealing.
 The cutting sounds should be emphasized in the scenarios to enhance the sensory experience for viewers.
 

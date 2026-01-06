@@ -1,18 +1,19 @@
-# TODO: babes or infants? which is better for high view count?
-# TBD: Can we remove unrealistic scenes part? because all scenes are unrealistic when babies are involved.
+# TODO: This prompt can not be used because of Grok policy. Need to find alternative solution. 
+# Grok classified this prompt as "Harmful content" which is to be moderated.
 
-CUTE_BABY_SCENARIO_PROMPT_WITHOUT_IMAGE_IMAGINE = """
-I want to create short form video content with babies performing a specific action.
-The situation in video should not be boring.
+FRUIT_BABY_SCENARIO_PROMPT_WITHOUT_IMAGE_IMAGINE = """
+I want to create short form video content with infants whose skin has the texture of fruit or food. 
+In the video, a human hand (appearing giant in perspective) should be feeding the baby a spoonful of fruit or food. 
+The baby has a joyful, open-mouthed expression, seemingly eager to eat.
 The video should not include unrealistic scenes and unrealistic scene transitions.
-Give me top 10 prompts with detailed scenarios for creating such video content. The scenario should be performed in 5 seconds.
-The scenarios should include different types of actions, various clothing items, various situations, and unique backgrounds or settings to make each video visually appealing.
+Give me top 5 prompts with detailed scenarios for creating such video content. The scenario should be performed in 5 seconds.
+The scenarios should include different types of foods or fruits, and unique backgrounds or settings to make each video visually appealing.
 
 For each scenario, write prompts in the following JSON format:
 
 {
     "scenario1" : {
-        "Subject": [Detailed object description including type of baby, age, situation, actions, behaviors, clothing, color, size, and any unique features.],
+        "Subject": [Detailed object description including type of fruit baby, food, clothing, color, size, and any unique features.],
         "Action": [Specific actions, behaviors, movements, sequence, interaction patterns that can be performed in 5 seconds.],
         "Scene": [Detailed environment description including location, props, background elements, lighting setup, weather, time of day, architectural details. No unrealistic scene transitions.],
         "Style": [Camera shot type, angle, movement, lighting style, visual aesthetic, color palette, depth of field, focus techniques.],

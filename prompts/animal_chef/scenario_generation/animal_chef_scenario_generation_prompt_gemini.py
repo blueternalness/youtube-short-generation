@@ -1,4 +1,5 @@
 # Have to use this prompt
+# You can delete "The scenario should be performed in 8 seconds."
 
 COOKING_ANIMAL_SCENARIO_PROMPT_WITHOUT_IMAGE_GEMINI = """
 I want to create short form video content where various adorable animals are cooking food.
@@ -20,5 +21,3 @@ For each scenario, write prompts in the following JSON format:
     },
 }
 """
-
-# You can delete "The scenario should be performed in 8 seconds."
