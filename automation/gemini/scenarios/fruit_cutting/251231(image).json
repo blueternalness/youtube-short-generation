@@ -1,28 +1,4 @@
 {
-    "scenario5": {
-        "Subject": "A dragon fruit made of soft, slow-rising memory foam. The exterior is bright pink with green scales, the interior is white with black painted dots.",
-        "Action": "A pair of large, sharp golden scissors snips the top off the fruit, then proceeds to cut the body into vertical strips. The foam compresses deeply under the blades before expanding back to shape.",
-        "Scene": "A pastel pink velvet surface. The lighting is softbox studio lighting, creating a cozy and soft atmosphere.",
-        "Style": "45-degree angle, soft focus edges, warm color temperature, emphasizing the elasticity of the foam.",
-        "Sounds": "Soft, airy snipping sounds, the 'hiss' of air re-entering the foam as it expands, and the metallic 'clack' of the scissors closing.",
-        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
-    },
-    "scenario6": {
-        "Subject": "A clear, hollow glass apple filled with colored water and glitter. The glass is thin and fragile.",
-        "Action": "A heavy metal meat tenderizer hammer strikes the apple once with precision. The glass shatters instantly, splashing the colored water outward in slow motion.",
-        "Scene": "A waterproof dark grey slate surface. Backlighting shines through the water-filled apple, illuminating the glitter.",
-        "Style": "Super slow motion (120fps+), dramatic lighting, focus on the explosion of shards and liquid droplets.",
-        "Sounds": "A high-pitched glass shattering sound, followed by the heavy splash of water and the tinkling of shards hitting the slate.",
-        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
-    },
-    "scenario8": {
-        "Subject": "A pineapple made of frozen ice, colored yellow and green. Frost covers the surface.",
-        "Action": "A serrated bread knife saws back and forth through the ice pineapple. Ice shavings fly off like snow with every movement of the saw.",
-        "Scene": "A wooden chopping block covered in frost. Background is a blurred wintery window with cool blue tones.",
-        "Style": "Close-up, cool color palette (blues and cyans), high shutter speed to capture the flying ice particles sharply.",
-        "Sounds": "Loud, harsh grinding and scraping of metal on ice, the sound of shaved ice spraying onto the wood.",
-        "Technical(Negative Prompt)": "No silent moments, and No unrealistic scene transitions."
-    },
     "scenario9": {
         "Subject": "A cluster of grapes made of wax-covered balloons filled with cornstarch (stress ball texture). Purple exterior.",
         "Action": "A razor blade slices cleanly through one grape at a time. The wax coating snaps open, and the cornstarch inside holds the cut shape without spilling.",

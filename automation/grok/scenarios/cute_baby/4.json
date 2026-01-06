@@ -1,0 +1,58 @@
+{
+    "scenario4": {
+        "Subject": "A hip 2-year-old wearing oversized DJ headphones, a backward snapback cap, and a hoodie. They are standing behind a makeshift turntable made of cardboard boxes.",
+        "Action": "The baby spins a plastic plate acting as a vinyl record with one hand while bobbing their head rhythmically. They raise one hand in the air as if dropping the beat, then accidentally knock over a sippy cup, freezing in shock.",
+        "Scene": "A dark living room transformed into a 'club' with purple and blue LED strip lights taped to the walls. A disco ball rotates slowly in the background.",
+        "Style": "Dynamic handheld camera movement (slightly shaky/energetic). Neon lighting palette (Cyberpunk aesthetic). Wide aperture.",
+        "Sounds": "Muffled bass-heavy club music, the scratching sound of plastic, and the clatter of the sippy cup falling.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario5": {
+        "Subject": "A 6-month-old baby sitting in a bubble bath. They have a 'beard' and 'Santa eyebrows' made entirely of white foam bubbles. They are holding a yellow rubber duck.",
+        "Action": "The baby stares cross-eyed at a bubble resting on their nose. The baby sneezes, causing the bubble beard to fly off in slow motion and the bubble on the nose to pop instantly.",
+        "Scene": "A clean white porcelain bathtub. Steam rising gently. Background includes teal tiles and a frosted glass window letting in soft, diffused light.",
+        "Style": "Slow-motion capture (120fps slowed down). Extreme close-up on the face. Soft, dreamy lighting with a pastel color palette.",
+        "Sounds": "Water splashing, a squeaky sound from the rubber duck, and a high-pitched, adorable sneeze.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario6": {
+        "Subject": "A 1-year-old wearing a miniature karate gi (white uniform) with a black belt tied loosely. They are barefoot.",
+        "Action": "The baby attempts a high kick but loses balance immediately. Instead of falling, they seamlessly transition into a clumsy somersault and land in a sitting position, clapping their hands as if it was intentional.",
+        "Scene": "A Japanese-style dojo mat or tatami room. Shoji screens (paper sliding doors) in the background with bamboo shadows cast on them.",
+        "Style": "Static wide shot to capture the full movement. Symmetrical composition. Wes Anderson-style flat lighting.",
+        "Sounds": "A 'Hi-yah!' shout from the baby, the soft thud of the diaper landing on the mat, and clapping.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario7": {
+        "Subject": "A toddler wearing oversized round spectacles and a tiny tweed jacket, sitting in a large leather armchair holding a newspaper upside down.",
+        "Action": "The baby lowers the upside-down newspaper, looks over the rim of the glasses with a judgmental expression, brings a finger to their lips to 'shush' the camera, and raises the newspaper back up.",
+        "Scene": "An old-fashioned library with floor-to-ceiling bookshelves filled with colorful books. A warm reading lamp illuminates the chair.",
+        "Style": "Medium shot. Rack focus starting on the newspaper and shifting to the baby's eyes when they lower the paper. Warm, vintage color grading.",
+        "Sounds": "The crinkle of newspaper, a loud 'Shhh!' sound, and the ticking of a grandfather clock.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario8": {
+        "Subject": "A messy 10-month-old wearing a white chef's hat and a bib stained red. They are sitting in front of a giant bowl of spaghetti.",
+        "Action": "The baby grabs a handful of spaghetti noodles with both hands and slaps them onto their own face. They pull the noodles away, revealing a face covered in sauce, and give a toothless grin to the camera.",
+        "Scene": "A high chair set up to look like an Italian restaurant table with a red and white checkered tablecloth. A candle (fake/battery) flickers in the background.",
+        "Style": "Front-facing view. Saturated colors (emphasizing the red sauce). sharp focus on the messy face.",
+        "Sounds": "Squishy pasta sounds, a wet slap sound, and a happy gurgle.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario9": {
+        "Subject": "A 1-year-old wearing denim overalls and a straw hat, holding a watering can that is almost as big as they are.",
+        "Action": "The baby tilts the watering can to water a single tiny flower. However, the water pours out too fast, splashing onto the baby's rubber boots. The baby looks down at the boots, surprised, and stomps in the puddle.",
+        "Scene": "A vibrant garden with sunflowers and green grass. Sunlight filtering through leaves (dappled light).",
+        "Style": "Low angle, ground-level shot focusing on the boots and flower. Vibrant greens and yellows. Lens flare from the sun.",
+        "Sounds": "Water pouring, a splash on rubber, and a muddy stomp sound.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario10": {
+        "Subject": "A baby dressed in a fuzzy astronaut onesie (silver and white). They are holding a toy rocket ship.",
+        "Action": "The baby is lying on a dark blue blanket. They lift the toy rocket slowly toward the 'sky' (ceiling), tracking it with their eyes full of wonder. The baby makes an 'O' shape with their mouth as they 'launch' it.",
+        "Scene": "A bedroom at night, but the ceiling is covered in glow-in-the-dark plastic stars and a moon projection. The lighting is dim, coming mostly from a star projector.",
+        "Style": "Point-of-view shot looking down at the baby, or a side profile close-up. Moody, blue-toned lighting with glowing highlights.",
+        "Sounds": "Ambient space drone sound (imaginary), a soft 'whoosh' made by the baby, and quiet breathing.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    }
+}

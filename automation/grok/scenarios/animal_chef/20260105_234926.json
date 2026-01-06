@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "A fluffy beige Holland Lop rabbit wearing a miniature white chef's hat and a tiny pastel floral apron. The rabbit has soft, dense fur and is standing on a sturdy stool to reach the counter.",
+        "Action": "The rabbit holds a small wooden rolling pin with its front paws and rolls it forward over a patch of cookie dough, then pauses to wiggle its nose. The movement is rhythmic and gentle.",
+        "Scene": "A rustic, sun-drenched cottage kitchen with wooden countertops. A bowl of flour and copper measuring spoons are visible nearby. Dust motes dance in the shaft of sunlight coming through a window.",
+        "Style": "Close-up macro shot at eye level with the rabbit. Soft focus background (bokeh). Warm, golden-hour lighting. High texture detail on the fur and flour dust.",
+        "Sounds": "Sound of a rolling pin rumbling on wood, faint crinkling of baking paper, light breathing, birds chirping softly in the distance.",
+        "Technical(Negative Prompt)": "No human body parts, No captions, No unrealistic scenes, No unrealistic scene transitions, No flying objects, No cartoon physics."
+    },
+    "scenario2": {
+        "Subject": "A sleek Tuxedo cat wearing a traditional Japanese hachimaki headband. The cat's black and white fur is glossy, and it is positioned behind a wooden sushi counter.",
+        "Action": "The cat uses its front paw to delicately place a slice of fresh red tuna onto a small mound of white rice, then gently pats it down once to secure it.",
+        "Scene": "An authentic, minimalist sushi bar setting with light pine wood surfaces. In the background, a noren curtain sways slightly. Soft steam rises from a teapot on the side.",
+        "Style": "Medium close-up, sharp focus on the paws and sushi. Clean, cool-toned lighting with high contrast. Cinematic 4k resolution.",
+        "Sounds": "The soft squish of rice being pressed, a faint clink of ceramic plates, gentle ambient restaurant chatter, quiet koto music.",
+        "Technical(Negative Prompt)": "No human body parts, No captions, No unrealistic scenes, No unrealistic scene transitions, No messy food, No distorted paws."
+    },
+    "scenario3": {
+        "Subject": "A chubby raccoon wearing a denim apron. The raccoon is standing on its hind legs, utilizing its dexterous front hands which look very similar to human hands.",
+        "Action": "The raccoon grips a metal spatula and successfully flips a sizzling burger patty on a hot grill. Smoke puffs up as the patty lands.",
+        "Scene": "An outdoor backyard patio setting with a charcoal grill. Green blurred trees and a wooden fence in the background. It is a bright summer afternoon.",
+        "Style": "Action shot, slightly low angle looking up at the raccoon to make it look heroic. Vibrant colors, high saturation. clear motion blur on the spatula.",
+        "Sounds": "Loud sizzling of meat on the grill, the metallic scrape of the spatula, sound of fire crackling, outdoor wind noise.",
+        "Technical(Negative Prompt)": "No human body parts, No captions, No unrealistic scenes, No unrealistic scene transitions, No fire hazards, No distorted metal."
+    },
+    "scenario4": {
+        "Subject": "A Golden Retriever wearing a red bandana around its neck. The dog has a happy expression with its mouth slightly open.",
+        "Action": "The dog is holding a long wooden spoon in its mouth and moving its head side-to-side to stir a large stainless steel pot of pasta sauce. The sauce swirls with the motion.",
+        "Scene": "A modern, clean kitchen with marble countertops and subway tile backsplash. Fresh basil and tomatoes are arranged on a cutting board next to the stove.",
+        "Style": "Medium shot from the side. Bright, high-key lighting (commercial style). Shallow depth of field keeping the dog's face and the pot in focus.",
+        "Sounds": "Bubbling liquid sounds, rhythmic clinking of the wooden spoon against the metal pot, panting sound from the dog, timer ticking.",
+        "Technical(Negative Prompt)": "No human body parts, No captions, No unrealistic scenes, No unrealistic scene transitions, No messy spills, No anthropomorphic standing (dog remains on four legs or leaning)."
+    },
+    "scenario5": {
+        "Subject": "A small Red Panda wearing a tiny white apron. It is standing upright on its hind legs, showcasing its reddish-brown fur and ringed tail.",
+        "Action": "The Red Panda holds a pepper grinder with both paws and twists it back and forth over a bowl of salad. Flakes of pepper fall slowly into the bowl.",
+        "Scene": "A cozy, dimly lit cabin interior with a fireplace in the background. A wooden table is set with a green salad bowl and a glass of water.",
+        "Style": "Over-the-shoulder shot focused on the grinding action. Warm, cozy color palette with orange and brown tones. Slow-motion capture (60fps) to highlight the falling pepper.",
+        "Sounds": "Grinding crunch of the pepper mill, crackling fire sound, soft jazz background music, rustling of leaves outside.",
+        "Technical(Negative Prompt)": "No human body parts, No captions, No unrealistic scenes, No unrealistic scene transitions, No distorted face, No floating objects."
+    }
+}

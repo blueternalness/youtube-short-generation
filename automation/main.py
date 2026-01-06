@@ -5,7 +5,9 @@ import glob
 import sys
 import subprocess
 import argparse
-import sys
+import re
+import random
+from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -15,7 +17,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
-import random
 
 # ==========================================
 #             SHARED UTILITIES
@@ -25,12 +26,11 @@ def launch_chrome_debugger():
     """
     Launches Chrome in remote debugging mode if it's not already running.
     """
-    # Verify this path matches your OS (MacOS example below)
+    # Verify this path matches your OS
     chrome_path = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
     user_data_dir = os.path.expanduser("~/gemini-bot") 
     port = "9222"
 
-    # Check if port is in use
     is_running = os.system(f"lsof -i :{port} > /dev/null 2>&1")
     
     if is_running == 0:
@@ -60,13 +60,11 @@ def get_next_scenario(folder_path):
             with open(filepath, 'r', encoding='utf-8') as f:
                 data = json.load(f)
             
-            # Delete empty files
             if not data:
                 print(f"[*] File {os.path.basename(filepath)} is empty. Deleting...")
                 os.remove(filepath)
                 continue
             
-            # Return first scenario found
             first_key = next(iter(data))
             return filepath, first_key, data[first_key]
             
@@ -95,11 +93,143 @@ def remove_scenario_from_file(filepath, key):
     except Exception as e:
         print(f"[!] Error updating file: {e}")
 
+def get_generation_prompt(prompt_path):
+    """Reads a random text file from the prompts folder."""   
+    try:
+        with open(prompt_path, 'r', encoding='utf-8') as f:
+            return f.read()
+    except Exception as e:
+        print(f"[!] Error reading prompt file: {e}")
+        return None
+
+def extract_json_from_text(text):
+    """Extracts JSON object from a string using regex, handling Markdown blocks."""
+    # Pattern to find JSON block enclosed in ```json ... ``` or just { ... }
+    # 1. Try finding markdown code block first
+    match = re.search(r"```json\s*(\{.*?\})\s*```", text, re.DOTALL)
+    if not match:
+        # 2. Try finding just the outer braces
+        match = re.search(r"(\{.*\})", text, re.DOTALL)
+    
+    if match:
+        json_str = match.group(1)
+        try:
+            return json.loads(json_str)
+        except json.JSONDecodeError:
+            print("[!] Text found looks like JSON but failed to parse.")
+            return None
+    return None
+
 # ==========================================
 #             PLATFORM CLASSES
 # ==========================================
 
-class GeminiAutomation:
+class GeminiScenarioGenerator:
+    """Handles generating new scenarios via Gemini chat."""
+    def __init__(self, driver, wait):
+        self.driver = driver
+        self.wait = wait
+
+    def generate_and_save(self, prompt_text, output_folder):
+        print("\n--- Starting Scenario Generation ---")
+        
+        # 1. Focus Tab
+        self._focus_tab()
+
+        # 2. Start New Chat
+        self._new_chat()
+
+        # 3. Send Prompt
+        print("[*] Sending scenario generation prompt...")
+        try:
+            input_box = self.wait.until(EC.presence_of_element_located(
+                (By.CSS_SELECTOR, "div[contenteditable='true']")
+            ))
+            input_box.clear()
+            # Send keys in chunks if too long, or just send
+            self.driver.execute_script("arguments[0].innerText = arguments[1];", input_box, prompt_text)
+            input_box.send_keys(" ") # Trigger event
+            time.sleep(1)
+            input_box.send_keys(Keys.ENTER)
+        except Exception as e:
+            print(f"[!] Error sending prompt: {e}")
+            return False
+
+        # 4. Wait for and Extract Response
+        print("[*] Waiting for Gemini to generate scenarios...")
+        time.sleep(10) # Initial buffer
+        
+        # Wait for "stopped" state or long enough time. 
+        # Strategy: Poll for the latest message content until it contains "}"
+        max_retries = 30
+        extracted_data = None
+        
+        for i in range(max_retries):
+            try:
+                # Get all response containers
+                print(f"[*] Checking for Gemini response... (Attempt {i})")
+                # METHOD A: Get all markdown text (General purpose)
+                # Use CSS Selector '.markdown' to match "markdown markdown-main-panel..."
+                responses = self.driver.find_elements(By.CSS_SELECTOR, ".markdown")
+                
+                if responses:
+                    # Get the text of the very last response
+                    last_response_text = responses[-1].text
+                    extracted_data = extract_json_from_text(last_response_text)
+                
+                # METHOD B: Fallback - Target the code block directly (Specific to your HTML snippet)
+                if not extracted_data:
+                    code_blocks = self.driver.find_elements(By.TAG_NAME, "code")
+                    if code_blocks:
+                        last_code_text = code_blocks[-1].text
+                        extracted_data = extract_json_from_text(last_code_text)
+                
+                if extracted_data:
+                    print("[*] Successfully extracted JSON data.")
+                    break
+            except Exception as e:
+                print(e)
+                pass
+            time.sleep(2)
+
+        if not extracted_data:
+            print("[!] Failed to extract valid JSON from Gemini response.")
+            return False
+
+        # 5. Save to File
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f"{timestamp}.json"
+        output_path = os.path.join(output_folder, filename)
+        
+        try:
+            with open(output_path, 'w', encoding='utf-8') as f:
+                json.dump(extracted_data, f, indent=4, ensure_ascii=False)
+            print(f"[*] Saved new scenarios to: {output_path}")
+            return True
+        except Exception as e:
+            print(f"[!] Error saving file: {e}")
+            return False
+
+    def _focus_tab(self):
+        for handle in self.driver.window_handles:
+            self.driver.switch_to.window(handle)
+            if "gemini.google.com" in self.driver.current_url:
+                return
+        self.driver.execute_script("window.open('https://gemini.google.com', '_blank');")
+        self.driver.switch_to.window(self.driver.window_handles[-1])
+
+    def _new_chat(self):
+        try:
+            new_chat_btn = self.wait.until(EC.element_to_be_clickable(
+                (By.XPATH, "//*[contains(text(), 'New chat')]")
+            ))
+            new_chat_btn.click()
+            time.sleep(2)
+        except:
+            print("[!] Could not click New Chat (might already be new).")
+
+class GeminiVideoAutomation:
+    """Handles Video Generation logic (Original)."""
     def __init__(self, driver, wait, long_wait):
         self.driver = driver
         self.wait = wait
@@ -109,9 +239,7 @@ class GeminiAutomation:
         for handle in self.driver.window_handles:
             self.driver.switch_to.window(handle)
             if "gemini.google.com" in self.driver.current_url:
-                print("Found existing Gemini tab.")
                 return
-        print("Opening new Gemini tab...")
         self.driver.execute_script("window.open('https://gemini.google.com', '_blank');")
         self.driver.switch_to.window(self.driver.window_handles[-1])
 
@@ -135,7 +263,7 @@ class GeminiAutomation:
             f"Technical(Negative Prompt): {scenario.get('Technical(Negative Prompt)', '')}"
         )
         
-        print(f"[*] Sending prompt: {prompt[:50]}...")
+        print(f"[*] Sending Video Prompt...")
 
         try:
             # 1. Click Tools
@@ -162,7 +290,6 @@ class GeminiAutomation:
             
             # 4. Submit
             input_box.send_keys(Keys.ENTER)
-            print("[*] Prompt submitted! Waiting for result...")
             
             # 5. Wait for Result & Download
             self.download_video()
@@ -193,7 +320,6 @@ class GeminiAutomation:
             time.sleep(5)
         except Exception as e:
             print(f"[!] Auto-download failed: {e}")
-
 
 class GrokAutomation:
     def __init__(self, driver, wait, long_wait):
@@ -335,39 +461,69 @@ class AutomationController:
         self.wait = WebDriverWait(self.driver, 20)
         self.long_wait = WebDriverWait(self.driver, 300)
         
+        self.mode = mode
+        self.scenario_bot = GeminiScenarioGenerator(self.driver, self.wait)        
+        
         if mode == "gemini":
-            self.bot = GeminiAutomation(self.driver, self.wait, self.long_wait)
+            self.video_bot = GeminiVideoAutomation(self.driver, self.wait, self.long_wait)
         elif mode == "grok":
-            self.bot = GrokAutomation(self.driver, self.wait, self.long_wait)
+            self.video_bot = GrokAutomation(self.driver, self.wait, self.long_wait)
         else:
-            raise ValueError("Invalid mode.")
+            raise ValueError("Only gemini and grok mode supports video generation currently.")
 
-    def run(self, folder_path, count=3):
+    def run_scenario_generation(self, prompt_path, output_folder, count):
+        """Phase 1: Generate Scenarios"""
+        print(f"\n=== PHASE 1: GENERATING {count} BATCHES OF SCENARIOS ===")
+        
         for i in range(count):
+            print(f"\n[Batch {i+1}/{count}]")
+            
+            # 1. Get Prompt text
+            prompt_text = get_generation_prompt(prompt_path)
+            if not prompt_text:
+                print("[!] No prompts found. Skipping generation.")
+                break
+
+            # 2. Run Generation
+            success = self.scenario_bot.generate_and_save(prompt_text, output_folder)
+            
+            if success:
+                print(f"[*] Batch {i+1} completed successfully.")
+            else:
+                print(f"[!] Batch {i+1} failed.")
+            
+            time.sleep(3)
+
+    def run_video_generation(self, folder_path, max_videos=999):
+        """Phase 2: Generate Videos from Scenarios"""
+        print(f"\n=== PHASE 2: GENERATING VIDEOS FROM {folder_path} ===")
+        
+        processed_count = 0
+        while True: # Run until no files left or max count reached
+            if processed_count >= max_videos:
+                print("[*] Max video count reached.")
+                break
+
             filepath, key, scenario = get_next_scenario(folder_path)
             
             if not scenario:
-                print("[!] No more scenarios found!")
+                print("[!] No more scenarios found in folder.")
                 break
                 
-            print(f"\n--- Processing Video {i+1}/{count} ---")
-            print(f"[*] File: {os.path.basename(filepath)} | Scenario: {key}")
+            print(f"\n--- Processing Video Scenaro: {key} ---")
+            print(f"[*] Source File: {os.path.basename(filepath)}")
             
-            self.bot.focus_tab()
+            self.video_bot.focus_tab()
             time.sleep(1)
 
             try:
-                self.bot.run_generation(scenario)
-                # Success -> Remove from file
+                self.video_bot.run_generation(scenario)
                 remove_scenario_from_file(filepath, key)
+                processed_count += 1
             except Exception as e:
-                print(f"[!] Stopping batch due to error: {e}")
+                print(f"[!] Video generation failed: {e}")
                 if "Rate Limit" in str(e):
-                    print("[!] Exiting due to Rate Limit.")
-                    os.system("pkill -f 'Google Chrome'")
-                    sys.exit(0)
                     break
-                # On random error, skip to next iteration
                 continue
             
             time.sleep(3)
@@ -377,47 +533,38 @@ class AutomationController:
 # ==========================================
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Automate video generation on Gemini or Grok.")
+    parser = argparse.ArgumentParser(description="Automate Scenario & Video generation.")
     
-    # 1. Mode Argument (Required)
-    parser.add_argument(
-        "--mode", 
-        type=str, 
-        choices=["gemini", "grok"], 
-        required=True, 
-        help="Select the generation platform."
-    )
-    
-    # 2. Folder Argument (Optional)
-    parser.add_argument(
-        "--folder", 
-        type=str, 
-        help="Path to the scenarios folder. Defaults to ./<mode>/scenarios"
-    )
-    
-    # 3. Count Argument (Optional)
-    parser.add_argument(
-        "--count", 
-        type=int, 
-        default=3, 
-        help="Number of videos to generate in this run (Default: 3)."
-    )
-    
+    parser.add_argument("--mode", type=str, default="gemini", choices=["gemini", "grok"])
+    parser.add_argument("--count", type=int, default=1, help="Number of scenario batches to generate.")
+    parser.add_argument("--concept", type=str, default="cute_baby", choices=["cute_baby","fruit_cutting", "animal_mukbang", "animal_chef", "tiny_worker_building_food"], required=True, help="Video generation concept (e.g., cute_baby).")    
+
     args = parser.parse_args()
 
-    # Determine default folder if not provided
-    if not args.folder:
-        # TODO: Update paths as necessary (If we need to add more modes or scenarios in future)
-        args.folder = f"./{args.mode}/scenarios/fruit_cutting" if args.mode == "gemini" else f"./{args.mode}/scenarios/tiny_worker_construct_food"
+    default_path = "/Users/vhehf/Desktop/Personal materials/StartUp/YoutubeShortsGeneration/youtube-short-generation"
+    scenario_generation_prompt_path = os.path.join(default_path, "prompts", args.concept, "scenario_generation", f"{args.concept}_scenario_generation_prompt_{args.mode}.txt")
+    automation_folder = os.path.join(default_path, "automation", args.mode, "scenarios", args.concept)
 
-    # Validate folder existence
-    if not os.path.exists(args.folder):
-        print(f"[!] Folder '{args.folder}' does not exist.")
-        print(f"[!] Please create it or specify a different folder using --folder")
+    # Validate folders
+    if not os.path.exists(scenario_generation_prompt_path):
+        print(f"[!] Prompt folder '{scenario_generation_prompt_path}' does not exist.")
+        exit(1)
+    if not os.path.exists(automation_folder):
+        print(f"[!] Automation folder '{automation_folder}' does not exist.")
         exit(1)
 
-    print(f"[*] Starting Automation | Mode: {args.mode} | Count: {args.count}")
-    print(f"[*] Scenario Folder: {args.folder}")
-
     controller = AutomationController(mode=args.mode)
-    controller.run(args.folder, count=args.count)
+
+    # Step 1: Generate Scenarios
+    controller.run_scenario_generation(
+        prompt_path=scenario_generation_prompt_path,
+        output_folder=automation_folder,
+        count=args.count
+    )
+
+    # Step 2: Generate Videos
+    # We pass a large number for video count to ensure we process all generated scenarios
+    controller.run_video_generation(
+        folder_path=automation_folder,
+        max_videos=args.count * 5
+    )
