@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "A hyper-realistic watermelon model made entirely of vibrant, red and green hydrophobic kinetic sand. The outer rind is a textured dark green sand layer, while the inside is a grainy, bright ruby red sand with simulated black seeds made of smooth stones.",
+        "Action": "A glowing, super-heated metal knife slowly presses down into the center of the watermelon. The sand initially holds its shape, then satisfyingly crumbles and cascades apart as the blade descends. The cut reveals the grainy texture separating in slow motion.",
+        "Scene": "A sun-drenched wooden picnic table outdoors with blurred lush green grass in the background. Natural sunlight casts harsh, crisp shadows. A few loose grains of sand sparkle on the table surface.",
+        "Style": "Macro close-up shot, 45-degree high angle. High contrast lighting to accentuate the grains of sand. Shallow depth of field focusing strictly on the incision point. 60fps slowed down to 30fps for fluidity.",
+        "Sounds": "Loud sizzling hiss as the hot knife touches the sand, followed by a distinct, dry grinding noise (crunchy sand friction) and the soft thud of sand clumps falling onto the wood table.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, No unrealistic scene transitions, no blurry textures, no human faces."
+    },
+    "scenario2": {
+        "Subject": "A translucent, crystal-clear lemon model made of firm agar jelly. The jelly is a pale yellow tint, containing suspended bubbles and realistic lemon segment structures visible deep inside. The surface is glossy and wet.",
+        "Action": "A sharp surgical scalpel slices horizontally through the lemon with precision. The jelly wobbles intensely with every movement of the blade. A slice is severed and falls flat, jiggling upon impact with the surface.",
+        "Scene": "A sterile, minimalist laboratory setting with white tile surfaces. Cool, blue-toned LED strip lighting from below creates a backlight effect, making the jelly glow from within.",
+        "Style": "Eye-level profile shot. Clean, clinical aesthetic. Sharp focus. Soft diffused lighting to enhance the translucency and wobble physics of the jelly.",
+        "Sounds": "Wet, sticky squelching sounds as the blade enters the jelly. A suction-like 'thwack' sound when the slice falls and hits the table. High-pitched, wet slicing friction.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, No unrealistic scene transitions, no opaque materials, no shaky camera."
+    },
+    "scenario3": {
+        "Subject": "A Granny Smith apple model carved from dry, crisp green floral foam. The exterior is painted a matte apple green, while the interior is a dusty, porous dark green foam texture.",
+        "Action": "A silver crinkle-cut wavy potato cutter presses vertically down onto the apple. The floral foam crunches and compresses before giving way, separating into wavy geometric halves. Fine dust particles fly into the air.",
+        "Scene": "A rustic, dark oak potting bench in a greenhouse. Background filled with blurred terracotta pots and hanging vines. Soft, ambient natural light filtering through dusty glass windows.",
+        "Style": "Top-down 'flat lay' perspective. Warm, earthy color palette. High textural detail to show the cells of the foam crushing. Cinematic slow motion capture of the dust particles.",
+        "Sounds": "Intense, dry crunching sound (floral foam compression). A snapping sound as the structure gives way. The light sound of foam dust settling.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, No unrealistic scene transitions, no liquid sounds, no metal screeching."
+    },
+    "scenario4": {
+        "Subject": "A dragon fruit model made of brittle, frozen white chalk with black sesame seeds embedded inside. The outer skin is a hardened pink plaster shell with green scales.",
+        "Action": "A heavy, rusted iron cleaver strikes the fruit with force. The chalk shatters instantly upon impact rather than slicing cleanly. Shards of white chalk and pink shell explode outward in a radial pattern.",
+        "Scene": "A dark, industrial concrete floor. Dramatic rim lighting from the side (chiaroscuro effect) highlights the debris field. A faint haze or smoke hangs in the air.",
+        "Style": "Low angle, looking slightly up at the fruit. High shutter speed to freeze the shattering debris. Cool, desaturated color grading with a spotlight on the pink fruit.",
+        "Sounds": "A loud, sharp 'crack' like breaking ceramic. The clattering sound of hard chalk pieces scattering across the concrete floor. Echoey, industrial ambiance.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, No unrealistic scene transitions, no soft textures, no overexposure."
+    },
+    "scenario5": {
+        "Subject": "A giant peach model made of soft, pastel pink and orange polymer clay. The texture is matte and velvety, resembling realistic peach fuzz. The inside is a solid, creamy orange clay.",
+        "Action": "A thin, taut wire cheese slicer is pulled slowly through the center of the peach. The clay offers resistance, dragging slightly before creating a perfectly smooth, smear-free cross-section.",
+        "Scene": "A pastel aesthetic art studio. The surface is a rotating turntable covered in light blue velvet fabric. Softbox lighting creates a shadowless, dreamy atmosphere.",
+        "Style": "Extreme close-up (macro) tracking shot that follows the wire moving through the clay. Pastel color palette (Wes Anderson style). Soft focus background.",
+        "Sounds": "Low-frequency hum of the turntable. A deep, satisfying 'thrumming' sound as the wire cuts through the dense clay. A soft separation sound as the halves part.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, No unrealistic scene transitions, no sudden cuts, no jarring noises."
+    }
+}
