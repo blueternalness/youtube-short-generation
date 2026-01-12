@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "A fluffy Holland Lop rabbit with soft cream-colored fur, wearing a tiny floral-patterned apron and a miniature chef's hat. The rabbit is holding a piping bag filled with pink strawberry frosting. In front of it is a rustic wooden table with a partially decorated vanilla cupcake.",
+        "Action": "The rabbit uses its paws to skillfully squeeze the piping bag, swirling a perfect rosette of pink frosting onto the top of the cupcake. The movement is steady and focused, mimicking a human pastry chef's dexterity.",
+        "Scene": "A sun-drenched cottage kitchen interior. Background features wooden shelves filled with ceramic jars and dried herbs. Natural sunlight streams through a window with lace curtains, illuminating floating dust motes.",
+        "Style": "Macro shot, eye-level angle, soft focus background (bokeh), warm and pastel color palette, cinematic lighting, 8k resolution, photorealistic textures.",
+        "Sounds": "Soft ambient birdsong from outside, the gentle squish sound of frosting leaving the piping bag, faint rustle of the apron.",
+        "Technical(Negative Prompt)": "No human body parts, No captions, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario2": {
+        "Subject": "An adult Emperor Penguin with sleek, waterproof feathers, wearing a traditional white Japanese sushi chef coat and a blue headband. The penguin is standing behind a clean, light-colored wooden sushi counter.",
+        "Action": "The penguin uses its flipper-wings to delicately place a single, bright orange salmon roe (ikura) onto a pristine piece of nigiri sushi. The motion is precise and careful.",
+        "Scene": "A minimalist, high-end sushi bar setting. The background is slightly dark with focused warm spotlights. A gentle steam rises from a pot of green tea nearby. Everything is spotless and symmetrical.",
+        "Style": "Close-up shot, sharp focus on the sushi and penguin's face, cool tones with warm highlights, high contrast, depth of field blurring the distant background.",
+        "Sounds": "Quiet ambient restaurant chatter, the soft 'clink' of ceramic, subtle jazz piano background music.",
+        "Technical(Negative Prompt)": "No human body parts, No captions, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario3": {
+        "Subject": "A vibrant Red Panda with thick, reddish-brown fur and a ringed tail, wearing a dusty white baker's apron. It is standing on a stool in front of a stone countertop covered in flour.",
+        "Action": "The Red Panda takes a handful of mozzarella cheese from a bowl and sprinkles it over a raw pizza dough that already has tomato sauce on it. The cheese falls in slow motion, scattering evenly.",
+        "Scene": "An outdoor rustic kitchen with a brick pizza oven in the background where a fire is visibly crackling. It is late afternoon with golden hour lighting casting long, warm shadows.",
+        "Style": "Medium shot, 45-degree angle looking down slightly, slow-motion effect for the falling cheese, rich and saturated colors (reds, oranges, golds), dynamic lighting.",
+        "Sounds": "Crackling fire sound, the soft patter of cheese hitting the dough, outdoor nature ambiance (crickets starting).",
+        "Technical(Negative Prompt)": "No human body parts, No captions, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario4": {
+        "Subject": "A Golden Retriever with a glossy golden coat, wearing a 'Kiss the Cook' apron. The dog is standing upright on its hind legs (leaning against the counter for support) at a modern kitchen island.",
+        "Action": "The dog holds a small glass pitcher in its paw and slowly pours golden maple syrup over a stack of three fluffy pancakes. The syrup flows viscously and glistens in the light.",
+        "Scene": "A bright, modern white kitchen with marble countertops. Through the glass sliding doors in the background, a green manicured lawn is visible. The scene is bright and airy.",
+        "Style": "Eye-level shot, high-key lighting (bright and evenly lit), sharp details on the syrup and fur, commercial aesthetic, vibrant colors.",
+        "Sounds": "The sound of liquid pouring, a happy panting sound, morning birds chirping, the clink of the pitcher touching the plate.",
+        "Technical(Negative Prompt)": "No human body parts, No captions, No unrealistic scenes, and No unrealistic scene transitions."
+    },
+    "scenario5": {
+        "Subject": "A Scottish Fold cat with grey fur and large round copper eyes, wearing a tiny red bandana around its neck. It is holding a small wooden spatula.",
+        "Action": "The cat is stirring colorful vegetables (bell peppers, broccoli) in a steaming hot wok. The cat moves the spatula in a circular motion, mixing the food.",
+        "Scene": "A night market food stall setting. Neon lights (blue and pink) reflect off the metal wok. Steam is rising heavily from the pan. Lanterns hang in the blurred background.",
+        "Style": "Close-up action shot, cyberpunk aesthetic, neon lighting, volumetric fog (steam), high contrast, vibrant and moody colors.",
+        "Sounds": "Sizzling oil sounds, clattering of the wooden spatula against the wok, distant city traffic noise.",
+        "Technical(Negative Prompt)": "No human body parts, No captions, No unrealistic scenes, and No unrealistic scene transitions."
+    }
+}

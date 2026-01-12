@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "A hyper-realistic triangular slice of watermelon constructed entirely from tightly packed, vibrant red and green kinetic sand. The texture is grainy yet cohesive, imitating the porous look of real watermelon flesh but with a matte, sandy finish.",
+        "Action": "A sharp, silver chef's knife slices vertically through the center of the sand watermelon. The knife enters smoothly, creating a clean cut for the first second, followed by the sand halves slowly crumbling and cascading downwards in a satisfying, granular collapse over the remaining 7 seconds.",
+        "Scene": "A rustic wooden picnic table outdoors bathed in bright, warm golden-hour sunlight. Shadows of swaying tree leaves dance lightly on the wood grain surface. No unrealistic transitions.",
+        "Style": "Macro close-up shot, 45-degree high angle. High contrast lighting to accentuate the grain of the sand. Shallow depth of field with focus sharp on the knife's edge.",
+        "Sounds": "A loud, gritty friction sound as the metal blade cuts the sand, followed by a soft, rushing 'shhh' sound of the sand crumbling and hitting the wooden table.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
+    },
+    "scenario2": {
+        "Subject": "A geometrically perfect pineapple model made from dry, green and yellow floral foam. The surface is crisp and porous, capable of being crushed easily.",
+        "Action": "A gloved hand presses a wire grid cutter downwards onto the floral foam pineapple. The foam yields instantly, snapping and crunching as it is forced through the grid, turning into perfect square cubes that pop upward and outward.",
+        "Scene": "A minimalist, sterile studio setting with a clean concrete grey background. Cool, diffused studio lighting creates soft shadows, emphasizing the texture of the foam. No distractions.",
+        "Style": "Top-down (flat lay) perspective. Static camera. High-key lighting, ultra-sharp focus, clean and clinical aesthetic.",
+        "Sounds": "Intense, dry crunching and snapping noises, similar to stepping on dry leaves or crushing rigid styrofoam, culminating in a final hollow thud as the cutter hits the base.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
+    },
+    "scenario3": {
+        "Subject": "A translucent, glowing peach model made of solid glycerin soap. The material is smooth, shiny, and slightly rubbery, with a gradient from pale yellow to deep orange.",
+        "Action": "A surgical scalpel creates thin, peeling shavings from the side of the soap peach. The blade glides rhythmically, curling long ribbons of soap that fall heavily onto the surface.",
+        "Scene": "A reflective black glass surface in a dimly lit room. Neon purple and blue rim lighting highlights the translucency of the soap shavings against the dark background.",
+        "Style": "Extreme close-up (macro). Slow-motion panning shot following the movement of the scalpel. Cyberpunk color palette, glossy aesthetic.",
+        "Sounds": "Wet, slick slicing noises, high-pitched squeaks of the soap against the metal blade, and the soft, heavy slap of soap ribbons landing on glass.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
+    },
+    "scenario4": {
+        "Subject": "A bright yellow lemon model made of frozen colored ice. The surface is frosted with condensation, hard, and brittle.",
+        "Action": "A heavy, thick cleaver is raised and brought down with force. Upon impact, the ice lemon shatters explosively into uneven, jagged shards and ice dust rather than slicing cleanly.",
+        "Scene": "A dark slate countertop with scattered mint leaves. Cold, blue-tinted lighting evokes a freezing temperature. Visible breath vapor in the air.",
+        "Style": "Side profile shot at eye level. High shutter speed to capture the flying ice shards in crisp detail. Cool color temperature, dramatic contrast.",
+        "Sounds": "A sharp 'whoosh' of the cleaver moving through air, a violent, high-pitched glass-like shattering crack upon impact, and the tinkling sound of ice debris skittering across the slate.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
+    },
+    "scenario5": {
+        "Subject": "A perfectly shaped avocado made of soft, polymer clay. The skin is dark textured green, and the inside is a smooth, pastel green solid clay with a brown clay pit.",
+        "Action": "A heated knife (glowing slightly red at the tip) slides effortlessly through the clay avocado. The heat melts the path slightly, leaving a glossy trail as the clay halves separate like soft butter without resistance.",
+        "Scene": "A pastel pink ceramic tile surface. Soft, natural morning light coming from a nearby window, creating a gentle, cozy atmosphere.",
+        "Style": "45-degree isometric angle. Smooth zoom-in during the cut. dreamy, soft-focus aesthetic with warm, pastel color grading.",
+        "Sounds": "A faint sizzling hiss from the heat, a deep, satisfying squelch as the clay separates, and a soft thud as the two halves fall flat.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
+    }
+}

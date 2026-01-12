@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "A fluffy Golden Retriever puppy standing upright, wearing a miniature white chef's hat and a beige linen apron. The puppy has golden fur, large brown eyes, and is holding a wooden rolling pin with its front paws. The table features a mound of white flour and soft, yellow cookie dough.",
+        "Action": "The Golden Retriever pushes the rolling pin forward and backward over the dough with a concentrated expression. As it rolls, a small cloud of flour dust puffs up into the air. The puppy pauses for a split second to look at the dough, then continues rolling.",
+        "Scene": "A warm, rustic country kitchen with sunlight streaming through a window on the left. Wooden cabinets, copper pots hanging in the blurred background, and a vase of sunflowers on the counter. Dust motes dancing in the light shafts.",
+        "Style": "Cinematic close-up, 35mm lens, shallow depth of field focusing on the puppy's face and paws. Warm color grading (golden hour), soft diffused lighting, high texture detail on the fur and flour.",
+        "Sounds": "Sound of a wooden roller clacking against the table, soft crunch of flour, gentle breathing of the puppy, acoustic guitar background music, ambient birds chirping outside.",
+        "Technical(Negative Prompt)": "No human body parts, No captions, No unrealistic scenes, No unrealistic scene transitions, No morphing, No cartoon physics."
+    },
+    "scenario2": {
+        "Subject": "A British Shorthair cat with grey fur and piercing orange eyes, wearing a tiny black bow tie and a barista's denim apron. The cat is standing behind a shiny espresso machine, holding a small stainless steel milk pitcher in its paws.",
+        "Action": "The cat carefully tilts the pitcher, pouring steamed milk into a ceramic cup of espresso to create a heart-shaped latte art pattern. The cat's paws move with precision, and steam rises gently from the cup. It gives a slight ear twitch at the end.",
+        "Scene": "A modern, minimalist coffee shop interior. White marble countertop, blurred espresso machine lights in the background, a plate of croissants to the side. Morning light creates sharp, clean shadows.",
+        "Style": "Macro shot, eye-level angle, 85mm lens. High-key lighting, bright and airy aesthetic. Sharp focus on the pouring milk and the cat's focused eyes. Cool and neutral color palette.",
+        "Sounds": "Hiss of steam, liquid pouring into liquid, clinking of ceramic on marble, soft jazz piano background music, ambient coffee shop chatter hum.",
+        "Technical(Negative Prompt)": "No human body parts, No captions, No unrealistic scenes, No unrealistic scene transitions, No morphing, No floating objects."
+    },
+    "scenario3": {
+        "Subject": "A North American Raccoon standing on a stool, wearing a red checkered bandana around its neck. The raccoon has dexterous, tiny hands and is holding a pair of long cooking chopsticks. In front of it is a sizzling hot iron griddle (teppanyaki style) with yakisoba noodles and vegetables.",
+        "Action": "The raccoon skillfully stirs the noodles on the hot griddle using the chopsticks. It lifts a small portion of steaming noodles and vegetables, inspects them, and places them back down. Steam billows around its face.",
+        "Scene": "An outdoor night market stall. Strung lantern lights providing bokeh in the background, dark night sky, smoke rising from the grill. The atmosphere is moody and vibrant.",
+        "Style": "Medium shot, low angle looking slightly up at the raccoon. High contrast lighting with orange and teal grading (cyberpunk vibe). cinematic slow-motion effect on the steam.",
+        "Sounds": "Sizzling of oil on hot metal, clacking of chopsticks, crackling fire sound, ambient night market crowd noise, distant crickets.",
+        "Technical(Negative Prompt)": "No human body parts, No captions, No unrealistic scenes, No unrealistic scene transitions, No morphing, No glitches."
+    },
+    "scenario4": {
+        "Subject": "A Giant Panda sitting at a low wooden table, wearing a traditional silk robe. The panda is round and fluffy, holding a bamboo steamer basket lid with one paw and a pair of tongs with the other. Inside the steamer are fluffy white dumplings.",
+        "Action": "The panda lifts the bamboo lid to reveal the dumplings, releasing a massive cloud of white steam. It uses the tongs to gently poke a dumpling to check for softness, looking delighted.",
+        "Scene": "A bamboo forest clearing with a traditional wooden pagoda structure in the background. Mist hangs in the air. Green bamboo leaves frame the shot.",
+        "Style": "Wide aperture, 50mm lens. Natural soft lighting (overcast day), lush green color palette. Focus shifts from the bamboo lid to the panda's face as the steam clears.",
+        "Sounds": "Sound of bamboo lid scraping, heavy hiss of steam release, nature sounds (wind in leaves), traditional flute melody, panda chewing sound effect.",
+        "Technical(Negative Prompt)": "No human body parts, No captions, No unrealistic scenes, No unrealistic scene transitions, No morphing, No weird anatomy."
+    },
+    "scenario5": {
+        "Subject": "A small Hedgehog wearing a tiny 'Kiss the Cook' apron. The hedgehog is standing on its hind legs in front of a miniature charcoal grill. It is holding a miniature metal spatula. On the grill are tiny bell peppers and corn cobs.",
+        "Action": "The hedgehog reaches out with the spatula and flips a tiny corn cob on the grill. A small flare-up of fire happens underneath, illuminating the hedgehog's face. The hedgehog wiggles its nose.",
+        "Scene": "A backyard picnic setting on green grass. A red and white checkered tablecloth is visible nearby. Sunset lighting casting long shadows. Fireflies starting to appear in the background.",
+        "Style": "Macro photography style, extremely close to the ground (bug's eye view). Warm sunset colors (orange, purple). Bokeh effect on the background grass and fireflies.",
+        "Sounds": "Sizzle of grilling vegetables, crackle of charcoal, summer cicadas buzzing, light pop of the fire flare, happy humming sound.",
+        "Technical(Negative Prompt)": "No human body parts, No captions, No unrealistic scenes, No unrealistic scene transitions, No morphing, No flying food."
+    }
+}

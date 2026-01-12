@@ -1,12 +1,4 @@
 {
-    "scenario1": {
-        "Subject": "A fluffy beige Holland Lop rabbit wearing a miniature white chef's hat and a tiny pastel floral apron. The rabbit has soft, dense fur and is standing on a sturdy stool to reach the counter.",
-        "Action": "The rabbit holds a small wooden rolling pin with its front paws and rolls it forward over a patch of cookie dough, then pauses to wiggle its nose. The movement is rhythmic and gentle.",
-        "Scene": "A rustic, sun-drenched cottage kitchen with wooden countertops. A bowl of flour and copper measuring spoons are visible nearby. Dust motes dance in the shaft of sunlight coming through a window.",
-        "Style": "Close-up macro shot at eye level with the rabbit. Soft focus background (bokeh). Warm, golden-hour lighting. High texture detail on the fur and flour dust.",
-        "Sounds": "Sound of a rolling pin rumbling on wood, faint crinkling of baking paper, light breathing, birds chirping softly in the distance.",
-        "Technical(Negative Prompt)": "No human body parts, No captions, No unrealistic scenes, No unrealistic scene transitions, No flying objects, No cartoon physics."
-    },
     "scenario2": {
         "Subject": "A sleek Tuxedo cat wearing a traditional Japanese hachimaki headband. The cat's black and white fur is glossy, and it is positioned behind a wooden sushi counter.",
         "Action": "The cat uses its front paw to delicately place a slice of fresh red tuna onto a small mound of white rice, then gently pats it down once to secure it.",

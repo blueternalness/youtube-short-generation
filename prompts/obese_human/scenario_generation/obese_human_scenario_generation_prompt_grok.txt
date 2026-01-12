@@ -1,4 +1,6 @@
-I want to create short form funny, ridiculous, ludicrous clickbait video content where a incredibly obese man do various activities.
+I want to create short form funny, ridiculous, ludicrous clickbait video content where a incredibly obese human is performing various activities.
+The situation in video should not be boring.
+The video should not include unrealistic scene transitions.
 Give me 5 prompts with detailed scenarios for creating such video content.
 
 For each scenario, write prompts in the following JSON format:
@@ -10,5 +12,6 @@ For each scenario, write prompts in the following JSON format:
         "Scene": [Detailed environment description including location, props, background elements, lighting setup, weather, time of day, architectural details],
         "Style": [Camera shot type, angle, movement, lighting style, visual aesthetic, aspect ratio, film grade, color palette, depth of field, focus techniques],
         "Sounds": [Specific audio elements including ambient sounds, effects, background audio, music, environmental noise, equipment sounds, natural acoustics],
+        "Technical(Negative Prompt)": No hallucinations, and No unrealistic scene transitions.
     },
 }

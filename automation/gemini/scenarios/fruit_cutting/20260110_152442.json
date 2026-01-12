@@ -1,0 +1,168 @@
+{
+    "scenario1": {
+        "Subject": [
+            "A realistic watermelon slice model made of densely packed, vibrant red kinetic sand.",
+            "The rind is made of hardened green wax.",
+            "The 'seeds' are small black obsidian stones embedded in the sand.",
+            "The texture is granular yet cohesive, holding shape until touched."
+        ],
+        "Action": [
+            "A heavy, polished stainless steel cleaver is raised and brought down firmly in the center.",
+            "The cleaver slices through the wax rind with resistance, then glides effortlessly through the sand.",
+            "The slice splits open, revealing the grainy internal structure as the sand slowly crumbles apart over 8 seconds."
+        ],
+        "Scene": [
+            "A sunlit wooden picnic table covered with a classic red and white checkered tablecloth.",
+            "Natural daylight illuminates the scene.",
+            "In the background, out of focus, creates a suggestion of a garden with green foliage.",
+            "No wind, static environment."
+        ],
+        "Style": [
+            "Macro lens close-up focusing on the point of impact.",
+            "4k resolution, high frame rate slowed down slightly at the moment of impact.",
+            "Bright, saturated colors.",
+            "Shallow depth of field blurring the background completely."
+        ],
+        "Sounds": [
+            "A sharp 'crack' as the wax rind breaks.",
+            "Followed by a satisfying, gritty 'shhh' sound of kinetic sand separating.",
+            "The metallic 'thud' of the cleaver hitting the wooden board.",
+            "Subtle crumbling noises as sand particles fall."
+        ],
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
+    },
+    "scenario2": {
+        "Subject": [
+            "A pristine Green Apple model made of dry, crispy green floral foam.",
+            "The surface is smooth but matte.",
+            "The interior is a consistent dry foam texture.",
+            "A real wooden apple stem is attached at the top."
+        ],
+        "Action": [
+            "A hand wearing a black latex glove presses a wire grid cutter (french fry cutter style) downwards onto the apple.",
+            "The foam resists initially, then crunches as the wires push through.",
+            "The apple blooms outward into perfect square columns.",
+            "The action is steady and consistent, taking full 8 seconds to push all the way to the bottom."
+        ],
+        "Scene": [
+            "A sterile, all-white minimalist studio setting.",
+            "The surface is a glossy white acrylic sheet.",
+            "Cool, clinical studio lighting with soft shadows.",
+            "No background distractions."
+        ],
+        "Style": [
+            "45-degree angle shot from slightly above.",
+            "Crisp, sharp focus on the foam texture.",
+            "High contrast lighting to highlight the crumbling debris.",
+            "Static camera position."
+        ],
+        "Sounds": [
+            "Intense, dry crunching sound (crisp foam crushing).",
+            "The high-pitched 'snap' of the foam structure breaking.",
+            "A continuous friction sound of foam against metal wires.",
+            "Final soft thud as the cutter hits the table."
+        ],
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
+    },
+    "scenario3": {
+        "Subject": [
+            "A translucent, wobbling Orange model made of firm agar jelly.",
+            "The color is a glowing neon orange.",
+            "Inside, slices of real orange zest are suspended in the jelly.",
+            "The texture is wet, glossy, and highly reflective."
+        ],
+        "Action": [
+            "A red-hot chef's knife, glowing at the edge, slices slowly from the top.",
+            "The heat melts the jelly instantly upon contact.",
+            "Steam rises as the knife slides down.",
+            "The two halves jiggle and wobble dramatically as they separate.",
+            "Melted liquid pools at the base."
+        ],
+        "Scene": [
+            "A dark slate countertop.",
+            "Dim lighting with a teal rim light to contrast the orange.",
+            "Faint smoke/steam visible against the dark background.",
+            "Modern kitchen aesthetic."
+        ],
+        "Style": [
+            "Extreme close-up (ECU) on the blade edge.",
+            "Cinematic lighting with strong bokeh.",
+            "Warm and cool color contrast (Orange subject vs Teal light).",
+            "Slow pan following the knife downward."
+        ],
+        "Sounds": [
+            "Loud sizzling hiss as the hot knife touches the wet jelly.",
+            "Wet, squelching sounds as the jelly separates.",
+            "Bubbling noises from the melting agar.",
+            "A distinct 'wobble' sound effect (low frequency vibration)."
+        ],
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
+    },
+    "scenario4": {
+        "Subject": [
+            "A Dragon Fruit (Pitaya) model carved from a block of hard, multi-colored soap.",
+            "The exterior is bright pink soap, the interior is white soap with black poppy seeds.",
+            "The texture is waxy and solid.",
+            "Detailed scales carved into the pink exterior."
+        ],
+        "Action": [
+            "A sharp X-Acto knife (scalpel) carves thin, curled shavings off the side of the fruit.",
+            "The blade creates tight rolls of pink and white soap.",
+            "The shavings fall in a cascading pile.",
+            "Rapid, rhythmic carving motions (3 cuts in 8 seconds)."
+        ],
+        "Scene": [
+            "A luxurious marble bathroom counter.",
+            "Soft, warm candlelight in the background.",
+            "A blurred orchid flower in the distance.",
+            "Reflective marble surface."
+        ],
+        "Style": [
+            "Side profile shot at table level.",
+            "Soft, dreamy focus but sharp on the cutting edge.",
+            "Pastel color palette.",
+            "Macro details of the soap curls."
+        ],
+        "Sounds": [
+            "Dry, rhythmic scraping sound of the blade against hard soap.",
+            "Soft 'clatter' of soap curls falling onto the marble.",
+            "The 'shink' sound of the blade lifting for the next cut.",
+            "No wet noises."
+        ],
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
+    },
+    "scenario5": {
+        "Subject": [
+            "A Lemon model made of solid, clear ice.",
+            "The ice contains frozen yellow dye swirling in the center.",
+            "The surface is frosted with condensation.",
+            "Hard, brittle texture."
+        ],
+        "Action": [
+            "A heavy, serrated ice pick strikes the center of the lemon.",
+            "The first strike cracks the surface.",
+            "The second strike shatters the lemon into jagged icy shards.",
+            "Ice crystals fly into the air in slow motion.",
+            "Water droplets spray outward."
+        ],
+        "Scene": [
+            "A rustic dark wooden bar counter.",
+            "Moody, low-key lighting.",
+            "Reflections of bar lights on the wet wood.",
+            "Cold atmosphere."
+        ],
+        "Style": [
+            "High-speed camera shot (very slow motion).",
+            "Backlighting to illuminate the flying ice shards.",
+            "Cold blue color grading.",
+            "Wide aperture capturing the explosion of ice."
+        ],
+        "Sounds": [
+            "High-pitched cracking sound of ice under tension.",
+            "A loud, glass-like shattering noise on impact.",
+            "Tinkling sound of ice shards landing on wood.",
+            "Subtle dripping water sounds."
+        ],
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
+    }
+}

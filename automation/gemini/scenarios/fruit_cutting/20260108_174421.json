@@ -1,36 +1,4 @@
 {
-    "scenario1": {
-        "Subject": "A realistic watermelon slice model crafted from compressed, vibrant pink and green kinetic sand. The texture is granular and matte, with black seeds made of smooth obsidian stones embedded within the pink sand.",
-        "Action": "A sharp, silver chef's knife slices slowly downward through the center of the watermelon sand model. The sand separates cleanly at first, then crumbles satisfyingly at the edges as the slice completes, revealing the grainy internal structure. The two halves slowly fall apart.",
-        "Scene": "A rustic wooden picnic table outdoors bathed in bright, warm afternoon sunlight. In the blurred background, green grass and hints of park benches are visible. The lighting casts sharp, defined shadows on the wood.",
-        "Style": "Macro lens close-up, 45-degree angle to capture the depth of the cut. Shallow depth of field to focus entirely on the knife entering the sand. High saturation and warm color grading.",
-        "Sounds": "Distinct gritty friction sound of the knife passing through sand, followed by a soft, hushed crumbling noise as the sand structure collapses. A final dull thud as the knife hits the wooden table.",
-        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
-    },
-    "scenario2": {
-        "Subject": "A lemon model made entirely of brittle, translucent yellow sugar glass (isomalt). The surface is glossy and mimics the pores of a real lemon skin, but is rigid and fragile.",
-        "Action": "A heavy, polished silver spoon is swung down to strike the center of the glass lemon. Upon impact, the lemon shatters instantly into hundreds of sparkling, diamond-like shards that scatter across the surface.",
-        "Scene": "A pitch-black studio setting with a highly reflective black acrylic surface. A single, intense cool-white spotlight beams directly down from above, highlighting the gloss of the sugar glass.",
-        "Style": "High-speed camera effect (slow motion playback). High contrast, dramatic lighting (chiaroscuro). The camera stays static but focuses sharply on the point of impact.",
-        "Sounds": "A sharp, high-pitched crack upon impact, followed by the tinkling, bell-like sound of sugar glass shards scattering and settling on the hard surface.",
-        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
-    },
-    "scenario3": {
-        "Subject": "A peach model carved from a solid block of soft, opaque pastel pink soap. The texture is smooth, waxy, and uniform. It has a velvet-like finish similar to real peach fuzz.",
-        "Action": "A crafting scalpel (X-Acto knife) carves a precise grid pattern into the soap peach. Then, the blade slides underneath the grid, popping out small, perfect cubes of soap that tumble forward gently.",
-        "Scene": "A pristine white marble bathroom countertop. Soft, diffused morning light streams in from a window on the left, creating soft shadows. A small white towel is visible in the periphery.",
-        "Style": "Top-down (flat lay) view. Bright and airy aesthetic (high key lighting). Soft focus on the edges of the frame to draw attention to the center action.",
-        "Sounds": "A dry, smooth shaving sound as the blade cuts the soap. A soft, rhythmic clatter as the soap cubes detach and fall onto the marble surface.",
-        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
-    },
-    "scenario4": {
-        "Subject": "A giant grape model made of wobbling, purple gelatin (jelly). The object is highly translucent, glossy, and wet, catching the light with a sticky sheen.",
-        "Action": "A heated wire cutter presses down vertically. The heat melts the gelatin instantly, causing the grape to split and jiggle violently as the wire passes through. The two halves wobble independently after the cut.",
-        "Scene": "A clean, stainless steel industrial kitchen counter. Cold, bright fluorescent lighting reflects off the steel and the wet jelly surface. Sterile and clinical atmosphere.",
-        "Style": "Extreme close-up macro shot. The focus tracks the wire cutter as it moves down. Vibrant, cool color palette emphasizing purples and silvers.",
-        "Sounds": "A wet, squelching sound as the wire enters the jelly. A faint sizzling hiss from the heat melting the gelatin. A sticky suction noise as the halves separate.",
-        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, and No unrealistic scene transitions."
-    },
     "scenario5": {
         "Subject": "A pineapple model made of water-saturated green floral foam. The exterior simulates the spiked texture of a pineapple, while the interior is a dense, wet, sponge-like foam.",
         "Action": "A hand wearing a latex glove squeezes the floral foam pineapple hard. Fingers sink deep into the foam, crushing the structure. Water oozes out rapidly, and the foam retains the shape of the crushed fingers.",
