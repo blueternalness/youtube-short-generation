@@ -1,0 +1,15 @@
+I want to create stimulating clickbait image where animals are fighting.
+The image should not be boring.
+Give me 5 prompts with detailed scenarios for creating such images.
+
+For each scenario, write prompts in the following JSON format:
+
+{
+    "scenario1" : {
+        "Subject": [Detailed character/object description with several specific physical attributes, clothing, age, build, facial features, ethnicity, hair, eyes, posture, mannerisms, emotional state],
+        "Action": [Specific actions, movements, gestures, behaviors, timing, sequence, transitions, micro-expressions, body language, interaction patterns],
+        "Scene": [Detailed environment description including location, props, background elements, lighting setup, weather, time of day, architectural details],
+        "Style": 9:16 vertical aspect ratio,
+        "Technical(Negative Prompt)": No hallucinations.
+    },
+}
