@@ -537,7 +537,7 @@ if __name__ == "__main__":
     
     parser.add_argument("--mode", type=str, default="gemini", choices=["gemini", "grok"])
     parser.add_argument("--count", type=int, default=1, help="Number of scenario batches to generate.")
-    parser.add_argument("--concept", type=str, default="cute_baby", choices=["cute_baby","fruit_cutting", "animal_mukbang", "animal_chef", "tiny_worker_building_food"], required=True, help="Video generation concept (e.g., cute_baby).")    
+    parser.add_argument("--concept", type=str, default="cute_baby", choices=["obese_human","cute_baby","fruit_cutting", "animal_mukbang", "animal_chef", "tiny_worker_building_food"], required=True, help="Video generation concept (e.g., cute_baby).")    
 
     args = parser.parse_args()
 

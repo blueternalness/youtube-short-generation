@@ -1,0 +1,18 @@
+{
+    "scenario4": {
+        "Subject": "Incredibly large male, age 25, hipster aesthetic with thick glasses and a beanie, wearing a tight vintage t-shirt and skinny jeans that are not skinny on him, full beard, look of misplaced confidence.",
+        "Action": "The subject is attempting Parkour. He runs heavily towards a low concrete wall to do a 'vault.' Instead of clearing it, his midsection catches on the edge of the wall, leaving him seesawing helplessly, legs kicking in the air on one side, head and arms dangling on the other. He wiggles, trying to find leverage, spinning slowly like a turtle on its shell.",
+        "Scene": "Gritty urban alleyway, brick walls covered in graffiti, wet pavement reflecting neon signs, steam rising from a vent, afternoon golden hour lighting.",
+        "Style": "Handheld camera shake (simulated GoPro style), close-up on the struggle, gritty texture, desaturated urban color palette, fisheye lens distortion.",
+        "Sounds": "The heavy slap of skin against concrete, grunting of exertion, fabric sliding on stone, distant city traffic noise.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scene transitions, no body parts clipping through geometry."
+    },
+    "scenario5": {
+        "Subject": "Very obese elderly woman, age 70, wearing a fluffy pink bathrobe and hair curlers, oversized fuzzy slippers, surprised expression, holding a morning coffee mug.",
+        "Action": "The subject sits on a modern, fragile-looking glass suspension chair. As she lowers her weight, the glass does not break but bends comically like rubber. The chair lowers until she is effectively sitting on the floor, legs sprawled out, but she maintains her posture and sips her coffee as if nothing happened, while the chair legs splay out horizontally.",
+        "Scene": "Ultra-modern minimalist living room, white marble floors, floor-to-ceiling windows overlooking a city skyline, expensive abstract art on walls, cold blue morning light.",
+        "Style": "Cinematic wide shot, symmetrical composition, cold color temperature, sharp focus throughout the depth of field, steady cam.",
+        "Sounds": "The stress-sound of glass bending (creaking/whining), the squeak of chair legs sliding on marble, a loud slurp of coffee.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scene transitions, no shattering glass (bending only), no artifacts."
+    }
+}
