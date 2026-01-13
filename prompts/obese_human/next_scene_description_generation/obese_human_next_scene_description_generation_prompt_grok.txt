@@ -1,5 +1,5 @@
 
-Based on the image, generate a description of the middle scene and the final scene, focusing on what happens next.
+Based on the image, generate descriptions of the middle scene and the final scene, focusing on what happens next.
 The scene descriptions should be simulating.
 The scene descriptions should not be simulating.
 

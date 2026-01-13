@@ -18,6 +18,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
+import shutil
 
 # ==========================================
 #             SHARED UTILITIES
@@ -49,6 +50,37 @@ def launch_chrome_debugger():
     except FileNotFoundError:
         print(f"[!] Could not find Chrome at: {chrome_path}")
         sys.exit(1)
+
+
+def move_latest_download(download_dir, target_folder, new_filename):
+    """
+    Waits for a new file to appear in the download_dir and moves it to target_folder.
+    """
+    # Wait for the file to appear (timeout 20s)
+    end_time = time.time() + 20
+    while time.time() < end_time:
+        # Get list of files in download dir
+        files = glob.glob(os.path.join(download_dir, "*"))
+        # Filter out hidden files or temporary download files (.crdownload)
+        files = [f for f in files if not f.endswith('.crdownload') and not f.endswith('.tmp')]
+        
+        if not files:
+            time.sleep(1)
+            continue
+
+        # Find the latest file
+        latest_file = max(files, key=os.path.getctime)
+        
+        # Check if this file was created in the last 10 seconds (to ensure it's the one we just clicked)
+        if time.time() - os.path.getctime(latest_file) < 10:
+            target_path = os.path.join(target_folder, new_filename)
+            shutil.move(latest_file, target_path)
+            print(f"[*] Moved downloaded image to: {target_path}")
+            return target_path
+        
+        time.sleep(1)
+    
+    return None        
 
 def get_next_scenario(folder_path):
     files = sorted(glob.glob(os.path.join(folder_path, "*.json")))
@@ -212,6 +244,7 @@ class GeminiImageWorkflow:
         self.driver = driver
         self.wait = wait
         self.long_wait = long_wait
+        self.chrome_download_dir = os.path.expanduser("~/Downloads")
 
     def focus_tab(self):
         for handle in self.driver.window_handles:
@@ -230,16 +263,30 @@ class GeminiImageWorkflow:
             new_chat_btn = self.wait.until(EC.element_to_be_clickable((By.XPATH, "//*[contains(text(), 'New chat')]")))
             new_chat_btn.click()
             time.sleep(2)
+
+            # 1. Click Tools
+            tools_btn = self.wait.until(EC.element_to_be_clickable(
+                (By.XPATH, "//button[.//span[contains(text(), 'Tools')]]")
+            ))
+            tools_btn.click()
+            time.sleep(1)
+
+            # 2. Click Create images
+            image_menu = self.wait.until(EC.element_to_be_clickable(
+                (By.XPATH, "//div[contains(text(), 'Create images')]")
+            ))
+            image_menu.click()
+            time.sleep(1)
         except: pass
 
         # 2. Construct Image Prompt from Scenario
         # Adjust keys based on your JSON structure
         image_prompt = (
-            f"Generate a high quality image based on this description: "
             f"Subject: {scenario.get('Subject', '')}, "
             f"Action: {scenario.get('Action', '')}, "
             f"Scene: {scenario.get('Scene', '')}, "
-            f"Style: {scenario.get('Style', '')}"
+            f"Style: {scenario.get('Style', '')},"
+            f"Technical(Negative Prompt): {scenario.get('Technical(Negative Prompt)', '')}"
         )
 
         print("[*] Sending Image Generation Prompt...")
@@ -249,7 +296,7 @@ class GeminiImageWorkflow:
         print("[*] Waiting for image generation...")
         time.sleep(10)
         
-        local_image_path = self._download_generated_image(images_folder)
+        local_image_path = self._click_download_button(images_folder)
         if not local_image_path:
             raise Exception("Failed to download image from Gemini.")
         
@@ -274,33 +321,55 @@ class GeminiImageWorkflow:
         time.sleep(1)
         input_box.send_keys(Keys.ENTER)
 
-    def _download_generated_image(self, save_folder):
-        # Retry logic to find the image
-        for _ in range(30):
+    def _click_download_button(self, save_folder):
+        """
+        Locates the generated image container, hovers over it, and clicks the download button.
+        """
+        max_retries = 30
+        for _ in range(max_retries):
             try:
-                # Look for generated images (usually in <img> tags within the response container)
-                # Specific logic: look for the last <img> that is not an icon/avatar
-                images = self.driver.find_elements(By.TAG_NAME, "img")
+                # 1. Find the generated image container
+                # Based on your HTML: <single-image class="generated-image large">
+                images = self.driver.find_elements(By.TAG_NAME, "single-image")
                 
-                # Filter for large images (likely the generated one)
-                candidates = [img for img in images if img.get_attribute('width') and int(img.get_attribute('width')) > 200]
+                if not images:
+                    time.sleep(2)
+                    continue
+
+                target_image = images[-1] # Get the most recent one
+
+                # 2. Hover to reveal controls (ActionChains)
+                actions = ActionChains(self.driver)
+                actions.move_to_element(target_image).perform()
+                time.sleep(1) 
+
+                # 3. Find the Download Button inside this specific image container
+                # Selector based on your HTML: aria-label="Download full size image"
+                download_btn = target_image.find_element(By.XPATH, ".//button[@aria-label='Download full size image']")
                 
-                if candidates:
-                    target_img = candidates[-1]
-                    src = target_img.get_attribute('src')
-                    
-                    if src and "http" in src:
-                        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                        filename = f"generated_{timestamp}.jpg"
-                        filepath = os.path.join(save_folder, filename)
-                        
-                        if download_image_from_url(src, filepath):
-                            print(f"[*] Image downloaded: {filepath}")
-                            return filepath
-            except:
+                # 4. Click it
+                download_btn.click()
+                print("[*] Clicked Gemini download button.")
+                
+                # 5. Handle file move
+                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                filename = f"generated_{timestamp}.jpg"
+                
+                # Use the shared utility to find the new file in ~/Downloads and move it
+                saved_path = move_latest_download(self.chrome_download_dir, save_folder, filename)
+                
+                if saved_path:
+                    return saved_path
+                
+            except Exception as e:
+                print(f"Debug: Retrying download click... {e}") # Uncomment for debug
                 pass
+            
             time.sleep(2)
+            
+        print("[!] Could not find or click the download button.")
         return None
+
 
     def _get_latest_text_response(self):
         time.sleep(5)
@@ -501,7 +570,7 @@ if __name__ == "__main__":
     base_path = "/Users/vhehf/Desktop/Personal materials/StartUp/YoutubeShortsGeneration/youtube-short-generation"
     
     # Input Prompts
-    scenario_prompt_path = os.path.join(base_path, "prompts", args.concept, "image_scenario_generation", f"{args.concept}_image_scenario_generation_prompt_grok.txt")
+    scenario_prompt_path = os.path.join(base_path, "prompts", args.concept, "image_scenario_generation", f"{args.concept}_scenario_generation_prompt_grok.txt")
     next_step_prompt_path = os.path.join(base_path, "prompts", args.concept, "next_scene_description_generation", f"{args.concept}_next_scene_description_generation_prompt_grok.txt")
     
     # Automation Folders

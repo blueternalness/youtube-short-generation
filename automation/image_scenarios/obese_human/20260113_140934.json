@@ -1,0 +1,118 @@
+{
+    "scenario1": {
+        "Subject": [
+            "An incredibly obese man with a round, cheerful face, double chin, and rosy cheeks.",
+            "Wearing a tight, neon-green spandex cycling suit that is stretching transparently over his belly.",
+            "He has a tiny aerodynamic helmet perched on top of a large head.",
+            "Sweat dripping profusely, intense determination in his wide eyes.",
+            "Massive calves and thighs bulging against the fabric."
+        ],
+        "Action": [
+            "He is attempting to ride a tiny, child-sized tricycle with pink tassels on the handlebars.",
+            "His knees are flared out ridiculously wide to accommodate his stomach.",
+            "The tricycle's wheels are squashed flat into ovals under the weight.",
+            "Sparks are flying from the metal rims grinding against the asphalt.",
+            "He is hunched over in a professional racing posture, creating a comedic contrast with the slow speed."
+        ],
+        "Scene": [
+            "A professional Tour de France style race track.",
+            "Blurred crowd in the background cheering wildly.",
+            "Bright, sunny daylight with high contrast shadows.",
+            "Asphalt road texture with skid marks.",
+            "Confetti falling from the sky."
+        ],
+        "Style": "9:16 vertical aspect ratio, hyper-realistic, vivid colors, 4k, wide angle lens",
+        "Technical(Negative Prompt)": "No hallucinations."
+    },
+    "scenario2": {
+        "Subject": [
+            "A massive, incredibly obese woman with towering, frizzy red hair.",
+            "Wearing an elegant, glittery pink ballerina tutu and satin toe shoes.",
+            "Her arms are thick and soft, adorned with sparkling bracelets.",
+            "She has a look of serene, spiritual focus, eyes closed, mouth in a gentle smile.",
+            "Pale skin, heavy theatrical makeup."
+        ],
+        "Action": [
+            "She is performing a gravity-defying 'Grand Jeté' leap mid-air.",
+            "Despite her size, she is floating effortlessly high above the stage.",
+            "Her toe points perfectly, but the wooden floorboards below are splintering and exploding upwards just from the anticipation of her landing.",
+            "Dust and wood chips are suspended in the air around her feet."
+        ],
+        "Scene": [
+            "A grand, ornate opera house stage with red velvet curtains.",
+            "A spotlight hits her directly, creating a halo effect.",
+            "Dark auditorium background.",
+            "Orchestra pit visible below, musicians looking up in terrified awe."
+        ],
+        "Style": "9:16 vertical aspect ratio, dramatic lighting, cinematic composition, surreal humor",
+        "Technical(Negative Prompt)": "No hallucinations."
+    },
+    "scenario3": {
+        "Subject": [
+            "An incredibly obese elderly man with a thick white beard and sunglasses.",
+            "Wearing a Hawaiian floral shirt unbuttoned to reveal a massive belly and oversized cargo shorts.",
+            "Holding a tiny cocktail with a little umbrella in one large hand.",
+            "Sunburned skin, relaxed facial expression."
+        ],
+        "Action": [
+            "He is lying on a flimsy, white plastic lawn chair that has completely given up.",
+            " The legs of the chair have splayed out flat like a starfish.",
+            "He is sunken so low that his butt is touching the grass, but he is acting as if nothing happened.",
+            "A nearby inflatable beach ball is being sucked toward him by his gravitational pull."
+        ],
+        "Scene": [
+            "A pristine, expensive swimming pool deck.",
+            "Palm trees and a blue sky in the background.",
+            "Crystal clear blue water.",
+            "Bright, harsh midday sun causing strong reflections on the water and his sunglasses."
+        ],
+        "Style": "9:16 vertical aspect ratio, GoPro aesthetic, fish-eye lens, vibrant summer colors",
+        "Technical(Negative Prompt)": "No hallucinations."
+    },
+    "scenario4": {
+        "Subject": [
+            "An incredibly obese man dressed in a tactical black ninja outfit.",
+            "Only his eyes are visible through the mask, which is visibly straining.",
+            "A katana sword is strapped to his back but looks like a toothpick compared to his width.",
+            "He is wearing tabi boots that are bulging at the seams."
+        ],
+        "Action": [
+            "He is attempting to hide behind a very thin bamboo stalk.",
+            "His body extends visibly for three feet on either side of the bamboo.",
+            "He is holding a pose of stealth, tip-toeing, with 'shush' finger to his masked mouth.",
+            "A wooden floorboard beneath him is bending into a U-shape."
+        ],
+        "Scene": [
+            "A traditional Japanese dojo with tatami mats.",
+            "Paper screen doors (shoji) in the background.",
+            "Soft, warm lantern lighting.",
+            "Dust motes dancing in the light beams.",
+            "Minimalist decor which contrasts with his maximalist size."
+        ],
+        "Style": "9:16 vertical aspect ratio, comedic timing, sharp focus, high definition",
+        "Technical(Negative Prompt)": "No hallucinations."
+    },
+    "scenario5": {
+        "Subject": [
+            "An incredibly obese teenager with messy hair and acne.",
+            "Wearing a graphic t-shirt that is stretched so much the image on it is unrecognizable.",
+            "Baggy jeans that are slipping down slightly.",
+            "Wearing oversized headphones around his neck."
+        ],
+        "Action": [
+            "He is at a playground attempting to go down a yellow spiral tube slide.",
+            "He is visibly stuck at the very top entrance, plugged in like a cork in a bottle.",
+            "His cheeks are pressed against the transparent plastic of the slide, squished hilariously.",
+            "Pressure builds up behind him, visualized by cartoonish steam or distortion."
+        ],
+        "Scene": [
+            "A colorful outdoor playground.",
+            "Blue sky with fluffy clouds.",
+            "Wood chips on the ground.",
+            "Other children in the background looking up and pointing.",
+            "Bright, saturated primary colors (red, yellow, blue) of the playground equipment."
+        ],
+        "Style": "9:16 vertical aspect ratio, slapstick comedy style, bright lighting, highly detailed textures",
+        "Technical(Negative Prompt)": "No hallucinations."
+    }
+}

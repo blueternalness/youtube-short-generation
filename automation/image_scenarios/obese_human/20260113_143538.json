@@ -1,0 +1,37 @@
+{
+    "scenario1": {
+        "Subject": "A gargantuan, incredibly obese male surfer, tanned skin, wearing a neon green wetsuit that is stretched to its absolute molecular limit, sun-bleached messy hair, wearing mirrored pit-viper sunglasses, expression of pure adrenaline and intense focus, massive distinct double chin flapping in the wind.",
+        "Action": "Performing a gravity-defying aerial 360 maneuver on a surfboard the size of a toothpick, the board is bowing under the weight, massive splash of water exploding outward, body is horizontal in mid-air.",
+        "Scene": "Inside the barrel of a 50-foot apocalyptic tsunami wave, turquoise water, golden hour sunlight hitting the water droplets, sharks jumping in the background, hyper-dynamic angle.",
+        "Style": "9:16 vertical aspect ratio, GoPro wide-angle perspective, vibrant saturation, 4k highly detailed.",
+        "Technical(Negative Prompt)": "No hallucinations, no distortion of limbs, no blurry face."
+    },
+    "scenario2": {
+        "Subject": "An immensely round, heavy-set elderly woman, grey bun hair, wearing a delicate pink professional ballerina tutu and satin pointe shoes, heavy stage makeup with glittery eyeshadow, expression of serene, transcendent joy.",
+        "Action": "Performing a perfect 'Grand Jeté' leap, defying physics by floating 10 feet in the air, legs in a perfect split, arms gracefully extended, the wooden floorboards beneath where she jumped are shattered and splintered from the launch.",
+        "Scene": "Grand Bolshoi theatre stage, velvet red curtains, blinded by a dramatic spotlight, dust motes dancing in the light, shadowy audience in the foreground looking stunned.",
+        "Style": "9:16 vertical aspect ratio, cinematic lighting, slow-motion capture feel, photorealistic.",
+        "Technical(Negative Prompt)": "No hallucinations, no extra legs, no deformed hands."
+    },
+    "scenario3": {
+        "Subject": "A colossal, heavyset man with a thick beard, wearing a tight spandex cycling outfit with logos of fast food brands, wearing a streamlined aerodynamic helmet that looks tiny on his head, sweating profusely, red-faced from exertion.",
+        "Action": "Riding a tiny, child-sized tricycle in the Tour de France, knees hitting his chin with every pedal, the metal frame of the bike is bending like rubber, sparks flying from the pedals scraping the asphalt.",
+        "Scene": "A steep mountain road in the French Alps, blurred background of cheering fans, bright sunny day, motion blur on the background to indicate supersonic speed.",
+        "Style": "9:16 vertical aspect ratio, sports photography action shot, high shutter speed.",
+        "Technical(Negative Prompt)": "No hallucinations, no merging with the bike, no incomplete wheels."
+    },
+    "scenario4": {
+        "Subject": "An enormously obese secret agent, wearing a tuxedo that is bursting at the buttons, slicked-back black hair, wearing a tactile headset, look of extreme panic and determination, beads of sweat rolling down the forehead.",
+        "Action": "Hanging suspended from the ceiling by thin wires like 'Mission Impossible', hovering just inches above the floor, the wires are visibly fraying and snapping one by one under the tension, limbs splayed out to avoid touching lasers.",
+        "Scene": "High-tech secure bank vault, grid of bright red laser beams crisscrossing the floor, polished steel walls, cold blue ambient lighting.",
+        "Style": "9:16 vertical aspect ratio, intense thriller movie poster style, high contrast.",
+        "Technical(Negative Prompt)": "No hallucinations, no gravity errors, no missing wires."
+    },
+    "scenario5": {
+        "Subject": "A massive, heavyset skateboarder, wearing baggy 90s grunge clothing, backwards baseball cap, heavy gold chains, holding a can of energy drink, facial expression of screaming excitement.",
+        "Action": "Grinding down a long metal handrail, the metal rail is melting and bending into a 'U' shape directly under his weight, the skateboard wheels are smoking and catching fire from the friction.",
+        "Scene": "Urban skate park covered in graffiti, concrete steps, dramatic sunset lighting creating long shadows, fisheye lens distortion.",
+        "Style": "9:16 vertical aspect ratio, classic skate magazine cover style, gritty texture.",
+        "Technical(Negative Prompt)": "No hallucinations, no broken skateboard trucks, no disfigured face."
+    }
+}

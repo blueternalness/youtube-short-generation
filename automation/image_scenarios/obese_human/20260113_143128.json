@@ -1,0 +1,113 @@
+{
+    "scenario1": {
+        "Subject": [
+            "An immensely obese middle-aged man with a round, cheerful face, double chin, and rosy cheeks.",
+            "Wearing a tight, neon-colored professional cyclist jersey that is stretching at the seams and tiny spandex shorts.",
+            "He has short curly hair, wide excited eyes, and massive calves.",
+            "He is wearing professional cycling sunglasses and a helmet that looks too small for his head."
+        ],
+        "Action": [
+            "He is competitively racing on an incredibly tiny, pink tricycle meant for a toddler.",
+            "His knees are flared out wide to accommodate his stomach, elbows bent sharply.",
+            "He is leaning forward with intense determination, tongue sticking out slightly in concentration.",
+            "The tricycle tires are flattened under the weight, sparking against the asphalt."
+        ],
+        "Scene": [
+            "A professional Tour de France style race track with blurred spectators cheering in the background.",
+            "Bright sunny daylight with high contrast shadows.",
+            "Asphalt road texture clearly visible.",
+            "Motion blur on the background to emphasize speed despite the ridiculous vehicle."
+        ],
+        "Style": "Hyper-realistic photography, 8k resolution, cinematic lighting, wide angle lens, 9:16 vertical aspect ratio",
+        "Technical(Negative Prompt)": "No hallucinations, no distortion of tricycle wheels beyond weight compression, no bad anatomy."
+    },
+    "scenario2": {
+        "Subject": [
+            "A colossal, heavyset man with a thick beard and a gruff expression.",
+            "Dressed in a delicate, frilly pink ballerina tutu and white tights that are ripping slightly.",
+            "He is hairy and muscular underneath the fat, creating a jarring contrast with the delicate clothing.",
+            "He is wearing satin ballet slippers that look like they are about to explode."
+        ],
+        "Action": [
+            "He is attempting a graceful mid-air 'grand jeté' leap.",
+            "His face shows a mix of serene artistic focus and sheer physical strain.",
+            "Sweat droplets are flying off his forehead.",
+            "Gravity is visibly pulling on his skin and belly as he hangs in the air.",
+            "One leg is extended, but the other is struggling to lift."
+        ],
+        "Scene": [
+            "A grand, ornate opera house stage with velvet red curtains and gold trim.",
+            "A spotlight hits him directly from above, creating a halo effect.",
+            "Dust motes dancing in the stage light.",
+            "The wooden floorboards beneath where he launched are cracked and splintered."
+        ],
+        "Style": "Dramatic theatrical photography, high dynamic range, crisp details, 9:16 vertical aspect ratio",
+        "Technical(Negative Prompt)": "No missing limbs, no extra fingers, no blurry face, no disfigured background."
+    },
+    "scenario3": {
+        "Subject": [
+            "A gargantuan tourist with sunburnt skin and a zinc-covered nose.",
+            "Wearing a tropical Hawaiian shirt unbuttoned to reveal a massive belly and khaki cargo shorts.",
+            "He has a floppy sun hat and a camera strapped around his neck.",
+            "His expression is one of pure terror and regret."
+        ],
+        "Action": [
+            "He is bungee jumping off a bridge, but the bungee cord has stretched into a thread-thin line.",
+            "He is hovering just inches above the water surface, face-to-face with a surprised alligator.",
+            "His arms are flailing upwards, and his cheeks are flapping in the wind from the descent.",
+            "The cord is visibly strained to the breaking point."
+        ],
+        "Scene": [
+            "A deep canyon with a rushing river below.",
+            "Cliffs rising on both sides with sparse vegetation.",
+            "Bright, harsh noon sunlight reflecting off the water.",
+            "Water splashes rising up towards him."
+        ],
+        "Style": "GoPro action shot perspective, vibrant colors, sharp focus, 9:16 vertical aspect ratio",
+        "Technical(Negative Prompt)": "No physics defiance regarding the rope attachment, no cartoonish rendering, no text overlays."
+    },
+    "scenario4": {
+        "Subject": [
+            "A morbidly obese man in a full tactical SWAT team uniform.",
+            "The bulletproof vest looks like a bib on his chest.",
+            "He is wearing combat boots and knee pads.",
+            "He has a serious, intense 'action movie' facial expression with a headset microphone."
+        ],
+        "Action": [
+            "He is attempting to rappel down a wall specifically 'Mission Impossible' style.",
+            "However, he is stuck halfway, dangling horizontally.",
+            "The rope is cutting into the building architecture, crumbling the stone edge.",
+            "He is reaching for a donut that is resting on a window ledge just out of reach."
+        ],
+        "Scene": [
+            "The side of a modern glass skyscraper.",
+            "Reflections of the city skyline in the glass windows.",
+            "Dramatic sunset lighting creating orange and blue hues.",
+            "Inside the window next to him, office workers are staring in confusion."
+        ],
+        "Style": "Blockbuster movie poster aesthetic, intense color grading, high contrast, 9:16 vertical aspect ratio",
+        "Technical(Negative Prompt)": "No impossible rope physics, no morphing of glass, no low resolution textures."
+    },
+    "scenario5": {
+        "Subject": [
+            "An incredibly large man with a friendly, Santa-like face but no beard.",
+            "Wearing classic 1980s aerobics gear: striped headband, teal leotard, and pink leg warmers.",
+            "He is sweating profusely, with wet hair matted to his forehead.",
+            "He has a look of absolute determination and joy."
+        ],
+        "Action": [
+            "He is on a trampoline, caught at the very bottom of the bounce.",
+            "The trampoline mat is stretched all the way down to touch the grass underneath.",
+            "The metal springs are flying off in all directions due to the tension.",
+            "His body is compressed into a ball shape from the G-force."
+        ],
+        "Scene": [
+            "A suburban backyard with a neatly trimmed green lawn.",
+            "A white picket fence and a blue sky with fluffy white clouds.",
+            "A golden retriever dog in the background looking barking at the chaos.",
+            "Bright, cheerful, commercial-style lighting."
+        ],
+        "Style": "Commercial photography, freeze-frame action, ultra-detailed, 9:16 vertical aspect ratio",
+        "Technical(Negative Prompt)": "No motion blur on the main subject, no distorted face, no missing springs."
+    }
+}
