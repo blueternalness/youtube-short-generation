@@ -501,11 +501,11 @@ if __name__ == "__main__":
     base_path = "/Users/vhehf/Desktop/Personal materials/StartUp/YoutubeShortsGeneration/youtube-short-generation"
     
     # Input Prompts
-    scenario_prompt_path = os.path.join(base_path, "prompts", args.concept, "image_scenario_generation", f"{args.concept}_image_scenario_generation.txt")
-    next_step_prompt_path = os.path.join(base_path, "prompts", args.concept, "next_scene_description_generation", f"{args.concept}_next_scene.txt")
+    scenario_prompt_path = os.path.join(base_path, "prompts", args.concept, "image_scenario_generation", f"{args.concept}_image_scenario_generation_prompt_grok.txt")
+    next_step_prompt_path = os.path.join(base_path, "prompts", args.concept, "next_scene_description_generation", f"{args.concept}_next_scene_description_generation_prompt_grok.txt")
     
     # Automation Folders
-    scenario_output_folder = os.path.join(base_path, "automation", "image_to_video", "image_scenarios", args.concept)
+    scenario_output_folder = os.path.join(base_path, "automation", "image_scenarios", args.concept)
     images_output_folder = os.path.join(base_path, "automation", "images")
 
     # Ensure directories exist
