@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "A remarkably obese male, approximately 40 years old, weighing 400lbs, with a round, cheerful face, double chin, and rosy cheeks. He is wearing a comical, too-tight superhero costume made of bright blue spandex with a red cape that looks like a napkin on his back. He has messy, windblown brown hair and wide, eager blue eyes. He is sweating profusely.",
+        "Action": "The subject attempts to squeeze into a tiny, child-sized plastic red convertible toy car. The sequence shows him stepping one foot in, the car bowing under the weight, then attempting to wedge his hips down. The car creates a loud creaking noise. He finally gets seated, knees pressed against his chest, and attempts to turn the tiny steering wheel with two fingers while looking triumphantly at the camera. The car moves forward one inch and the wheels splay out.",
+        "Scene": "A vast, empty asphalt parking lot under the midday sun. Heat waves visual on the pavement. In the background, there are traffic cones set up like a serious autocross racing course.",
+        "Style": "Shot on a fisheye lens to exaggerate the proportions. Low angle looking up at the subject to make him look larger against the tiny car. High saturation, vivid colors, bright daylight exposure, 4k resolution, hyper-realistic texture on the fabric and plastic.",
+        "Sounds": "Loud plastic creaking and snapping sounds. Exaggerated rubber squeaking. Heavy, rhythmic breathing from the subject. A triumphant, comedic brass fanfare that cuts off abruptly when the wheels break.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario2": {
+        "Subject": "An incredibly large woman, appearing around 350lbs, wearing a neon pink tutu and a white tank top that is stretched to its limit. She has blonde hair tied in tight pigtails, glitter on her cheeks, and an expression of intense, laser-focused determination. Her arms are large and soft, shaking slightly with anticipation.",
+        "Action": "The subject is running towards a professional gymnastics vault. The run is slow-motion, highlighting the physics of her movement (rippling skin). She hits the springboard, which flattens completely to the floor. Instead of vaulting over the horse, she bounces vertically straight up into the air with a surprised expression, limbs flailing, before landing softly but deeply into a massive pit of blue foam blocks, disappearing entirely except for one foot twitching.",
+        "Scene": "A professional gymnasium with high ceilings, polished wood floors, and harsh overhead fluorescent stadium lighting. Banners hanging in the background. A crowd of mannequins in the bleachers to simulate an audience.",
+        "Style": "Slow-motion capture (120fps) for the run and bounce. Wide shot to capture the run-up, tracking shot following the movement. Sharp focus, deep depth of field. Television broadcast aesthetic.",
+        "Sounds": "Rhythmic, heavy thudding footsteps with a bass boost. A cartoonish 'boing' spring sound effect upon hitting the board. The sound of wind rushing. A massive 'crump' sound when landing in the foam.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario3": {
+        "Subject": "A morbidly obese man with a thick beard, wearing a full tactical SWAT team outfit including a vest that cannot close in the front, knee pads, and a helmet that is slightly too small. He is holding a water pistol painted black. He looks serious and panicked.",
+        "Action": "The subject is attempting a 'stealth roll' across a hallway. He drops to the ground with a heavy thud, gets stuck midway through the roll on his back like a turtle, legs kicking in the air. He rocks back and forth trying to generate momentum to complete the roll. He eventually rolls over, knocking into a decorative vase on a pedestal, catching it at the last second, sighing in relief, and then the pedestal falls over instead.",
+        "Scene": "A narrow, high-end luxury hotel corridor with patterned carpet, wall sconces, and expensive wallpaper. The lighting is moody and cinematic.",
+        "Style": "Handheld 'shaky cam' style to mimic action movies or body-cam footage. Close-ups on the facial expressions of panic and effort. High contrast lighting, slightly desaturated color palette to look like a thriller movie.",
+        "Sounds": "Suspenseful, spy-thriller bass music. Loud thuds of body hitting floor. The sound of nylon gear rubbing together 'swish swish'. Heavy panting. The sound of shattering porcelain.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario4": {
+        "Subject": "A very large male, sun-tanned skin, wearing floral oversized board shorts and swimming goggles. He has a hairy chest and a massive belly. He is holding a GoPro stick facing himself.",
+        "Action": "The subject is at the top of a steep water slide. He sits down, blocking the water flow entirely for a moment. Water builds up behind him. He scoots forward and suddenly launches with incredible speed. The camera captures his face vibrating from the G-force and wind. He reaches the bottom and creates a tsunami-sized splash that drenches the lifeguard chair and the camera lens completely.",
+        "Scene": "A bright, colorful water park. Blue skies, palm trees visible. The slide is bright yellow. Sparkling water.",
+        "Style": "Point-of-view (POV) shot from the selfie stick. Wide-angle lens distortion. Bright, high-key lighting. Water droplets on the lens. Fast shutter speed to freeze the water particles.",
+        "Sounds": "The roar of rushing water. The subject screaming 'Wooooo!'. A massive cannonball splash sound. A whistle blowing frantically.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario5": {
+        "Subject": "An immensely heavy woman in a formal evening gown with sequins, high heels, and done-up hair. She looks elegant but out of place.",
+        "Action": "The subject is attempting to ride a mechanical bull. The bull is struggling to move under the weight, its mechanical motors whining audibly. The bull moves in slow, jerky motions rather than bucking wildly. The subject is holding on gracefully with one hand, looking bored, sipping a drink with the other hand. The bull eventually malfunctions, sparks fly, and it slowly tips over sideways, depositing her gently onto the padded floor.",
+        "Scene": "A dimly lit country western bar with neon signs, sawdust on the floor, and wooden furniture. Smoky atmosphere.",
+        "Style": "Medium shot centered on the bull. Cinematic lighting with neon rim lights (pink and blue) on the subject. Stable tripod shot to emphasize the lack of movement from the bull.",
+        "Sounds": "Country music playing in the background. The loud, straining whine of an electric motor. Electrical zaps/sparking sounds. A dull thud.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    }
+}

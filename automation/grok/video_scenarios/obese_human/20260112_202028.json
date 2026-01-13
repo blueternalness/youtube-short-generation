@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "A massively obese man, appearing to weigh over 400lbs, roughly 40 years old, with a round, flushed face and a double chin. He is wearing a comical, undersized superhero costume made of tight, bright blue spandex with a red cape that looks more like a napkin on his back. He has messy brown hair and an expression of intense, misplaced determination.",
+        "Action": "The subject attempts to sprint across a grassy field to 'take flight'. As he runs, his movements are heavy and slow-motion, with his body jiggling significantly with every step. He leaps onto a small, backyard trampoline. Instead of launching him into the air, the trampoline mat stretches all the way to the ground, trapping him in the center while the metal legs of the trampoline bow inward and eventually snap in a comedic fashion. He looks at the camera with a confused expression.",
+        "Scene": "A sunny suburban backyard with green manicured grass. In the background, there is a white picket fence and a generic two-story house. The lighting is bright, natural midday sunlight casting sharp shadows.",
+        "Style": "Shot in 4k vertical format (9:16). Low-angle framing to emphasize the subject's size. High-frame-rate slow motion (120fps) specifically during the trampoline impact to highlight the physics of the trampoline failing. Vibrant, saturated colors.",
+        "Sounds": "Heavy, rhythmic thumping of footsteps, exaggerated heavy breathing, the creaking of metal springs, a loud comedic 'boing' sound that abruptly turns into a metal crunching noise, followed by silence and chirping birds.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scene transitions, no morphing, no disappearing objects."
+    },
+    "scenario2": {
+        "Subject": "An incredibly voluminous woman, roughly 50 years old, wearing a floral muumuu and an oversized sun hat. She has oversized sunglasses and is holding a tiny, delicate teacup. Her posture is rigid as she attempts to look elegant despite her size.",
+        "Action": "The subject is attempting to ride a child's tiny, pink electric scooter down a gentle sidewalk slope. Her knees are splayed wide to accommodate the handlebars. The scooter creates sparks as its frame drags on the concrete due to the weight. She is moving surprisingly fast, her face turning from elegance to sheer panic as the scooter begins to wobble uncontrollably. She passes a bewildered pedestrian.",
+        "Scene": "A peaceful public park pathway lined with oak trees. Dappled sunlight filters through the leaves. There are park benches and a duck pond visible in the background.",
+        "Style": "Tracking shot moving parallel to the subject. Handheld camera shake to mimic a bystander filming a viral video. Medium shot capturing the entire scooter and rider. Natural lighting with high contrast.",
+        "Sounds": "The high-pitched whine of an overworked electric motor, the scraping sound of metal on concrete, wind noise, and a faint, terrified scream getting louder.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scene transitions, no glitchy physics, no floating limbs."
+    },
+    "scenario3": {
+        "Subject": "A gargantuan man with a wrestler's build, bald head, and a thick handlebar mustache. He is wearing a tuxedo with the sleeves ripped off and a bow tie. He looks extremely confident and serious.",
+        "Action": "The subject is attempting to perform a stealth maneuver. He presses his back flat against a very thin street lamp pole (approx 6 inches wide) in an attempt to hide from someone. However, his body spills out on both sides of the pole, visible for feet in either direction. He slowly shuffles around the pole, thinking he is invisible, while making 'shushing' gestures to the camera.",
+        "Scene": "A busy downtown city street corner. Brick buildings, storefronts, and a parked car in the background. It is late afternoon with golden hour lighting.",
+        "Style": "Static, wide shot to show the absurdity of the size contrast between the man and the pole. The camera zooms in slowly on his face as he winks. Cinematic color grading, resembling a spy movie parody.",
+        "Sounds": "City ambience, distant sirens, comedic 'tiptoe' cartoon music, the sound of fabric rubbing against metal.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scene transitions, no weird anatomy, no blurred faces."
+    },
+    "scenario4": {
+        "Subject": "A very large, round male teenager with curly hair and glasses. He is wearing full tactical paintball gear that is bursting at the seams, including a vest that barely closes and a helmet that sits too high on his head.",
+        "Action": "The subject attempts to dive through an open car window like an action movie star. He gets his head and shoulders through the passenger window but becomes hopelessly wedged at the stomach. His legs kick wildly in the air outside the car as he tries to wiggle through. He eventually gives up and hangs there, defeated, as the car suspension leans heavily to that side.",
+        "Scene": "An abandoned parking lot used for paintball. There are paint splatters on the ground and old tires stacked up. The car is a beat-up 1990s sedan.",
+        "Style": "Side profile shot at eye level. The camera is steady. The focus is sharp on the subject's kicking legs and the stuck torso. Realistic, gritty texture.",
+        "Sounds": "The sound of rubber squeaking against metal, grunts of exertion, the creaking of the car's suspension, a muffled voice shouting 'I'm in! Wait, I'm not in!'",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scene transitions, no merging with the car door, no distorted geometry."
+    },
+    "scenario5": {
+        "Subject": "An incredibly obese man wearing a majestic King's costume, complete with a heavy fur cloak, a plastic crown, and holding a scepter. He has a beard and looks regal yet sweaty.",
+        "Action": "The subject attempts to sit on a flimsy, white plastic patio chair (monobloc chair) that is serving as his 'throne'. As he lowers himself in slow motion, the plastic legs of the chair begin to bend outward. Just as he fully commits his weight, the chair explodes into plastic shrapnel, and he falls straight backward, legs flying into the air, while still holding the scepter aloft and maintaining a serious face.",
+        "Scene": "A messy living room decorated for a low-budget birthday party. There are streamers hanging from the ceiling and a 'Happy Birthday' banner. The lighting is indoor tungsten (warm/yellowish).",
+        "Style": "Front-facing wide shot. The timing is comedic—slow descent followed by rapid collapse. High depth of field so the background details are visible.",
+        "Sounds": "The loud crinkling and straining of white plastic, a sharp 'crack' sound, a heavy thud, and the sound of the crown rolling on the floor.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scene transitions, no physics errors, no missing limbs."
+    }
+}

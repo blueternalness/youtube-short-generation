@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "A morbidly obese man in his late 30s, wearing a tight, neon-colored spandex cycling outfit that emphasizes his round physique. He has a flushed face, messy hair, and an expression of intense, misplaced determination. He is sweating profusely.",
+        "Action": "The man is attempting to mount an incredibly tiny, toddler-sized tricycle. He lifts one heavy leg with exaggerated effort to step over the frame. As he sits, the tricycle's tires visibly flatten completely under his weight. He tries to pedal, his knees hitting his chin with every rotation, moving only inches forward while wobbling dangerously.",
+        "Scene": "A professional velodrome or racing track, usually reserved for high-speed cycling. The background features blurred empty stadium seats and polished wood flooring. The lighting is dramatic, high-contrast stadium lighting.",
+        "Style": "Low angle shot to exaggerate his size against the tiny bike. 4k resolution, hyper-realistic, high shutter speed to capture the wobbling. Fisheye lens effect to enhance the comedic proportions. Bright, saturated colors.",
+        "Sounds": "The intense squeaking of metal under stress, heavy breathing, the popping sound of rubber tires giving way, echoed squeaks in the large hall.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario2": {
+        "Subject": "An incredibly obese woman in her 40s with a bouffant hairstyle, wearing a heavily sequined evening gown and high heels. She has a stern, serious facial expression.",
+        "Action": "She is attempting to navigate a 'laser maze' security system (made of red yarn or visible laser beams) in a hallway. She tries to do a flexible limbo move but gets immediately tangled. Her stomach presses against the beams, triggering them all. She attempts a combat roll but ends up just rocking back and forth on her back like a turtle.",
+        "Scene": "A high-tech, narrow museum hallway with marble floors and pedestals holding expensive vases. The laser grid is intricate. The lighting is dim with moody blue tones and bright red laser lines.",
+        "Style": "Side profile tracking shot. 9:16 aspect ratio (vertical video style). Sharp focus on the subject, slightly blurred background. Action movie color grading (teal and orange) to contrast with the ridiculous action.",
+        "Sounds": "Constant buzzing of security alarms, the sound of fabric rubbing against the floor, grunts of exertion, a loud 'thud' when the roll fails.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario3": {
+        "Subject": "A massively obese male teenager with glasses, wearing a full tactical ghillie suit (camouflage grass suit) that makes him look like a giant bush. He is holding a toy water gun.",
+        "Action": "He is trying to hide behind a very thin, singular birch tree in an open field. He believes he is invisible, pressing his face against the bark, but 90% of his body is clearly visible on either side of the tree. He makes sudden, jerky hand signals to an imaginary squad, shifting his weight and causing the ground to shake slightly.",
+        "Scene": "A bright, sunny public park with perfectly manicured green grass. A few ducks are watching in the background. It is midday with harsh overhead sunlight.",
+        "Style": "Wide shot to reveal the absurdity of the hiding spot. Static camera that slowly zooms in on his visible sides. Bright, natural lighting. Deep depth of field.",
+        "Sounds": "Rustling of leaves from the ghillie suit, birds chirping, distant children playing, the sound of him whispering 'stealth' loudly.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario4": {
+        "Subject": "A cheerful, incredibly obese elderly man with a white beard, wearing a full Santa Claus outfit (without the hat). He has rosy cheeks and a very round belly that jiggles.",
+        "Action": "He is attempting to jump on a backyard trampoline. He climbs up with difficulty. As he takes his first bounce, he doesn't go up; instead, the trampoline mat stretches all the way down to touch the grass, trapping him in a cone shape. He flails his arms trying to generate lift, but just sinks deeper.",
+        "Scene": "A suburban backyard with a wooden fence, a BBQ grill, and a garden gnome. It is a golden hour sunset scene.",
+        "Style": "Eye-level shot looking through the trampoline safety net. Slow-motion capture of the mat stretching down. Warm, golden lighting. Soft focus on the background.",
+        "Sounds": "The loud 'boing' of springs stretching to their limit, the sound of the mat scraping the grass, the man's surprised laughter.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario5": {
+        "Subject": "An incredibly obese business executive in a suit and tie, holding a briefcase. He is sweating and looks panicked.",
+        "Action": "He is running on a treadmill that is set to a very high speed. He is not keeping up. He is frantically galloping, his tie flapping in his face. He grabs the handrails for dear life, his legs flying behind him cartoonishly as the belt rubs against his suit. He tries to hop off but bounces back on.",
+        "Scene": "A crowded, modern glass-walled gym. Fit people in the background are looking on with confusion. Fluorescent gym lighting.",
+        "Style": "Handheld camera shake effect to mimic a bystander recording. High contrast. Fast cuts or a continuous frantic shot. Cool blue tones.",
+        "Sounds": "The whirring of the treadmill motor, the slapping of dress shoes on the rubber belt, heavy panting, the beep of the treadmill buttons.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    }
+}

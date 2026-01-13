@@ -1,0 +1,18 @@
+{
+    "scenario4": {
+        "Subject": "A morbidly obese male tourist, wearing a loud Hawaiian shirt (unbuttoned) and oversized beige cargo shorts. He has a sunburn on his shoulders and is holding a melting ice cream cone. His posture is slumped but joyful.",
+        "Action": "The subject attempts to go down a spiral plastic slide at a children's playground. He enters the tube and immediately gets wedged tight halfway down. He tries to wiggle free, causing the entire plastic playground structure to shake and creak ominously. He uses his feet to push against the sides, but only manages to squeak the rubber of his sneakers against the plastic. The ice cream cone drips onto his chest.",
+        "Scene": "A colorful public playground with wood chips on the ground. Bright primary colors (red, blue, yellow). It is a bright, sunny day. In the background, an empty swing set is gently swaying.",
+        "Style": "Handheld 'fail video' aesthetic. Slightly shaky vertical video aspect ratio (9:16). sharp focus on the subject's face emerging from the slide, background slightly blurred.",
+        "Sounds": "The loud squeaking of skin and rubber against plastic, the creaking of metal bolts under stress, a muffled grunt of effort, the sound of the structure groaning.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario5": {
+        "Subject": "An enormous sumo-sized individual wearing a delicate, frilly pink tutu and ballet slippers. He has a serious, artistic facial expression, with eyes closed in concentration. His arms are raised in a classic ballet position, but his fingers are sausage-like.",
+        "Action": "The subject attempts a pirouette (spin). As he begins to spin, centrifugal force causes his stomach and limbs to pull outward aggressively. He spins faster than intended, turning into a human spinning top. He loses control and careens diagonally across the room, knocking over a row of chairs like bowling pins before crashing softly into a pile of gym mats.",
+        "Scene": "A pristine, wooden-floored dance studio with a wall of mirrors. Sunlight streams through large windows. A rosin box is in the corner.",
+        "Style": "Wide static shot to capture the full movement across the room. Mirror reflection visible in the background adding depth. Clean, high-key lighting. Sharp focus.",
+        "Sounds": "Classical piano music playing (Tchaikovsky), the rhythmic thud-thud-thud of heavy footsteps, the crash of chairs falling, the squeak of ballet shoes on wood.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    }
+}

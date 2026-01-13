@@ -15,7 +15,7 @@ https://new.express.adobe.com/home/tools/merge-videos
 ```
 source /Users/vhehf/Desktop/"Personal materials"/StartUp/YoutubeShortsGeneration/shorts-generation/bin/activate 
 cd /Users/vhehf/Desktop/"Personal materials"/StartUp/YoutubeShortsGeneration/youtube-short-generation/automation/
-python main.py --mode grok
+python text_to_video_generation.py --mode grok
 ```
 
 ### Disclaimer

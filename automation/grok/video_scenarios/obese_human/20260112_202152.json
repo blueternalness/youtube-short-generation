@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "An incredibly obese male breakdancer, late 20s, wearing an oversized, vibrant 90s-style neon tracksuit that is stretched tight, a backward snapback cap, gold chain, sweating profusely, intense facial expression of pure focus and determination, flushed cheeks.",
+        "Action": "Performing a high-speed windmill power move on the floor. He spins rapidly on his back, legs flailing with surprising momentum. As he spins, his mass creates a centrifugal force that knocks over nearby vases and displays without him touching them directly. He attempts a freeze pose but wobbles significantly, his tracksuit straining at the seams.",
+        "Scene": "Inside a very cramped, high-end antique porcelain shop. Shelves filled with delicate china tea sets and expensive vases. Narrow aisles. Sunlight streaming through a dusty shop window, illuminating dust motes dancing in the air from the movement.",
+        "Style": "Wide-angle lens (16mm) to exaggerate the small space versus the large subject. Low angle shot from floor level looking up at the spinning subject. High saturation, sharp focus, dynamic motion blur on the legs.",
+        "Sounds": "Rhythmic squeaking of sneakers on hardwood, heavy breathing, the 'whoosh' of air from the spinning, delicate rattling of china plates, a loud crash of a vase falling in the background.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario2": {
+        "Subject": "A massively obese woman, early 40s, dressed in a full professional pink ballerina tutu and white tights, hair in a tight bun, heavy stage makeup, expression of serene confidence despite the physical struggle.",
+        "Action": "Attempting a 'Grand Jeté' (leap). She runs heavily across the stage and jumps. Gravity immediately takes over, and she barely leaves the ground, looking like she is hovering just an inch off the floor. Upon landing, the wooden floorboards visibly bow and warp deeply under her weight. She maintains a perfect, delicate hand gesture throughout.",
+        "Scene": "Grand theatrical stage with red velvet curtains in the background. A spotlight follows her. The stage looks worn. Wooden floorboards.",
+        "Style": "Side profile tracking shot moving at the same speed as the runner. Slow-motion effect during the 'jump' to emphasize the lack of height. Dramatic stage lighting with high contrast.",
+        "Sounds": "Heavy, rhythmic thudding of footsteps, a loud creak of wood groaning under stress, classical orchestral music playing, the sound of fabric stretching.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario3": {
+        "Subject": "An incredibly obese man, 50s, with a thick beard, wearing full tight black tactical stealth gear (resembling Mission Impossible), black beanie, night vision goggles pushed up on forehead. He looks panicked.",
+        "Action": "Trying to hide behind a very thin street lamp post to avoid detection. He sucks in his stomach comically, but his body is clearly visible on both sides of the pole by several feet. He tiptoes sideways, trying to rotate with the camera's perspective to stay hidden, but fails miserably.",
+        "Scene": "A dimly lit alleyway at night. Wet pavement reflecting neon city signs. Steam rising from a manhole cover. A guard (unseen) sweeping a flashlight beam across the area.",
+        "Style": "Handheld shaky cam to simulate tension. Eye-level shot. Noir aesthetic with blue and orange tones. Shallow depth of field focusing on the subject's sweating face.",
+        "Sounds": " tense spy thriller music, the loud squeak of leather/rubber gear rubbing together, heavy suppressed breathing, distant city sirens, footsteps approaching.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario4": {
+        "Subject": "A morbidly obese teenage boy, wearing a helmet that is too small and sits high on his head, elbow pads, and a t-shirt that says 'Need for Speed'. Enthusiastic and joyful expression.",
+        "Action": "Riding a tiny, motorized electric scooter meant for a toddler. The scooter is bowing in the middle, sparking against the asphalt. He is hunched over, knees hitting his elbows, zooming down a hill. His cheeks are flapping in the wind due to the speed.",
+        "Scene": "A steep, winding suburban street on a sunny afternoon. Green lawns and white picket fences. Birds flying past. A 'Slow: Children Playing' sign in the background blurring past.",
+        "Style": "GoPro style fisheye view attached to the front of the scooter facing the rider. High shutter speed to capture the wind effects. Bright, vibrant daylight colors.",
+        "Sounds": "The high-pitched, struggling whine of the electric motor, wind noise, the scraping sound of metal dragging on asphalt, the rider yelling 'Wooooo!'.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario5": {
+        "Subject": "An incredibly obese man, 30s, wearing swim trunks with a rubber duck pattern and swim goggles. Pale skin, visible sunburn. Looking terrified yet committed.",
+        "Action": "Stuck inside a translucent, colorful water slide tube. He is pushing against the sides with his hands and feet to shimmy forward inch by inch. Water is building up behind him like a dam. Suddenly, he dislodges and shoots forward like a cork from a champagne bottle, accelerating rapidly towards the exit.",
+        "Scene": "Inside a winding plastic water slide tunnel. Sunlight filters through the colored plastic (red and yellow sections). Water is rushing around his sides.",
+        "Style": "POV shot from between his feet looking up at his face (straining expression). Then switching to a tracking shot from outside the translucent tube following his silhouette. Claustrophobic framing.",
+        "Sounds": "Echoing sound of rushing water, squeaking skin against wet plastic, grunts of effort, a loud 'pop' sound when he dislodges, splashing.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    }
+}

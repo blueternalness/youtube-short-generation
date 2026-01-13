@@ -1,0 +1,18 @@
+I want to create short form video content where various adorable standing animals are dancing like a K-pop star.
+The animals should act like a K-pop dancer while dancing.
+The video should not be boring.
+Give me top 5 prompts with detailed scenarios for creating such video content.
+The scenarios should include different types of adorable animals, various dances, and unique backgrounds or settings to make each video visually appealing.
+
+For each scenario, write prompts in the following JSON format:
+
+{
+    "scenario1" : {
+        "Subject": [Detailed object description including type of animal, dance, color, size, and any unique features.],
+        "Action": [Specific eating actions, behaviors, movements, sequence, interaction patterns.],
+        "Scene": [Detailed environment description including location, props, background elements, lighting setup, weather, time of day, architectural details.],
+        "Style": [Camera shot type, angle, movement, lighting style, visual aesthetic, color palette, depth of field, focus techniques.],
+        "Sounds": [Specific audio elements including ambient sounds, effects, background audio, music, environmental noise, equipment sounds, natural acoustics],
+        "Technical(Negative Prompt)": No captions, No special effects.
+    },
+}

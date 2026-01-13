@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "A morbidly obese male character, approximately 40s, weighing 450lbs, wearing a skin-tight, neon lycra professional cycling outfit that is heavily strained at the seams. He has a flushed, determined face, sweat dripping down a double chin, wearing aerodynamic wrap-around sunglasses and a comically small aerodynamic helmet perched on top of a large head. His posture is hunched intensely forward.",
+        "Action": "The character is furiously pedaling a tiny, pink toddler's tricycle with tassels on the handlebars. His knees hit his chest with every rotation. He is participating in a serious Tour de France style race. He overtakes a professional cyclist, turning his head to give a competitive glare while aggressively ringing a small bell. The tires of the tricycle are flattened almost to the rim under the weight.",
+        "Scene": "A winding mountain asphalt road on a sunny day, typical of a professional cycling stage. Spectators line the sides cheering. The background features blurry green mountains and blue sky. The lighting is bright, high-contrast natural sunlight.",
+        "Style": "Low-angle tracking shot moving alongside the tricycle (vehicle mount style), wide-angle lens (16mm) to exaggerate the size of the subject versus the tiny bike, high saturation, sharp focus, 60fps for smooth motion.",
+        "Sounds": "Intense breathing, the rhythmic squeaking of the tricycle chain, the straining of metal, the 'ding-ding' of a bicycle bell, cheering crowds, wind noise.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario2": {
+        "Subject": "An incredibly large woman, roughly 350lbs, wearing a delicate, white tutu and ballet slippers that look ready to burst. She has her hair in a tight bun, heavily powdered face, maintaining a look of extreme serenity and grace despite her size. Her arms are raised in a classic ballet pose.",
+        "Action": "She attempts a 'grand jeté' (leap) inside a very cramped space. As she lands, the floorboards visibly warp and shudder. She pirouettes, and her momentum causes her to knock over shelves with her hips without noticing, continuing the dance with absolute focus. She does not fall, but the environment is destroyed by her movements.",
+        "Scene": "A narrow, high-end antique porcelain shop filled with fragile vases, plates, and glass figurines. The aisles are extremely tight. Sunlight streams through a dusty shop window, illuminating the dust motes and flying ceramic shards.",
+        "Style": "Static mid-shot that allows the subject to move in and out of frame slightly, capturing the destruction in the background. High depth of field to keep the breaking vases in focus. Cinematic lighting.",
+        "Sounds": "Classical Tchaikovsky music playing, the loud creaking of floorboards, the continuous shattering of glass and pottery, rhythmic heavy thuds of footsteps.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario3": {
+        "Subject": "A massive male figure, 500lbs, dressed in full tactical ninja gear including a black mask (which is too tight, revealing bulging cheeks), utility belt, and black bodysuit. He is trying to look stealthy.",
+        "Action": "The character attempts to hide behind a very thin telephone pole to evade detection. He presses his back against it, sucking in his stomach, but his body spills out on both sides of the pole by several feet. He slowly peeks around the pole with intense seriousness, then quickly snaps his head back, causing his body to jiggle. He throws a smoke bomb at his feet, but when the smoke clears, he is still standing there, coughing.",
+        "Scene": "An urban alleyway at night, illuminated by a single flickering streetlamp (noir atmosphere). Brick walls with graffiti, steam rising from a manhole cover.",
+        "Style": "Handheld camera movement to mimic a spy movie or documentary style. High contrast lighting (chiaroscuro), cool blue color tones. Telephoto lens to compress the distance.",
+        "Sounds": "Suspenseful spy movie soundtrack, heavy mouth breathing, the sound of fabric stretching, a 'poof' sound of a smoke bomb, awkward coughing.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario4": {
+        "Subject": "A gigantic man, mixed ethnicity, wearing floral swim trunks and arm floaties (water wings) that are squeezing his biceps. He has a joyful, childlike expression. He is holding his knees to his chest.",
+        "Action": "The character performs a 'cannonball' jump from a diving board. The video captures the moment of impact in extreme slow motion. Instead of a normal splash, the water is displaced so violently that the entire pool momentarily empties, revealing the pool tiles, before the water crashes back down.",
+        "Scene": "A crowded public swimming pool on a hot summer day. Bright blue water, white deck chairs, people in the background freezing in shock.",
+        "Style": "Phantom Flex high-speed camera style (slow motion), 1000fps look. Eye-level shot from the water surface. Bright, overexposed summer lighting. Crystal clear water physics.",
+        "Sounds": "Muffled underwater sounds, a heartbeat sound effect, then a thunderous, explosive splash sound, followed by the sound of water raining down.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario5": {
+        "Subject": "An immensely obese man, 400lbs, wearing a futuristic, silver skydiving jumpsuit and a clear wind-tunnel helmet. His cheeks are rippling uncontrollably from wind pressure.",
+        "Action": "He is inside an indoor skydiving wind tunnel. The massive industrial fan is at full power. Instead of floating gracefully, he is hovering just two inches off the net, spinning slowly and clumsily like a heavy rotisserie chicken. An instructor (normal size) is struggling to push him up, but the instructor's hands just sink into the suit. The subject gives a thumbs up to the camera while spinning.",
+        "Scene": "A vertical wind tunnel tube with glass walls. Outside the glass, onlookers are watching with mouths open. Industrial lighting, metallic surfaces.",
+        "Style": "GoPro wide-angle view attached to the glass wall of the tunnel. Fish-eye distortion. Vibrant colors. Steady shot.",
+        "Sounds": "Overwhelmingly loud wind tunnel roar (white noise), the sound of flapping nylon fabric, muffled shouting from the instructor.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    }
+}

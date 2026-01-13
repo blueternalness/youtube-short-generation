@@ -542,8 +542,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     default_path = "/Users/vhehf/Desktop/Personal materials/StartUp/YoutubeShortsGeneration/youtube-short-generation"
-    scenario_generation_prompt_path = os.path.join(default_path, "prompts", args.concept, "scenario_generation", f"{args.concept}_scenario_generation_prompt_{args.mode}.txt")
-    automation_folder = os.path.join(default_path, "automation", args.mode, "scenarios", args.concept)
+    scenario_generation_prompt_path = os.path.join(default_path, "prompts", args.concept, "video_scenario_generation", f"{args.concept}_scenario_generation_prompt_{args.mode}.txt")
+    automation_folder = os.path.join(default_path, "automation", args.mode, "video_scenarios", args.concept)
 
     # Validate folders
     if not os.path.exists(scenario_generation_prompt_path):

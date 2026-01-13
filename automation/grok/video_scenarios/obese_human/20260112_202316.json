@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "An incredibly obese male, approximately 35 years old, weighing 400 lbs, wearing a tight, neon-pink professional ballerina tutu and white tights, round face with flushed red cheeks, sweaty forehead, intense expression of determination, double chin, messy bun hairstyle.",
+        "Action": "The character attempts a graceful pirouette but loses balance due to momentum, spinning uncontrollably fast like a top, knocking over a row of chairs one by one with his belly, finally stopping by dizzily grabbing a curtain.",
+        "Scene": "A pristine, high-end classical ballet studio with floor-to-ceiling mirrors, polished wooden floors, morning sunlight streaming through sheer drapes, dust motes dancing in the light.",
+        "Style": "Wide angle shot capturing the full chaos, 4k resolution, high frame rate to capture the wobble, bright high-key lighting, comedic timing, sharp focus on the character.",
+        "Sounds": "Classical piano music abruptly interrupted by squeaking shoes, loud crashing of chairs, heavy breathing, and a dizzy groan.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scene transitions, no morphing limbs, no glitchy physics."
+    },
+    "scenario2": {
+        "Subject": "A massively obese woman, 50s, wearing a full tactical SWAT team gear vest that barely closes, helmet with chin strap straining, sunglasses, combat boots, holding a tiny water pistol.",
+        "Action": "She attempts to perform a 'stealth roll' across a hallway but gets stuck mid-roll on her back like a turtle, flailing arms and legs in the air trying to rock herself back upright, struggling against gravity.",
+        "Scene": "A narrow, dimly lit industrial corridor with steam pipes, flickering overhead fluorescent lights, wet concrete floor, dramatic shadows.",
+        "Style": "Low angle shot to emphasize size, cinematic action movie color grading (teal and orange), handheld camera shake for intensity, dynamic shadows.",
+        "Sounds": "Intense action movie soundtrack, sound of velcro straining, heavy grunting, squeaking rubber boots against concrete, metal clanking.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scene transitions, no distorted faces, no flying objects without cause."
+    },
+    "scenario3": {
+        "Subject": "A very large man, 300+ lbs, wearing a full spandex cycling outfit with professional logos, wrap-around sunglasses, helmet, stubble beard, overflowing muffin top.",
+        "Action": "He attempts to mount a comically small, child-sized tricycle with tassels on the handlebars. As he sits, the back wheels instantly splay out flat under the weight, and he pedals furiously but moves only one inch.",
+        "Scene": "A suburban driveway on a sunny Saturday morning, green manicured lawn, white picket fence, a sprinkler running in the background.",
+        "Style": "Side profile medium shot, static camera to highlight the lack of movement, vibrant colors, shallow depth of field blurring the background.",
+        "Sounds": "Birds chirping, the loud metallic bending of the tricycle frame, stressed rubber tires screeching, heavy panting.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scene transitions, no merging with the bike, no impossible geometry."
+    },
+    "scenario4": {
+        "Subject": "An incredibly obese teenager, wearing baggy skater clothes, a backwards cap, holding a skateboard, round soft face, wide eyes, eager expression.",
+        "Action": "He runs and jumps to land a 'grind' on a handrail. Instead of sliding, his mass causes the entire metal handrail to bend instantly down to the ground, and he slides slowly down the bent rail until he hits the floor gently.",
+        "Scene": "An outdoor concrete skatepark, graffiti on walls, overcast sky, other skaters in the distant background frozen in shock.",
+        "Style": "Fisheye lens typical of 90s skate videos, low angle close to the ground, gritty texture, desaturated urban colors.",
+        "Sounds": "Rolling skateboard wheels, the loud distinct 'creak-groan-snap' of the metal rail bending, a dull thud, silence follows.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scene transitions, no defying physics, no dissolving objects."
+    },
+    "scenario5": {
+        "Subject": "A massive elderly man, Santa Claus physique but wearing a tropical floral shirt and swim trunks, white beard, holding a tropical drink with an umbrella.",
+        "Action": "He attempts to lay gently onto a hammock strung between two palm trees. As he puts his full weight on it, the two palm trees slowly bend inward until they touch, effectively sandwiching him like a taco.",
+        "Scene": "A beautiful tropical beach at sunset, golden hour lighting, turquoise ocean waves in background, white sand.",
+        "Style": "Eye-level medium shot, slow motion capture of the trees bending, warm golden lighting, high contrast, photorealistic 8k.",
+        "Sounds": "Relaxing ocean waves, ukulele music, the creaking of wood fibers stretching, a 'whoosh' of the trees bending, a spilled drink splash.",
+        "Technical(Negative Prompt)": "No hallucinations, No unrealistic scene transitions, no floating objects, no extra limbs."
+    }
+}

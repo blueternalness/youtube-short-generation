@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "An incredibly obese middle-aged man, approximately 400lbs, round face with flushed cheeks, wearing a neon green spandex wrestling singlet that stretches significantly, sweatbands on head and wrists, expression of intense, misguided confidence.",
+        "Action": "The subject attempts a parkour wall run. He sprints heavily towards a brick wall, plants one foot, and instead of propelling upward, he bounces off the wall with comedic elasticity, limbs flailing in slow motion, landing flat on his back on a safety mat with a shockwave ripple effect through his body.",
+        "Scene": "An urban alleyway designed for parkour training, graffiti on brick walls, bright midday sun casting sharp shadows, concrete ground covered with a blue safety gym mat, dust motes dancing in the light.",
+        "Style": "Wide-angle lens (16mm) to exaggerate scale, low angle looking up to make the jump look higher, high shutter speed to capture the flailing, bright saturation, crisp 4k resolution.",
+        "Sounds": "Heavy, rhythmic footsteps slapping concrete, a loud grunt of exertion, the squeak of sneakers against the wall, a comical 'boing' sound effect, and a heavy, dull thud upon landing.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario2": {
+        "Subject": "A morbidly obese woman in her 30s, double chin, wearing a professional pink tutu and ballet slippers, hair in a tight bun, very serious and focused facial expression.",
+        "Action": "She attempts a pirouette on a frozen lake. As she spins, centrifugal force pulls her arms outward uncontrollably. She spins faster and faster like a spinning top, unable to stop, eventually drilling herself slightly into the snowbank as she loses balance and tips over dramatically but slowly.",
+        "Scene": "A picturesque frozen outdoor lake surrounded by snowy pine trees, golden hour lighting creating long shadows, ice surface is reflective and scratched.",
+        "Style": "Handheld camera movement to mimic a viral bystander video, shallow depth of field focusing on the subject, cold color grading with warm highlights, 60fps for smooth motion.",
+        "Sounds": "The sharp scraping of ice skates (or shoes) on ice, wind whistling, a dizzying 'whooshing' sound increasing in tempo, and the crunch of snow upon falling.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario3": {
+        "Subject": "A massive, heavyset man with a thick beard, wearing a tiny, child-sized plastic helmet and goggles, squeezed tightly into a miniature electric toy convertible car (pink Barbie style), knees pressed against his chest.",
+        "Action": "The subject is careening down a steep suburban driveway in the tiny car. The plastic wheels are bowing under the weight. He is frantically turning the tiny steering wheel left and right, screaming silently with eyes wide open as the car picks up too much speed and heads toward a leaf pile.",
+        "Scene": "A steep paved driveway in a sunny suburban neighborhood, green manicured lawns, a large pile of autumn leaves at the bottom of the hill, bright clear blue sky.",
+        "Style": "GoPro style action shot mounted to the hood of the tiny car facing the driver, fisheye distortion, intense camera shake to simulate speed and rough terrain, high contrast.",
+        "Sounds": "The plastic rattling of the toy car's wheels on pavement, the high-pitched whine of the strained electric motor, wind noise, and rustling leaves.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario4": {
+        "Subject": "An immensely overweight man, wearing a 'tactical' black turtleneck and cargo pants that are too tight, sweat dripping down his forehead, wearing night-vision goggles pushed up on his head.",
+        "Action": "He is attempting a 'Mission Impossible' style laser dodge. He tries to lift one leg over a red laser beam, but his balance shifts. He wobbles, his belly gently touches the laser, triggering flashing red lights. He panics and tries to roll away, getting tangled in the imaginary laser grid.",
+        "Scene": "A dimly lit museum hallway, valuable artifacts in glass cases in the background, visible red laser beams crossing the hallway in a complex grid pattern, cinematic blue moonlight coming from windows.",
+        "Style": "Cinematic side profile tracking shot, dramatic noir lighting (chiaroscuro), deep shadows, sharp focus on the laser touching the shirt, tension-building visual pacing.",
+        "Sounds": "Humming of electricity, the sudden loud blaring of a klaxon alarm, panic breathing, squeaking of rubber soles on polished marble floor.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario5": {
+        "Subject": "A very large, round man with a sunburned nose, wearing floral swim trunks and oversized swimming floaties (water wings) on his upper arms, holding a tiny rubber duck.",
+        "Action": "He performs a cannonball jump from a deck chair into a very small, backyard inflatable kiddie pool. Upon impact, the water does not just splash; the entire contents of the pool are displaced instantly, creating a massive wall of water, leaving him sitting on the dry plastic bottom of the empty pool looking confused.",
+        "Scene": "A backyard patio, wooden deck, green grass, a small blue inflatable pool filled with water, a BBQ grill in the background, bright summer noon lighting.",
+        "Style": "Super slow motion (phantom camera style) to capture the water displacement physics, crystal clear water droplets, vibrant summer colors, centered composition.",
+        "Sounds": "The spring of the chair, a massive, deep 'KA-PLOOSH' sound, the sloshing of water hitting the grass, and the squeak of the rubber duck being squeezed.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "An incredibly obese male, approximately 40s, weighing around 450lbs, wearing a brightly colored, spandex neon-green cycling onesie that is stretched to its absolute limit, transparent in areas due to tension. He has a flushed, sweaty face, a thick double chin, and is wearing aerodynamic speed sunglasses and a tiny professional cycling helmet perched on top of a large head.",
+        "Action": "The subject attempts to mount a miniature, pink, battery-operated children's toy convertible car. He places one massive leg inside, causing the plastic suspension to collapse instantly. He then attempts to squeeze his hips into the seat, looking determined and serious, while the plastic doors bow outward. He grips the tiny steering wheel with two fingers, revs the electric motor which makes a straining whining noise, and begins to inch forward at 0.5 mph while pedaling his legs on the outside for extra speed.",
+        "Scene": "A professional velodrome racing track with steep banked curves. Professional cyclists in the background are blurring past. The lighting is harsh stadium floodlights. The track surface is smooth wood.",
+        "Style": "Low angle, wide-angle lens (GoPro style) attached to the front hood of the toy car facing the subject, creating a fisheye distortion of his determined face. High saturation, 4k resolution, hyper-realistic textures of sweat and lycra.",
+        "Sounds": "High-pitched whining of a struggling electric toy motor, heavy rhythmic breathing, the creaking and cracking of plastic, the 'whoosh' of professional bikes passing by.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario2": {
+        "Subject": "A morbidly obese woman, late 30s, mixed ethnicity, wearing a fluffy pink tutu and a tight white tank top that exposes a large midsection. She has messy hair tied in a bun, rosy cheeks, and an expression of pure, unadulterated joy. Her limbs are thick and soft.",
+        "Action": "The subject performs a 'cannonball' jump into a very small, backyard inflatable kiddie pool. As she is mid-air, time slows down (slow motion). The impact creates a displacement of water so massive that it empties the entire pool in a single sheet of water, resembling a nuclear mushroom cloud of liquid. She lands with a heavy thud on the now-dry plastic bottom, looking confused as the water rains down on her seconds later.",
+        "Scene": "A perfectly manicured suburban backyard on a sunny afternoon. Green grass, a white picket fence, a BBQ grill in the background with smoke rising. The inflatable pool is tiny, featuring cartoon ducks.",
+        "Style": "High shutter speed to capture individual water droplets. Side profile shot initially, tracking the jump, then switching to a static wide shot for the impact. Bright, sunny exposure, slow-motion emphasize physics.",
+        "Sounds": "A dramatic orchestral crescendo during the jump, silence at the peak of the jump, a thunderous 'SLAP' of water, followed by the sound of heavy rain falling on plastic.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario3": {
+        "Subject": "A massive heavy-set man, resembling a sumo wrestler build, wearing a tactical black spy turtleneck and cargo pants. He is wearing night-vision goggles pushed up on his forehead. He is sweating profusely, with veins visible on his forehead from exertion.",
+        "Action": "The subject is attempting to navigate a 'Mission Impossible' style hallway filled with red laser beams. He tries to step over a low beam, but his stomach hangs down and breaks the beam. He sucks in his stomach, causing his back to hit a laser behind him. He attempts a nimble roll, but gets stuck halfway, rocking back and forth like a turtle on its shell, triggering every single alarm in the process while trying to maintain a stealthy 'shh' finger to his lips.",
+        "Scene": "A high-tech, marble-floored museum corridor. Blue ambient lighting with bright red laser grid lines crisscrossing the hallway. Valuable artifacts in glass cases on the sides.",
+        "Style": "Handheld 'shaky cam' aesthetic to mimic found footage or a body cam. erratic zooming on the body parts hitting the lasers. grainy night-vision filter applied occasionally.",
+        "Sounds": "Intense, suspenseful spy movie soundtrack that abruptly cuts out when the first alarm goes off. Loud, blaring sirens. The squeaking of rubber soles on marble. The subject grunting with effort.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario4": {
+        "Subject": "An incredibly large elderly man with a long white beard, wearing a full Santa Claus outfit (without the coat, just the red suspenders and pants). He has a very round, heavy belly that shakes like a bowl of jelly. He looks terrified.",
+        "Action": "The subject is strapped into a zipline harness that is clearly digging tightly into his flesh. He steps off the platform expecting to glide, but his weight causes the wire to sag immediately and drastically toward the ground. Instead of flying through the air, he drags slowly through the tops of bushes and mud, his feet ploughing a furrow in the earth, moving at a snail's pace while leaves and twigs hit his face.",
+        "Scene": "A tropical jungle adventure park. Lush green canopy, wooden platforms high in trees. The ground is muddy and covered in ferns. Sunlight filters through the leaves.",
+        "Style": "Tracking shot from the side, moving at the same slow speed as the subject. The camera focuses on the tension of the wire and the debris hitting his face. Cinema verité style.",
+        "Sounds": "The straining sound of a metal cable under immense tension (creaking wire). The rustling and snapping of branches. The subject yelling a slow, unenthusiastic 'Whoooooa'.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    },
+    "scenario5": {
+        "Subject": "A very obese teenager, wearing trendy streetwear (hoodie and baggy shorts), holding a selfie stick. He has a double chin and is red-faced from laughing.",
+        "Action": "The subject attempts to ride a hoverboard (self-balancing scooter). As he steps on, the hoverboard beeps frantically and the wheels bow outward (camber). He begins to vibrate intensely as the motors struggle to balance his weight. He spins out of control in a perfect circle, faster and faster, unable to step off, creating a centrifugal force that pulls his cheeks back. He eventually flies off into a pile of cardboard boxes.",
+        "Scene": "The interior of a large warehouse store (like Costco or IKEA). towering shelves of products. Concrete floors. Shoppers in the background watching in horror/amusement.",
+        "Style": "Selfie-stick perspective (Point of View) where the camera spins with the subject, creating a dizzying, blurring background effect while the subject's face remains in focus. Motion blur.",
+        "Sounds": "The robotic warning voice of the hoverboard saying 'Warning! Overload!'. The whirring of the motor increasing in pitch. The subject's laughter turning into panicked screaming. The crash of boxes.",
+        "Technical(Negative Prompt)": "No hallucinations, and No unrealistic scene transitions."
+    }
+}
