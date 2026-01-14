@@ -304,14 +304,13 @@ class GeminiImageWorkflow:
         # We use the same chat session so Gemini knows the context of the image it just made.
         print("[*] Requesting Next Step Description...")
         self._send_message(next_step_prompt_template)
-        
-        next_step_text = self._get_latest_text_response()
-        if not next_step_text:
+
+        local_next_step_text_path = self._get_next_step_response(images_folder)
+        if not local_next_step_text_path:
             raise Exception("Failed to get next step description.")
 
-        print(f"[*] Next Step Description: {next_step_text[:50]}...")
-        
-        return local_image_path, next_step_text
+        print(f"[*] Next Step Description: {local_next_step_text_path[:50]}...")
+        return local_image_path, local_next_step_text_path
 
     def _send_message(self, text):
         input_box = self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div[contenteditable='true']")))
@@ -371,16 +370,54 @@ class GeminiImageWorkflow:
         return None
 
 
-    def _get_latest_text_response(self):
-        time.sleep(5)
-        for _ in range(20):
+    def _get_next_step_response(self, images_folder):
+
+        max_retries = 30
+        extracted_data = None
+        
+        for i in range(max_retries):
             try:
-                responses = self.driver.find_elements(By.CSS_SELECTOR, ".markdown")
+                # Get all response containers
+                print(f"[*] Checking for Gemini response... (Attempt {i})")
+                # METHOD A: Get all markdown text (General purpose)
+                # Use CSS Selector '.markdown' to match "markdown markdown-main-panel..."
+                responses = self.driver.find_elements(By.CSS_SELECTOR, ".markdown")        
                 if responses:
-                    return responses[-1].text
-            except: pass
+                    # Get the text of the very last response
+                    last_response_text = responses[-1].text
+                    extracted_data = extract_json_from_text(last_response_text)
+
+                # METHOD B: Fallback - Target the code block directly (Specific to your HTML snippet)
+                if not extracted_data:
+                    code_blocks = self.driver.find_elements(By.TAG_NAME, "code")
+                    if code_blocks:
+                        last_code_text = code_blocks[-1].text
+                        extracted_data = extract_json_from_text(last_code_text)
+                if extracted_data:
+                    break
+            except Exception as e:
+                print(e)
             time.sleep(2)
-        return None
+
+        if not extracted_data:
+            print("[!] Failed to extract valid JSON from Gemini response.")
+            return False
+
+        # 5. Save to File
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f"{timestamp}.json"
+        output_path = os.path.join(images_folder, filename)
+        
+        try:
+            with open(output_path, 'w', encoding='utf-8') as f:
+                json.dump(extracted_data, f, indent=4, ensure_ascii=False)
+            print(f"[*] Saved new scenarios to: {output_path}")
+            return True
+        except Exception as e:
+            print(f"[!] Error saving file: {e}")
+            return False
+                
+        return output_path
 
 
 class GrokImageToVideo:
@@ -539,14 +576,14 @@ class AutomationController:
             
             try:
                 # Steps 3, 4, 5: Gemini (Image Gen -> Download -> Text Gen)
-                image_path, next_step_text = self.gemini_workflow.run_image_generation(
+                image_path, next_step_text_path = self.gemini_workflow.run_image_generation(
                     scenario, 
                     images_folder, 
                     next_step_template
                 )
 
                 # Steps 6, 7, 8: Grok (Upload -> Video Gen -> Download)
-                self.grok_bot.generate_video(image_path, next_step_text)
+                self.grok_bot.generate_video(image_path, next_step_text_path)
                 
                 # Cleanup Scenario
                 remove_scenario_from_file(filepath, key)

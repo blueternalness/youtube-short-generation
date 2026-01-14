@@ -1,0 +1,37 @@
+{
+    "scenario1": {
+        "Subject": "An immensely obese, spherical man in his 40s with a flushed face and a thick mustache, squeezed into a tactical black latex spy suit that is stretched to its absolute transparent limit, wearing high-tech night vision goggles that look tiny on his head.",
+        "Action": "He is attempting a 'Mission Impossible' style suspension from the ceiling to steal a diamond, but the cable is fraying and sparking from the weight. He is sweating profusely, and his belly is dangling just millimeters away from touching a bright red laser grid on the floor. His facial expression is one of sheer panic and held breath.",
+        "Scene": "A high-security, futuristic bank vault with blue ambient lighting, smoke effects, and steel walls. The room is filled with complex red laser beams. The perspective is a low angle looking up at his terrified face as he descends.",
+        "Style": "9:16 vertical aspect ratio, hyper-realistic 8k, cinematic lighting, dramatic shadows, GoPro wide angle style",
+        "Technical(Negative Prompt)": "No hallucinations, no distortion of limbs, no bad anatomy."
+    },
+    "scenario2": {
+        "Subject": "A colossal sumo-sized man wearing a comical, tiny yellow bicycle helmet and a 'Tour de France' spandex outfit that is bursting at the seams. He has a determined, competitive expression.",
+        "Action": "He is bomb-diving down a steep San Francisco street on an infinitesimally small electric rental scooter (like a Lime or Bird). The scooter's metal stem is bent at a 90-degree angle from the weight, the wheels are flattened into pancakes, and sparks are flying violently from the metal scraping the asphalt. He is creating a sonic boom effect behind him.",
+        "Scene": "A ridiculously steep city street in broad daylight, cars parked on the side are shaking, pigeons are flying away in terror. The background blurs due to the perceived high speed.",
+        "Style": "9:16 vertical aspect ratio, action shot, motion blur, vibrant colors, high contrast, YouTube thumbnail style",
+        "Technical(Negative Prompt)": "No hallucinations, extra wheels, floating objects."
+    },
+    "scenario3": {
+        "Subject": "A gigantic, heavyset woman with frizzy red hair, wearing a delicate, frilly pink tutu and ballet slippers, resembling a hippo in a ballerina costume. Her expression is one of serene, focused artistic grace despite the chaos.",
+        "Action": "She is performing a pirouette on a frozen lake. As she balances on one toe, the ice beneath her is shattering dramatically, sending massive chunks of ice and geysers of water shooting into the air. A shark is jumping out of the cracked ice in the background, looking surprised.",
+        "Scene": "A beautiful, serene frozen lake surrounded by snow-capped mountains. The lighting is magical 'golden hour' sun, contrasting with the destruction of the ice surface.",
+        "Style": "9:16 vertical aspect ratio, fantasy realism, exaggerated physics, crisp details, dramatic splash",
+        "Technical(Negative Prompt)": "No hallucinations, distorted faces, missing limbs."
+    },
+    "scenario4": {
+        "Subject": "An incredibly rotund man with a beard, wearing a tropical floral shirt and sunglasses, looking like a confused tourist.",
+        "Action": "He is stuck tightly inside a colorful, transparent tube water slide. He is not moving; he is completely plugged into the tube like a cork. Behind him, a massive buildup of water is pressing against his back, bulging the plastic tube outward dangerously. Through the transparent plastic, his face is squished against the side in a hilarious grimace.",
+        "Scene": "A vibrant outdoor water park on a sunny day. The slide loops high in the air against a bright blue sky. Below, a line of skinny impatient teenagers are looking up and pointing.",
+        "Style": "9:16 vertical aspect ratio, bright saturation, photorealistic, comedic timing, fish-eye lens effect",
+        "Technical(Negative Prompt)": "No hallucinations, defying gravity (unless specified), blurry textures."
+    },
+    "scenario5": {
+        "Subject": "A massive, muscular-fat powerlifter build, shirtless with hairy chest, wearing aviator sunglasses and camouflage cargo shorts.",
+        "Action": "He is attempting to pole vault at the Olympics. He is mid-air, but the fiberglass pole has not launched him; instead, the pole has bent completely in half, touching the ground on both sides, trapping him like a slingshot about to snap. His legs are flailing helplessly in the air, and the pole looks like it is about to explode.",
+        "Scene": "A professional Olympic stadium stadium packed with a cheering crowd. The track is red. Flashbulbs are popping in the stands. The sky is a dramatic twilight.",
+        "Style": "9:16 vertical aspect ratio, sports photography, sharp focus, tension, exaggerated absurdity",
+        "Technical(Negative Prompt)": "No hallucinations, bad physics rendering of the pole, extra arms."
+    }
+}
