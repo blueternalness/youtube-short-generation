@@ -1,7 +1,7 @@
-I want to create funny, ridiculous, ludicrous clickbait image where a incredibly obese human is performing various activities.
-The image should not be boring.
+I want to create funny, ludicrous, provocative clickbait image where a incredibly obese human is performing various activities.
 The image doesn’t have to be realistic. It can be exaggerated.
-However, the human in the image should look like a real human, not a comic book character.
+However, the human in the image should look like real.
+
 Give me 5 prompts with detailed scenarios for creating such images.
 
 For each scenario, write prompts in the following JSON format:

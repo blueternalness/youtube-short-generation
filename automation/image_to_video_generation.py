@@ -200,8 +200,7 @@ class GeminiScenarioGenerator:
             self.driver.switch_to.window(handle)
             if "gemini.google.com" in self.driver.current_url:
                 return
-        self.driver.execute_script("window.open('https://gemini.google.com', '_blank');")
-        self.driver.switch_to.window(self.driver.window_handles[-1])
+        self.driver.get("https://gemini.google.com")
 
     def _new_chat(self):
         try:
@@ -516,7 +515,8 @@ class GrokImageToVideo:
             time.sleep(5)
 
 
-            # Generate Final Scene
+            # Only one customization is enough for now
+            """
             text_area = self.long_wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "textarea, div[contenteditable='true']")))            
             text_area.click()
             final_scene_prompt = f"{next_steps.get('Scenario2', '')} "
@@ -528,6 +528,7 @@ class GrokImageToVideo:
                 raise Exception("Rate Limit Reached")
             self.download_video()
             time.sleep(5)
+            """
 
 
             # 3. Wait for Generation & Download (Step 8)
