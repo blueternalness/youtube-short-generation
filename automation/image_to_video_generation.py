@@ -277,7 +277,9 @@ class GeminiImageWorkflow:
             ))
             image_menu.click()
             time.sleep(1)
-        except: pass
+        except Exception as e:
+            print(f"[!] Error setting up image generation chat: {e}")
+            raise e
 
         # 2. Construct Image Prompt from Scenario
         # Adjust keys based on your JSON structure
@@ -412,13 +414,10 @@ class GeminiImageWorkflow:
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(extracted_data, f, indent=4, ensure_ascii=False)
             print(f"[*] Saved new scenarios to: {output_path}")
-            return True
+            return output_path
         except Exception as e:
             print(f"[!] Error saving file: {e}")
             return False
-                
-        return output_path
-
 
 class GrokImageToVideo:
     """Handles Steps 6, 7, 8: Upload Image -> Input Prompt -> Download Video."""
@@ -434,7 +433,23 @@ class GrokImageToVideo:
                 return
         self.driver.get("https://grok.com/imagine")
 
-    def generate_video(self, image_path, prompt_text):
+    def get_next_step_description(file_path):
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            if not data:
+                raise Exception(f"[*] File {os.path.basename(file_path)} is empty. Deleting...")
+            os.remove(file_path)
+
+            return data
+
+        except json.JSONDecodeError:
+            print(f"[!] Error reading {file_path}. Skipping.")
+
+        return None
+
+    def generate_video(self, image_path, next_step_text_path):
+        # TODO: Read prompt from next_step_text_path
         print("\n--- Starting Grok Video Generation ---")
         self.focus_tab()
         self.driver.get("https://grok.com/imagine") # Refresh to ensure clean state
@@ -458,7 +473,12 @@ class GrokImageToVideo:
             # Sometimes Grok has a specific "Edit" or "Describe" box for the image-to-video.
             # Assuming standard prompt box for now.
             text_area.click()
-            text_area.send_keys(prompt_text)
+            next_steps = self.get_next_step_description(next_step_text_path)
+
+            # TODO: add Middle scene prompt if video quality is bad.
+            final_scene_prompt = f"{next_steps.get('FinalScene', '')} "
+
+            text_area.send_keys(final_scene_prompt)
             time.sleep(1)
             text_area.send_keys(Keys.ENTER)
 
@@ -581,6 +601,10 @@ class AutomationController:
                     images_folder, 
                     next_step_template
                 )
+
+                print(f"[*] Generated Image: {image_path}")
+                print(f"[*] Next Step Text: {next_step_text_path}")
+
 
                 # Steps 6, 7, 8: Grok (Upload -> Video Gen -> Download)
                 self.grok_bot.generate_video(image_path, next_step_text_path)

@@ -6,6 +6,6 @@ The scene descriptions should not be simulating.
 Write description in the following JSON format:
 
 {
-    "MiddelScene" : [stimulating clickbait scene description],
+    "MiddleScene" : [stimulating clickbait scene description],
     "FinalScene" : [stimulating clickbait scene description]
 }
