@@ -257,18 +257,20 @@ class GeminiImageWorkflow:
             self.driver.switch_to.window(handle)
             if "gemini.google.com" in self.driver.current_url:
                 return
-        self.driver.execute_script("window.open('https://gemini.google.com', '_blank');")
-        self.driver.switch_to.window(self.driver.window_handles[-1])
+        self.driver.get("https://gemini.google.com")
 
     def run_image_generation(self, scenario, images_folder, next_step_prompt_template):
         print("[*] Starting Gemini Image Workflow...")
-        self.focus_tab()
         
         # 1. Start Fresh Chat for this Scenario
         try:
+            self.focus_tab()
+            print("[*] Gemini tab opened.")
+
             new_chat_btn = self.wait.until(EC.element_to_be_clickable((By.XPATH, "//*[contains(text(), 'New chat')]")))
             new_chat_btn.click()
             time.sleep(2)
+            print("[*] New chat started.")
 
             # 1. Click Tools
             tools_btn = self.wait.until(EC.element_to_be_clickable(
@@ -380,7 +382,7 @@ class GeminiImageWorkflow:
 
     def _get_next_step_response(self, images_folder):
 
-        max_retries = 30
+        max_retries = 40
         extracted_data = None
         
         for i in range(max_retries):
@@ -502,8 +504,8 @@ class GrokImageToVideo:
             # Generate Middle Scene
             text_area = self.long_wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "textarea, div[contenteditable='true']")))            
             text_area.click()
-            # TODO: We don't need consecutive scenes? Just customize it only for 6s shorts?
-            middle_scene_prompt = f"Next Scene: {next_steps.get('MiddleScene', '')} "  
+
+            middle_scene_prompt = f"{next_steps.get('Scenario1', '')} "
             text_area.send_keys(middle_scene_prompt)
             time.sleep(1)
             text_area.send_keys(Keys.ENTER)
@@ -517,7 +519,7 @@ class GrokImageToVideo:
             # Generate Final Scene
             text_area = self.long_wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "textarea, div[contenteditable='true']")))            
             text_area.click()
-            final_scene_prompt = f"Final Scene: {next_steps.get('FinalScene', '')} "
+            final_scene_prompt = f"{next_steps.get('Scenario2', '')} "
             text_area.send_keys(final_scene_prompt)
             time.sleep(1)
             text_area.send_keys(Keys.ENTER)
@@ -622,7 +624,7 @@ class AutomationController:
                 print("[!] No more scenarios available.")
                 break
 
-            print(f"\n--- Processing Item {processed_count + 1}/{count}: {key} ---")
+            print(f"\n--- Processing Item {processed_count + 1}/{5*count}: {key} ---")
             
             try:
                 # Steps 3, 4, 5: Gemini (Image Gen -> Download -> Text Gen)

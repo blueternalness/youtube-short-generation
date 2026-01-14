@@ -1,11 +1,11 @@
 
-Based on the image, generate descriptions of the middle scene and the final scene, focusing on what happens next.
-The scene descriptions should be simulating.
-The scene descriptions should not be simulating.
+Based on the image, generate descriptions of two different scenarios, focusing on what happens next.
+The scenarios should be simulating.
+The scenarios should not be boring.
 
 Write description in the following JSON format:
 
 {
-    "MiddleScene" : [stimulating clickbait scene description],
-    "FinalScene" : [stimulating clickbait scene description]
+    "Scenario1" : [stimulating clickbait scene description],
+    "Scenario2" : [stimulating clickbait scene description]
 }
