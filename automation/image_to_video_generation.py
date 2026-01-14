@@ -204,6 +204,16 @@ class GeminiScenarioGenerator:
 
     def _new_chat(self):
         try:
+            expand_btn = self.driver.find_elements(By.CSS_SELECTOR, "button[aria-label='Expand menu']")
+            
+            if expand_btn and expand_btn[0].is_displayed():
+                print("[*] Sidebar is collapsed. Clicking 'Expand menu'...")
+                expand_btn[0].click()
+                time.sleep(1) # Wait for animation
+        except Exception as e:
+            print(f"[!] Note: Sidebar expansion check failed (non-critical): {e}")
+
+        try:
             new_chat_btn = self.wait.until(EC.element_to_be_clickable(
                 (By.XPATH, "//*[contains(text(), 'New chat')]")
             ))
@@ -265,6 +275,16 @@ class GeminiImageWorkflow:
         try:
             self.focus_tab()
             print("[*] Gemini tab opened.")
+            
+            try:
+                expand_btn = self.driver.find_elements(By.CSS_SELECTOR, "button[aria-label='Expand menu']")
+
+                if expand_btn and expand_btn[0].is_displayed():
+                    print("[*] Sidebar is collapsed. Clicking 'Expand menu'...")
+                    expand_btn[0].click()
+                    time.sleep(1) # Wait for animation
+            except Exception as e:
+                print(f"[!] Note: Sidebar expansion check failed (non-critical): {e}")            
 
             new_chat_btn = self.wait.until(EC.element_to_be_clickable((By.XPATH, "//*[contains(text(), 'New chat')]")))
             new_chat_btn.click()
@@ -295,7 +315,7 @@ class GeminiImageWorkflow:
             f"Action: {scenario.get('Action', '')}, "
             f"Scene: {scenario.get('Scene', '')}, "
             f"Style: {scenario.get('Style', '')},"
-            f"Technical(Negative Prompt): {scenario.get('Technical(Negative Prompt)', '')}"
+            f"TechnicalDetails: {scenario.get('TechnicalDetails', '')}"
         )
 
         print("[*] Sending Image Generation Prompt...")

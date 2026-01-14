@@ -1,20 +1,4 @@
 {
-    "scenario1": {
-        "Subject": "A triangular slice of watermelon crafted entirely from vibrant pink and green kinetic sand. The texture is grainy yet cohesive, holding the shape perfectly until touched. The 'rind' is a layer of dark green sand, and the 'flesh' is neon pink with small black stone 'seeds'.",
-        "Action": "A heated, glowing metal knife presses down slowly from the top of the watermelon slice. As the knife descends, the kinetic sand melts and crumbles satisfyingly around the blade, separating into two halves that slowly collapse into a soft pile.",
-        "Scene": "A rustic wooden picnic table outdoors. In the background, out of focus, is a sunny park with green grass and dappled sunlight filtering through trees. Natural, warm lighting enhances the vivid colors of the sand.",
-        "Style": "Macro close-up shot focused on the blade contact point. 4K resolution, shallow depth of field to blur the background. High-speed recording played back in slow motion to capture the crumbling physics.",
-        "Sounds": "A distinct sizzling sound as the hot knife touches the sand, followed by a loud, gritty 'shhh' sound of friction as the sand grains rub together and crumble. The sound of the knife hitting the wooden board at the end.",
-        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, No unrealistic scene transitions, no blurry focus on the subject, no low resolution."
-    },
-    "scenario2": {
-        "Subject": "A hyper-realistic lemon model made of translucent, yellow glycerin soap. The surface has a waxy, smooth sheen. Inside, faint white swirls mimic the lemon's pith structure.",
-        "Action": "A metal grid wire cutter is positioned above the soap lemon. It is pressed down firmly and steadily. The soap resists slightly before surrendering, slicing cleanly into perfect square columns that bloom outward like a flower as the cutter reaches the bottom.",
-        "Scene": "A pristine white marble countertop in a bathroom setting. Soft, white towels and a small potted bamboo plant are visible in the background. The lighting is cool, bright, and diffused, simulating a spa environment.",
-        "Style": "Top-down (flat lay) view. Sharp focus across the entire object. Clean, minimalist aesthetic with high-key lighting. The colors are bright whites and vivid yellows.",
-        "Sounds": "A deep, resonant dull thud as the cutter engages, followed by a smooth, wet slicing noise. A final 'pop' or squish sound as the soap columns separate and fall open.",
-        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, No unrealistic scene transitions, no messy background, no shaky camera."
-    },
     "scenario3": {
         "Subject": "A whole Dragon Fruit (Pitaya) made of dry, pink floral foam. The exterior has green leaf-like protrusions made of stiff paper. The texture is porous, dry, and brittle.",
         "Action": "A gloved hand holds the fruit steady while a sharp Japanese chef's knife slices horizontally through the center. The foam makes a clean break, but as the knife passes through, fine pink dust explodes into the air and crumbles onto the table.",

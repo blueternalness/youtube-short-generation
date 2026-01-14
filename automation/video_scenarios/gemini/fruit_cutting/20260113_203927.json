@@ -1,0 +1,42 @@
+{
+    "scenario1": {
+        "Subject": "A hyper-realistic watermelon slice model made entirely of red and green kinetic sand. The outer rind is a distinct deep green sand texture, while the inside is vibrant red with black pebble-like seeds. The texture is granular, soft, and visibly moldable.",
+        "Action": "A shiny, silver chef's knife heated to a high temperature slowly slices downward through the center of the sand watermelon. The sand holds its shape initially, then satisfyingly crumbles and separates as the knife reaches the bottom, revealing the grainy internal structure.",
+        "Scene": "A rustic wooden picnic table outdoors under bright, dappled sunlight filtering through tree leaves. In the background, a blurred summer garden with soft green grass. Natural lighting highlights the individual grains of sand.",
+        "Style": "Macro close-up shot, 45-degree high angle. Shallow depth of field to focus strictly on the knife contact point. High saturation, warm color palette, sharp focus on the granular texture.",
+        "Sounds": "Loud, gritty crunching sound of sand particles rubbing together (ASMR sand cutting), a subtle sizzling sound from the heated blade touching the material, followed by the soft thud of the slice falling.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, No unrealistic scene transitions, no human faces, no fast cuts."
+    },
+    "scenario2": {
+        "Subject": "A translucent, wobbling orange model made of firm gelatin or agar jelly. The orange is neon orange in color, semi-transparent, and glistens with moisture. It has a perfect spherical shape with dimpled skin texture simulated by the mold.",
+        "Action": "A taut, thin wire cutter descends vertically. The wire presses into the jelly surface, creating tension before breaking the surface tension. It glides effortlessly through the jelly, causing the two halves to wobble and jiggle intensely as they separate.",
+        "Scene": "A sterile, futuristic laboratory setting with a glossy white countertop. The background is a clean, white gradient. Cool, clinical studio lighting creates sharp specular highlights on the wet surface of the jelly.",
+        "Style": "Eye-level profile shot. Slow-motion capture (60fps slowed down) to emphasize the wobble physics. Cool color temperature, high contrast, clean aesthetic.",
+        "Sounds": "Wet, sticky squelching sounds, the 'twaaaang' of the wire tension releasing, and a wet flop sound as the jelly halves hit the counter.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, No unrealistic scene transitions, no blurriness, no dark shadows."
+    },
+    "scenario3": {
+        "Subject": "A pineapple model carved from dry, green floral foam. The exterior has the signature diamond pattern of a pineapple, but the surface is matte, chalky, and porous. The material is brittle and dry.",
+        "Action": "A heavy, rusted cleaver is swung down with force. Upon impact, the floral foam crushes instantly rather than slicing cleanly. The structure implodes slightly at the impact site, sending fine green dust and small foam crumbs flying into the air.",
+        "Scene": "A dark, moody stone surface resembling a slate countertop. In the background, deep shadows and a faint hint of tropical palm leaves. Dramatic rim lighting highlights the dust particles in the air.",
+        "Style": "Low angle shot looking slightly up at the fruit. Hard lighting to accentuate the texture of the foam. High shutter speed to freeze the flying dust particles. Desaturated, moody color grading.",
+        "Sounds": "A dry, crisp crunching noise similar to stepping on dry leaves, the sharp 'thwack' of the cleaver hitting the stone surface, and the subtle hiss of settling dust.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, No unrealistic scene transitions, no liquid sounds, no bright cheerful lighting."
+    },
+    "scenario4": {
+        "Subject": "A dragon fruit (pitaya) model made of solid, opaque soap bars. The exterior is bright pink soap, and the interior is white soap with black poppy seeds acting as the fruit seeds. The texture is waxy and smooth.",
+        "Action": "A sharp exacto knife or precision carving tool shaves thin, curled layers off the top of the fruit. As the knife pushes forward, the soap curls up into perfect ribbons (soap curls) that fall gently to the side.",
+        "Scene": "A clean bathroom setting with marble tiles in soft pastel colors. Morning light streams in from a window, creating a soft, airy atmosphere. A small potted succulent is visible in the blurred background.",
+        "Style": "Top-down (flat lay) view. steady hand movement. Soft, diffused lighting. Pastel color palette with pinks and whites dominating. very sharp focus on the curling soap.",
+        "Sounds": "Dry, hollow scraping sounds, the friction of the blade against the wax, and the soft, light clatter of the hardened soap curls hitting the marble surface.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, No unrealistic scene transitions, no water sounds, no mess."
+    },
+    "scenario5": {
+        "Subject": "A giant strawberry model made of a hard, tempered chocolate shell filled with soft, airy cotton candy. The shell is glossy red, and the inside is pink and fluffy.",
+        "Action": "A heavy metal spoon taps the top of the strawberry hard, cracking the chocolate shell. The spoon then scoops downwards, shattering the shards of chocolate and compressing the soft cotton candy inside.",
+        "Scene": "A cozy bakery counter with warm wood textures. Warm fairy lights are visible in the bokeh background. The lighting is golden and inviting, suggesting a comfortable evening.",
+        "Style": "Extreme close-up (macro). The camera focuses on the cracking point. Warm color grading. Shallow depth of field.",
+        "Sounds": "A sharp, loud 'crack' or 'snap' of the chocolate tempering breaking, followed by the soft, rustling sound of cotton candy being compressed and the clinking of the metal spoon.",
+        "Technical(Negative Prompt)": "No silent moments, No unrealistic actions, No unrealistic scene transitions, no unappetizing textures."
+    }
+}
