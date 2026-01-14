@@ -1,0 +1,37 @@
+{
+    "scenario1": {
+        "Subject": "A remarkably rotund middle-aged man with a jovial, Santa-Claus-like physique, weighing approximately 400 lbs, wearing a tight, neon-pink spandex superhero bodysuit with a yellow cape. He has wild, windblown grey hair, bulging eyes popping out of googles, and a flushed, determined facial expression screaming with adrenaline.",
+        "Action": "Performing a high-stakes parkour leap between two skyscrapers. He is suspended in mid-air, legs splayed in a chaotic split, arms flailing wildly. His cape is tangled around one leg. The sheer mass of his body seems to be warping the air around him.",
+        "Scene": "A dizzying rooftop vista in a futuristic cyberpunk city at sunset. Neon signs blur in the background. The perspective is from above, looking down at the perilous drop to the street below, emphasizing the absurdity of the leap. Lens flare strikes the goggles.",
+        "Style": "9:16 vertical aspect ratio, hyper-realistic 8k resolution, cinematic lighting, GoPro wide-angle lens style, exaggerated perspective.",
+        "Technical(Negative Prompt)": "No hallucinations, no distortion of limbs, no missing fingers, no calm expressions, no boring composition."
+    },
+    "scenario2": {
+        "Subject": "An immensely large sumo wrestler build, Japanese ethnicity, slicked-back topknot hair, glistening with sweat. He is shirtless, wearing only a traditional mawashi belt. His expression is one of intense, zen-like focus, lips pursed, eyes narrowed in deep concentration.",
+        "Action": "Attempting to ride a microscopic, pastel-colored toddler's tricycle. His knees are bent at acute angles, nearly touching his ears. The tricycle's wheels are bending under the pressure, sparks flying from the metal rims scraping the asphalt. He is leaning into a sharp turn like a MotoGP racer.",
+        "Scene": "The middle of a serious Tour de France professional cycling race. Slim, spandex-clad cyclists in the background look on in blurred horror and confusion. The road is a winding mountain pass with lush green grass. Bright, sunny daylight.",
+        "Style": "9:16 vertical aspect ratio, sports photography action shot, motion blur, high contrast, vibrant colors, telephoto lens compression.",
+        "Technical(Negative Prompt)": "No hallucinations, no bicycles of normal size, no static pose, no anatomical errors."
+    },
+    "scenario3": {
+        "Subject": "A colossal woman with an opera singer's build, pale skin, rosy cheeks, and an elaborate blonde beehive hairstyle. She is wearing a delicate, frilly white ballerina tutu and satin pointe shoes that look visibly strained. Her face shows a mix of terror and triumph.",
+        "Action": "Walking a tightrope across the Grand Canyon. She is holding a tiny, inadequate paper umbrella for balance. One foot is delicately placed in front of the other, while her massive upper body sways precariously to the left. The rope is bowing deeply under her weight.",
+        "Scene": "The vast, red-rock expanse of the Grand Canyon at high noon. The sun is beating down, casting a sharp, deep shadow of her round silhouette onto the canyon wall miles away. Birds are circling her.",
+        "Style": "9:16 vertical aspect ratio, National Geographic adventure style, extreme depth of field, vivid textures, dramatic scale comparison.",
+        "Technical(Negative Prompt)": "No hallucinations, no safety nets, no blurry focus, no extra legs."
+    },
+    "scenario4": {
+        "Subject": "A heavily overweight teenage gamer archetype, wearing a grease-stained 'level up' t-shirt and cargo shorts. He has messy brown hair, a patchy beard, and is wearing a VR headset that is too small for his face. He is shouting, mouth wide open.",
+        "Action": "Breakdancing on a cardboard mat. He is attempting a headspin, balancing his entire massive spherical body weight on just his head. His legs are spinning like helicopter blades, creating a visible vortex of wind that is blowing away nearby objects.",
+        "Scene": "A gritty, urban subway station platform covered in graffiti. Bystanders (commuters in suits) are being blown back against the tiled walls by the wind force of his spin. Trash and newspapers are swirling in the air. flickering fluorescent lighting.",
+        "Style": "9:16 vertical aspect ratio, freeze-frame action capture, fish-eye lens effect, gritty urban aesthetic, high saturation.",
+        "Technical(Negative Prompt)": "No hallucinations, no gravity compliance, no motion blur on the face, no extra limbs."
+    },
+    "scenario5": {
+        "Subject": "An incredibly large, wealthy tycoon character, reminiscent of the Monopoly man but 500 lbs heavier. He has a handlebar mustache, a monocle popping out of his eye, and is wearing a pinstripe tuxedo that is bursting at the seams/buttons.",
+        "Action": "Pole vaulting at the Olympics. He is at the apex of the vault, but the fiberglass pole has bent into a complete circle/loop-de-loop under his weight, trapping him in a spring-loaded coil near the ground instead of launching him over the bar.",
+        "Scene": "A packed Olympic stadium with thousands of spectators in the background. The bar is set ridiculously high. The track is red. Stadium floodlights create dramatic rim lighting around his rotund figure. The atmosphere is frozen in a moment of comedic tension before the snap.",
+        "Style": "9:16 vertical aspect ratio, 4k broadcast quality, ultra-detailed fabric textures, comical timing capture.",
+        "Technical(Negative Prompt)": "No hallucinations, no successful vault, no straight pole, no low resolution."
+    }
+}

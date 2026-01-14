@@ -1,0 +1,67 @@
+{
+    "scenario1": {
+        "Subject": [
+            "A gargantuan, 500lb male sumo wrestler wearing a tiny, strained pastel-colored bicycling outfit that is bursting at the seams. He has a flushed, determined face with sweat dripping down his cheeks, double chin jiggling, and wide, intense eyes focused on the road ahead. He is wearing aerodynamic sunglasses that look too small for his head."
+        ],
+        "Action": [
+            "He is aggressively riding a tiny, child-sized pink tricycle. His massive knees are hitting his elbows, the handlebars are bent downwards from his grip, and the solid rubber tires are completely flattened under his weight, creating sparks against the asphalt. He is leaning forward in a full aerodynamic sprint posture."
+        ],
+        "Scene": [
+            "A professional Tour de France race track in the French Alps. The background features blurred, shocked professional cyclists in spandex trying to catch up. The lighting is bright, high-contrast daylight with motion blur to emphasize impossible speed. Dramatic low-angle shot."
+        ],
+        "Style": "9:16 vertical aspect ratio, hyper-realistic 8k, cinematic lighting, GoPro aesthetic",
+        "Technical(Negative Prompt)": "No hallucinations, no distortion, no bad anatomy, no missing limbs, no blurry face."
+    },
+    "scenario2": {
+        "Subject": [
+            "An incredibly obese man with a round, jolly physique, wearing a full tactical spy tuxedo that is stretched to its absolute limit, the buttons holding on by a thread. He has slicked-back hair, a bead of sweat on his forehead, and a look of extreme, holding-his-breath concentration."
+        ],
+        "Action": [
+            "He is attempting to navigate a complex laser security grid in a museum hallway. He is stuck mid-air in a clumsy contortion, one leg lifted awkwardly, his stomach pressing dangerously close to a red laser beam. He is balancing on one tiptoe."
+        ],
+        "Scene": [
+            "A high-tech museum vault corridor with marble floors reflecting the red laser grid. Deep shadows and dramatic red mood lighting. In the background, a glowing diamond pedestal is visible. Atmospheric smoke and dust particles in the air."
+        ],
+        "Style": "9:16 vertical aspect ratio, Mission Impossible movie poster style, high contrast, wide angle lens",
+        "Technical(Negative Prompt)": "No hallucinations, no cartoon style, no deformed fingers, no extra legs."
+    },
+    "scenario3": {
+        "Subject": [
+            "A massive, heavyset gamer with a scruffy beard and messy hair, wearing a headset that is digging into his cheeks. He is wearing a stained graphic tee that rides up his stomach. His expression is one of pure, unadulterated rage and adrenaline, mouth wide open in a scream."
+        ],
+        "Action": [
+            "He is sitting in a 'heavy duty' gaming chair that has completely collapsed and exploded under him. The metal base is splayed out flat on the floor, wheels flying off in different directions, but he is still furiously typing on a glowing RGB keyboard and clutching a mouse, refusing to stop playing."
+        ],
+        "Scene": [
+            "A dim, messy bedroom illuminated only by the aggressive purple and blue neon glow of multiple computer monitors. Mountain Dew cans and chip bags are launching into the air from the impact of the chair collapse. Shallow depth of field focusing on his screaming face."
+        ],
+        "Style": "9:16 vertical aspect ratio, YouTube thumbnail aesthetic, oversaturated colors, intense facial expression",
+        "Technical(Negative Prompt)": "No hallucinations, no low resolution, no peaceful expression, no standard furniture."
+    },
+    "scenario4": {
+        "Subject": [
+            "An excessively large elderly woman with a massive perm hairstyle, wearing a floral muumuu dress and oversized swimming goggles. She has flabby arms and a look of terrified exhilaration."
+        ],
+        "Action": [
+            "She is suspended horizontally in an indoor skydiving wind tunnel. However, because of her mass, she is hovering only two inches off the safety net. The massive industrial fan below is glowing red hot and smoking from the effort, blowing her cheeks back violently."
+        ],
+        "Scene": [
+            "A futuristic indoor skydiving glass tube. Outside the glass, a group of skinny instructors are panicking, slamming on control buttons and pointing at the smoking engine. Bright, clinical laboratory lighting."
+        ],
+        "Style": "9:16 vertical aspect ratio, photorealistic, fish-eye lens effect, comedic timing capture",
+        "Technical(Negative Prompt)": "No hallucinations, no gravity defiance without strain, no calm background."
+    },
+    "scenario5": {
+        "Subject": [
+            "A gigantic bodybuilder in the off-season, incredibly wide and heavy, wearing tiny swim trunks and floaties (water wings) on his massive biceps. He has a deep tan and a look of naive confidence."
+        ],
+        "Action": [
+            "He is at the peak of a rope swing arc over a lake. The thick rope is visibly fraying and snapping strand by strand just above his hands. The large oak tree he is attached to is bending at a frightening 45-degree angle, roots ripping out of the earth."
+        ],
+        "Scene": [
+            "A serene summer lake setting. The water below reflects his impending doom. In the background, other campers are freezing in horror, dropping their hot dogs. Golden hour sunlight creating a cinematic but disastrous atmosphere."
+        ],
+        "Style": "9:16 vertical aspect ratio, high shutter speed, detailed texture, epic fail compilation vibe",
+        "Technical(Negative Prompt)": "No hallucinations, no stable tree, no intact rope, no blurry motion."
+    }
+}

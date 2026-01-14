@@ -433,7 +433,7 @@ class GrokImageToVideo:
                 return
         self.driver.get("https://grok.com/imagine")
 
-    def get_next_step_description(file_path):
+    def get_next_step_description(self, file_path):
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
@@ -447,6 +447,18 @@ class GrokImageToVideo:
             print(f"[!] Error reading {file_path}. Skipping.")
 
         return None
+    
+    def download_video(self):
+        # Sleep until video appears
+        # For now, just wait fixed time.
+        time.sleep(50 + random.randint(1, 5))
+        # Wait for specific download button
+        download_btn = self.long_wait.until(EC.element_to_be_clickable(
+            (By.XPATH, "//button[@aria-label='Download']")
+        ))
+        
+        print("[*] Video generated. Clicking download...")
+        download_btn.click()
 
     def generate_video(self, image_path, next_step_text_path):
         # TODO: Read prompt from next_step_text_path
@@ -464,45 +476,56 @@ class GrokImageToVideo:
             file_input.send_keys(os.path.abspath(image_path))
             
             # Wait for upload processing (usually a preview image appears)
-            time.sleep(5) 
+            time.sleep(10)
+            # Check for Rate Limit
+            if self.is_rate_limited():
+                raise Exception("Rate Limit Reached")
+            self.download_video()
+            time.sleep(5)
+
 
             # 2. Enter Prompt (Step 7)
             print("[*] Entering next step prompt...")
-            text_area = self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "textarea, div[contenteditable='true']")))
-            
+            next_steps = self.get_next_step_description(next_step_text_path)
+            if not next_steps:
+                raise Exception("No next step description available.")
+
             # Sometimes Grok has a specific "Edit" or "Describe" box for the image-to-video.
             # Assuming standard prompt box for now.
+
+            # Generate Middle Scene
+            text_area = self.long_wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "textarea, div[contenteditable='true']")))            
             text_area.click()
-            next_steps = self.get_next_step_description(next_step_text_path)
+            middle_scene_prompt = f"{next_steps.get('MiddleScene', '')} "
+            text_area.send_keys(middle_scene_prompt)
+            time.sleep(1)
+            text_area.send_keys(Keys.ENTER)
+            # Check for Rate Limit
+            if self.is_rate_limited():
+                raise Exception("Rate Limit Reached")
+            self.download_video()
+            time.sleep(5)
 
-            # TODO: add Middle scene prompt if video quality is bad.
+
+            # Generate Final Scene
+            text_area = self.long_wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "textarea, div[contenteditable='true']")))            
+            text_area.click()
             final_scene_prompt = f"{next_steps.get('FinalScene', '')} "
-
             text_area.send_keys(final_scene_prompt)
             time.sleep(1)
             text_area.send_keys(Keys.ENTER)
+            # Check for Rate Limit
+            if self.is_rate_limited():
+                raise Exception("Rate Limit Reached")
+            self.download_video()
+            time.sleep(5)
+
 
             # 3. Wait for Generation & Download (Step 8)
             print("[*] Waiting for video generation...")
             
-            # Check for Rate Limit
-            if self.is_rate_limited():
-                raise Exception("Rate Limit Reached")
-
-            # Wait loop for download button
-            # This can take 60s+
-            time.sleep(30) 
-            
-            download_btn = self.long_wait.until(EC.element_to_be_clickable(
-                (By.XPATH, "//button[@aria-label='Download']")
-            ))
-            
-            print("[*] Video generated. Clicking download...")
-            download_btn.click()
-            time.sleep(5)
-
-            # Cleanup
-            self.cleanup_post()
+            # TODO: Implement proper multiple cleanup if needed
+            # self.cleanup_post()
 
         except Exception as e:
             print(f"[!] Grok Error: {e}")

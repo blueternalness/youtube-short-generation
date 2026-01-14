@@ -1,18 +1,4 @@
 {
-    "scenario1": {
-        "Subject": "An incredibly obese middle-aged man with a joyous, Santa-like beard, wearing a neon spandex cycling suit that is stretched to its absolute limit, bright yellow helmet perched precariously on a massive head, sweat flying off his flushed cheeks, eyes bulging with adrenaline and determination.",
-        "Action": "He is attempting to ride a tiny, toddler-sized pink tricycle downhill. His knees are pointed outward at extreme angles, the plastic wheels of the tricycle are warping and smoking from friction, sparks are flying from the pedals scraping the asphalt, and he is leaning forward in an aerodynamic tuck that defies physics.",
-        "Scene": "A steep, winding San Francisco street with bewildered tourists diving out of the way in the background. Motion blur emphasizes the impossible speed. Bright, sunny midday lighting with high contrast to accentuate the neon colors against the gray road.",
-        "Style": "9:16 vertical aspect ratio, hyper-realistic, 8k resolution, cinematic lighting, GoPro wide-angle lens perspective.",
-        "Technical(Negative Prompt)": "No hallucinations, no distortion of face, no extra limbs, no blurry focus."
-    },
-    "scenario2": {
-        "Subject": "A gargantuan sumo wrestler physique, shirtless with denim shorts, wearing delicate ballerina slippers. He has a fierce, concentrated expression, a top knot hairstyle, and massive arms rippling with tension.",
-        "Action": "He is performing a grand jeté (leap) over a frightened herd of cows. He is mid-air, defying gravity with surprising grace, but the ground beneath where he launched has a crater impact mark. His arms are spread wide like wings, blocking out the sun.",
-        "Scene": "A picturesque Swiss Alpine meadow with green grass and snowy mountains in the distance. The lighting is golden hour, creating a halo effect around his massive silhouette. The cows are scattering in panic.",
-        "Style": "9:16 vertical aspect ratio, exaggerated perspective, comic-book style dynamic action, vivid saturation.",
-        "Technical(Negative Prompt)": "No hallucinations, no anatomical errors, no missing fingers."
-    },
     "scenario3": {
         "Subject": "A massively obese secret agent in a tuxedo that is bursting at the buttons, wearing dark sunglasses and holding a tiny martini glass between two sausage-like fingers. He has a slicked-back hairstyle and a cool, unbothered expression despite the chaos.",
         "Action": "He is attempting to rappel down a mission impossible style laser hallway, but he is stuck mid-air because the rope is fraying under the weight. He is currently wedged between the floor and ceiling, accidentally tripping every single red laser beam with his belly and back simultaneously.",
