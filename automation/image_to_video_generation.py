@@ -116,6 +116,12 @@ def remove_scenario_from_file(filepath, key):
     except Exception as e:
         print(f"[!] Error updating file: {e}")
 
+def remove_image(filepath):
+    try:
+        os.remove(filepath)
+    except Exception as e:
+        print(f"[!] Error removing image: {e}")
+
 def get_generation_prompt(prompt_path):
     try:
         with open(prompt_path, 'r', encoding='utf-8') as f:
@@ -496,7 +502,8 @@ class GrokImageToVideo:
             # Generate Middle Scene
             text_area = self.long_wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "textarea, div[contenteditable='true']")))            
             text_area.click()
-            middle_scene_prompt = f"{next_steps.get('MiddleScene', '')} "
+            # TODO: We don't need consecutive scenes? Just customize it only for 6s shorts?
+            middle_scene_prompt = f"Next Scene: {next_steps.get('MiddleScene', '')} "  
             text_area.send_keys(middle_scene_prompt)
             time.sleep(1)
             text_area.send_keys(Keys.ENTER)
@@ -510,7 +517,7 @@ class GrokImageToVideo:
             # Generate Final Scene
             text_area = self.long_wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "textarea, div[contenteditable='true']")))            
             text_area.click()
-            final_scene_prompt = f"{next_steps.get('FinalScene', '')} "
+            final_scene_prompt = f"Final Scene: {next_steps.get('FinalScene', '')} "
             text_area.send_keys(final_scene_prompt)
             time.sleep(1)
             text_area.send_keys(Keys.ENTER)
@@ -599,7 +606,7 @@ class AutomationController:
 
     def run_image_to_video_loop(self, scenario_folder, images_folder, next_step_prompt_path, count):
         """Steps 3 to 9"""
-        print(f"\n=== PHASE 2: IMAGE TO VIDEO LOOP ({count} iterations) ===")
+        print(f"\n=== PHASE 2: IMAGE TO VIDEO LOOP (5 * {count} iterations) ===")
         
         next_step_template = get_generation_prompt(next_step_prompt_path)
         if not next_step_template:
@@ -608,7 +615,7 @@ class AutomationController:
 
         processed_count = 0
         
-        while processed_count < count:
+        while processed_count < 5 * count:
             # 1. Get a Scenario
             filepath, key, scenario = get_next_scenario(scenario_folder)
             if not scenario:
@@ -634,6 +641,7 @@ class AutomationController:
                 
                 # Cleanup Scenario
                 remove_scenario_from_file(filepath, key)
+                remove_image(image_path)
                 processed_count += 1
                 
             except Exception as e:

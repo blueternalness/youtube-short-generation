@@ -1,0 +1,30 @@
+{
+    "scenario2": {
+        "Subject": "An immensely large woman with a round, towering build, wearing a delicate, frilly pink ballerina tutu and satin toe shoes. Her hair is in a tight bun, and she is wearing heavy stage makeup with an expression of intense, serene concentration despite the chaos.",
+        "Action": "She is performing a 'grand jeté' leap. However, instead of soaring, she is crushing a wooden stage floor which is splintering and exploding upwards beneath her weight. The other ballerinas in the background are being blown backward by the shockwave of her landing.",
+        "Scene": "A grand, ornate opera house stage with velvet curtains and a spotlight focused strictly on her. Dust and wood chips are suspended in the air in slow motion. The lighting is dramatic and theatrical.",
+        "Style": "Hyper-realistic, dynamic action shot, freeze frame, 9:16 vertical aspect ratio",
+        "Technical(Negative Prompt)": "No hallucinations."
+    },
+    "scenario3": {
+        "Subject": "A gigantic, rotund man with a thick beard and sunglasses, wearing a 'skater boy' outfit including a backwards baseball cap, baggy shorts, and knee pads that are straining against his legs.",
+        "Action": "He is attempting to grind down a handrail on a tiny, standard-sized skateboard. The skateboard has snapped completely in half under his feet with sparks flying everywhere. He is flailing his arms wildly to maintain balance, tilting dangerously to the left.",
+        "Scene": "A sunny California skate park with graffiti-covered bowls. A crowd of teenagers in the background have their phones out, filming the event with shocked expressions. The sky is a vibrant, clear blue.",
+        "Style": "GoPro wide angle perspective, fish-eye lens effect, vibrant colors, 9:16 vertical aspect ratio",
+        "Technical(Negative Prompt)": "No hallucinations."
+    },
+    "scenario4": {
+        "Subject": "An enormously obese tactical officer, wearing a bulletproof vest that covers only a fraction of his chest, combat boots, and aviator sunglasses. He has a stern, serious 'action hero' facial expression.",
+        "Action": "He is riding a tiny, plastic child's tricycle that is pink with handlebar streamers. The tricycle's wheels are bent at a 45-degree angle, flattened completely to the rim. He is leaning into a turn as if he is on a high-speed motorcycle chase.",
+        "Scene": "A gritty highway chase scene with explosions in the background. Asphalt debris is flying. There is motion blur on the background to indicate high speed, contrasting with the absurdity of the tiny vehicle.",
+        "Style": "Michael Bay movie poster style, high saturation, explosion background, dramatic shadowing, 9:16 vertical aspect ratio",
+        "Technical(Negative Prompt)": "No hallucinations."
+    },
+    "scenario5": {
+        "Subject": "A massive, heavyset man wearing a professional jockey's silk uniform, helmet, and riding goggles. He has a determined, competitive grimace, holding a riding crop.",
+        "Action": "He is mounted on a very small, panicked-looking Shetland pony. The pony's legs are splayed outward comically under the weight, and its belly is touching the grass. The man looks gigantic compared to the horse, looking like a giant riding a dog.",
+        "Scene": "A professional horse racing track during a derby. Dirt is kicking up, and sleek thoroughbred horses with tiny jockeys are speeding past him in a blur. The sun is beating down on the green turf.",
+        "Style": "Sports photography, telephoto lens, high shutter speed, sharp focus, 9:16 vertical aspect ratio",
+        "Technical(Negative Prompt)": "No hallucinations."
+    }
+}
