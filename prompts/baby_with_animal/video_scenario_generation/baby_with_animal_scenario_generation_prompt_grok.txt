@@ -1,8 +1,7 @@
 I want to create short form video content with adorable babies performing various action with animals.
 The situation in video should not be boring.
-The video should not include unrealistic scene transitions.
 Give me top 5 prompts with detailed scenarios for creating such video content.
-The scenarios should include different types of actions, various clothing items, various situations, and unique backgrounds or settings to make each video visually appealing.
+The scenarios should include different types of actions, various situations, and unique backgrounds or settings to make each video visually appealing.
 
 For each scenario, write prompts in the following JSON format:
 
