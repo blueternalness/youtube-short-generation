@@ -254,14 +254,24 @@ class GeminiVideoAutomation:
         except Exception as e:
             print(f"[!] Could not find 'New chat': {e}")
 
-        prompt = (
-            f"Subject: {scenario.get('Subject', '')} "
-            f"Action: {scenario.get('Action', '')} "
-            f"Scene: {scenario.get('Scene', '')} "
-            f"Style: {scenario.get('Style', '')} "
-            f"Sounds: {scenario.get('Sounds', '')} "
-            f"Technical(Negative Prompt): {scenario.get('Technical(Negative Prompt)', '')}"
-        )
+        parts = []
+
+        if scenario.get("Subject"):
+            parts.append(f"Subject: {scenario['Subject']}")
+        if scenario.get("Action"):
+            parts.append(f"Action: {scenario['Action']}")
+        if scenario.get("Scene"):
+            parts.append(f"Scene: {scenario['Scene']}")
+        if scenario.get("Style"):
+            parts.append(f"Style: {scenario['Style']}")
+        if scenario.get("Sounds"):
+            parts.append(f"Sounds: {scenario['Sounds']}")
+        if scenario.get("TechnicalDetails"):
+            parts.append(f"TechnicalDetails: {scenario['TechnicalDetails']}")
+        if scenario.get("Technical(Negative Prompt)"):
+            parts.append(f"Technical(Negative Prompt): {scenario['Technical(Negative Prompt)']}")
+
+        prompt = " ".join(parts)
         
         print(f"[*] Sending Video Prompt...")
 
@@ -340,19 +350,41 @@ class GrokAutomation:
         self.driver.get("https://grok.com/imagine")
         time.sleep(3)
 
+        """
         prompt = (
             f"Subject: {scenario.get('Subject', '')} "
             f"Action: {scenario.get('Action', '')} "
             f"Scene: {scenario.get('Scene', '')} "
             f"Style: {scenario.get('Style', '')} "
         )
+        """
+        
+        parts = []
+
+        if scenario.get("Subject"):
+            parts.append(f"Subject: {scenario['Subject']}")
+        if scenario.get("Action"):
+            parts.append(f"Action: {scenario['Action']}")
+        if scenario.get("Scene"):
+            parts.append(f"Scene: {scenario['Scene']}")
+        if scenario.get("Style"):
+            parts.append(f"Style: {scenario['Style']}")
+        if scenario.get("Sounds"):
+            parts.append(f"Sounds: {scenario['Sounds']}")
+        if scenario.get("TechnicalDetails"):
+            parts.append(f"TechnicalDetails: {scenario['TechnicalDetails']}")
+        if scenario.get("Technical(Negative Prompt)"):
+            parts.append(f"Technical(Negative Prompt): {scenario['Technical(Negative Prompt)']}")
+
+        prompt = " ".join(parts)        
+
         print(f"[*] Sending prompt to Grok: {prompt[:50]}...")
 
         try:
             input_box = self.wait.until(EC.presence_of_element_located(
-                (By.CSS_SELECTOR, "div[contenteditable='true']")
+                (By.CSS_SELECTOR, "textarea[aria-label='Ask Grok anything']")
             ))
-            
+
             input_box.send_keys(prompt)
             time.sleep(1)
             input_box.send_keys(Keys.ENTER)
@@ -537,7 +569,7 @@ if __name__ == "__main__":
     
     parser.add_argument("--mode", type=str, default="gemini", choices=["gemini", "grok"])
     parser.add_argument("--count", type=int, default=1, help="Number of scenario batches to generate.")
-    parser.add_argument("--concept", type=str, default="cute_baby", choices=["obese_human","cute_baby","fruit_cutting", "animal_mukbang", "animal_chef", "tiny_worker_building_food"], required=True, help="Video generation concept (e.g., cute_baby).")    
+    parser.add_argument("--concept", type=str, default="cute_baby", choices=["baby_with_animal","obese_human","cute_baby","fruit_cutting", "animal_mukbang", "animal_chef", "tiny_worker_building_food"], required=True, help="Video generation concept (e.g., cute_baby).")    
 
     args = parser.parse_args()
 
