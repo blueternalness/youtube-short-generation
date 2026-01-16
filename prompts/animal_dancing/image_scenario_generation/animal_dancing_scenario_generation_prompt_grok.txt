@@ -1,6 +1,5 @@
-I want to generate images where various adorable standing animals are dancing like a K-pop star.
-The animals should act like a K-pop dancer while dancing.
-The image should be 9:16 vertical aspect ratio.
+I want to generate images where various standing animals are dancing.
+The animals should act like a professional dancer.
 Give me top 5 prompts with detailed scenarios for creating such images.
 The scenarios should include different types of adorable animals, various dances, and unique backgrounds or settings to make each video visually appealing.
 
@@ -8,10 +7,8 @@ For each scenario, write prompts in the following JSON format:
 
 {
     "scenario1" : {
-        "Subject": [Detailed object description including type of animal, dance, color, size, and any unique features.],
-        "Action": [Specific eating actions, behaviors, movements, sequence, interaction patterns.],
-        "Scene": [Detailed environment description including location, props, background elements, lighting setup, weather, time of day, architectural details.],
-        "Style": 9:16 vertical aspect ratio,
-        "Technical(Negative Prompt)": No captions, No special effects.
+        "Subject": [Detailed object description including type of animal and dance.],
+        "Action": [Specific actions, behaviors, movements, sequence, interaction patterns.],
+        "Style": "9:16 vertical aspect ratio. a low-resolution, grainy photo taken with a cheap camera, blurry, with JPEG compression artifacts.”
     },
 }

@@ -521,6 +521,7 @@ class GrokImageToVideo:
             # Assuming standard prompt box for now.
 
             # Generate Middle Scene
+            # TODO test CSS for this step
             text_area = self.long_wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "textarea, div[contenteditable='true']")))            
             text_area.click()
 
